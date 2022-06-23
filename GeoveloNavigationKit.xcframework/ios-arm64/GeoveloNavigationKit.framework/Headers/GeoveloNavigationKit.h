@@ -316,7 +316,7 @@ __attribute__((swift_name("ItinerarySegment.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NavigationEngine")))
 @interface GNKNavigationEngine : GNKBase
-- (instancetype)initWithItineraries:(NSArray<GNKItinerary *> *)itineraries currentItinerary:(GNKItinerary *)currentItinerary exceptionListener:(id<GNKExceptionHandler>)exceptionListener logHandler:(id<GNKLogHandler>)logHandler __attribute__((swift_name("init(itineraries:currentItinerary:exceptionListener:logHandler:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithItineraries:(NSMutableArray<GNKItinerary *> *)itineraries currentItinerary:(GNKItinerary *)currentItinerary exceptionListener:(id<GNKExceptionHandler>)exceptionListener logHandler:(id<GNKLogHandler>)logHandler __attribute__((swift_name("init(itineraries:currentItinerary:exceptionListener:logHandler:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKNavigationEngineCompanion *companion __attribute__((swift_name("companion")));
 - (double)averageSpeedSinceNavigationStarted __attribute__((swift_name("averageSpeedSinceNavigationStarted()")));
 - (void)continueNavigationUsingNextItinerary __attribute__((swift_name("continueNavigationUsingNextItinerary()")));
@@ -351,7 +351,6 @@ __attribute__((swift_name("NavigationEngine")))
  Other uncaught Kotlin exceptions are fatal.
 */
 - (GNKNavigationProgress * _Nullable)previewNavigationProgressAtStartAndReturnError:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("previewNavigationProgressAtStart()")));
-- (void)startNavigationItinerary:(GNKItinerary *)itinerary __attribute__((swift_name("startNavigation(itinerary:)")));
 
 /**
  * Start/Prepare the navigation
@@ -375,7 +374,7 @@ __attribute__((swift_name("NavigationEngine")))
 @property double currentSectionCompletion __attribute__((swift_name("currentSectionCompletion")));
 @property (getter=distanceSinceNavigationStarted_) int64_t distanceSinceNavigationStarted __attribute__((swift_name("distanceSinceNavigationStarted")));
 @property id<GNKExceptionHandler> exceptionListener __attribute__((swift_name("exceptionListener")));
-@property NSArray<GNKItinerary *> *itineraries __attribute__((swift_name("itineraries")));
+@property NSMutableArray<GNKItinerary *> *itineraries __attribute__((swift_name("itineraries")));
 @property id<GNKLogHandler> logHandler __attribute__((swift_name("logHandler")));
 @property NSMutableArray<GNKNavigationProgress *> *navigationProgressHistory __attribute__((swift_name("navigationProgressHistory")));
 @property (readonly) GNKItinerary * _Nullable nextItinerary __attribute__((swift_name("nextItinerary")));
