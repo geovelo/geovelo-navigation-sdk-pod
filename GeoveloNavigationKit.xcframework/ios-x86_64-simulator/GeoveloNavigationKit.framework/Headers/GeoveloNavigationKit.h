@@ -451,7 +451,7 @@ __attribute__((swift_name("NavigationManager")))
 - (void)recalculateLocation:(GNKWaypoint *)location geometry:(NSArray<GNKGeoPoint *> * _Nullable)geometry behavior:(GNKRecalculationBehavior *)behavior __attribute__((swift_name("recalculate(location:geometry:behavior:)")));
 - (void)resumeNavigation __attribute__((swift_name("resumeNavigation()")));
 - (void)startNavigationFirstItinerary:(GNKItinerary *)firstItinerary __attribute__((swift_name("startNavigation(firstItinerary:)")));
-- (void)startNavigationItineraries:(NSMutableArray<GNKItinerary *> *)itineraries firstItinerary:(GNKItinerary *)firstItinerary __attribute__((swift_name("startNavigation(itineraries:firstItinerary:)")));
+- (void)startNavigationItineraries:(NSArray<GNKItinerary *> *)itineraries firstItinerary:(GNKItinerary *)firstItinerary __attribute__((swift_name("startNavigation(itineraries:firstItinerary:)")));
 - (void)stopNavigation __attribute__((swift_name("stopNavigation()")));
 @property (readonly) GNKItinerary * _Nullable currentItinerary __attribute__((swift_name("currentItinerary")));
 @property (readonly) GNKNavigationProgress * _Nullable currentProgress __attribute__((swift_name("currentProgress")));
