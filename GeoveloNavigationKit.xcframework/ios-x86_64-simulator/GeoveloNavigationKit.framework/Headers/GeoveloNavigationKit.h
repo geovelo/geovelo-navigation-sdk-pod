@@ -874,6 +874,7 @@ __attribute__((swift_name("ItineraryBikeProfile")))
 @property (class, readonly) GNKItineraryBikeProfile *ride __attribute__((swift_name("ride")));
 @property (class, readonly) GNKItineraryBikeProfile *vtc __attribute__((swift_name("vtc")));
 @property (class, readonly) GNKItineraryBikeProfile *walking __attribute__((swift_name("walking")));
+@property (class, readonly) GNKItineraryBikeProfile *cargo __attribute__((swift_name("cargo")));
 + (GNKKotlinArray<GNKItineraryBikeProfile *> *)values __attribute__((swift_name("values()")));
 @property (readonly) int32_t averageSpeed __attribute__((swift_name("averageSpeed")));
 @end;
