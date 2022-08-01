@@ -401,6 +401,7 @@ __attribute__((swift_name("NavigationEngine.Companion")))
 @property (readonly) int32_t NB_METERS_MAX_TO_ATTACH_LOCATION_TO_ITINERARY __attribute__((swift_name("NB_METERS_MAX_TO_ATTACH_LOCATION_TO_ITINERARY")));
 @property (readonly) int32_t NB_METERS_REACH_SOMEWHERE __attribute__((swift_name("NB_METERS_REACH_SOMEWHERE")));
 @property (readonly) int32_t NEARBY_SEGMENTS_MAX_DISTANCE __attribute__((swift_name("NEARBY_SEGMENTS_MAX_DISTANCE")));
+@property (readonly) double SECTION_COMPLETION_INITIAL_VALUE __attribute__((swift_name("SECTION_COMPLETION_INITIAL_VALUE")));
 @end;
 
 __attribute__((swift_name("NavigationLifecycleListener")))
