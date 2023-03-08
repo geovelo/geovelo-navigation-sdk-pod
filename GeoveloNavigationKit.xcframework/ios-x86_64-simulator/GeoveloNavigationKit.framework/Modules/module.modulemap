@@ -1,6 +1,0 @@
-framework module GeoveloNavigationKit {
-    umbrella header "GeoveloNavigationKit.h"
-
-    export *
-    module * { export * }
-}

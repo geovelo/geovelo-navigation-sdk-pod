@@ -3,4 +3,6 @@ framework module GeoveloNavigationKit {
 
     export *
     module * { export * }
+
+    use Foundation
 }
