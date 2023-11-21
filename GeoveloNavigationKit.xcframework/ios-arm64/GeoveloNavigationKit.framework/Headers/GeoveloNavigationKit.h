@@ -565,6 +565,7 @@ __attribute__((swift_name("RecalculationBehavior")))
 @property (class, readonly) GNKRecalculationBehavior *replacecurrentitinerary __attribute__((swift_name("replacecurrentitinerary")));
 @property (class, readonly) GNKRecalculationBehavior *none __attribute__((swift_name("none")));
 + (GNKKotlinArray<GNKRecalculationBehavior *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKRecalculationBehavior *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -592,6 +593,11 @@ __attribute__((swift_name("KotlinThrowable")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note annotations
+ *   kotlin.experimental.ExperimentalNativeApi
+*/
 - (GNKKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
 - (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -747,6 +753,7 @@ __attribute__((swift_name("ItineraryBikeMotorType")))
 @property (class, readonly) GNKItineraryBikeMotorType *beltDrive __attribute__((swift_name("beltDrive")));
 @property (class, readonly) GNKItineraryBikeMotorType *midDrive __attribute__((swift_name("midDrive")));
 + (GNKKotlinArray<GNKItineraryBikeMotorType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeMotorType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -774,6 +781,7 @@ __attribute__((swift_name("ItineraryBikeProfile")))
 @property (class, readonly) GNKItineraryBikeProfile *walking __attribute__((swift_name("walking")));
 @property (class, readonly) GNKItineraryBikeProfile *cargo __attribute__((swift_name("cargo")));
 + (GNKKotlinArray<GNKItineraryBikeProfile *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeProfile *> *entries __attribute__((swift_name("entries")));
 @property (readonly) int32_t averageSpeed __attribute__((swift_name("averageSpeed")));
 @end
 
@@ -797,6 +805,7 @@ __attribute__((swift_name("ItineraryBikeType")))
 @property (class, readonly) GNKItineraryBikeType *shared __attribute__((swift_name("shared")));
 @property (class, readonly) GNKItineraryBikeType *regular __attribute__((swift_name("regular")));
 + (GNKKotlinArray<GNKItineraryBikeType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1041,6 +1050,7 @@ __attribute__((swift_name("ItineraryInstructionCardinalDirection")))
 @property (class, readonly) GNKItineraryInstructionCardinalDirection *west __attribute__((swift_name("west")));
 @property (class, readonly) GNKItineraryInstructionCardinalDirection *unkonwn __attribute__((swift_name("unkonwn")));
 + (GNKKotlinArray<GNKItineraryInstructionCardinalDirection *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionCardinalDirection *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1079,6 +1089,7 @@ __attribute__((swift_name("ItineraryInstructionRoadType")))
 @property (class, readonly) GNKItineraryInstructionRoadType *none __attribute__((swift_name("none")));
 @property (class, readonly) GNKItineraryInstructionRoadType *unknown __attribute__((swift_name("unknown")));
 + (GNKKotlinArray<GNKItineraryInstructionRoadType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionRoadType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1136,6 +1147,7 @@ __attribute__((swift_name("ItineraryInstructionType")))
 @property (class, readonly) GNKItineraryInstructionType *uTurn __attribute__((swift_name("uTurn")));
 @property (class, readonly) GNKItineraryInstructionType *unknown __attribute__((swift_name("unknown")));
 + (GNKKotlinArray<GNKItineraryInstructionType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionType *> *entries __attribute__((swift_name("entries")));
 @property (readonly) BOOL isRoundAbout __attribute__((swift_name("isRoundAbout")));
 @property (readonly) int32_t roundAboutExitNumber __attribute__((swift_name("roundAboutExitNumber")));
 @end
@@ -1160,6 +1172,7 @@ __attribute__((swift_name("ItineraryLoopType")))
 @property (class, readonly) GNKItineraryLoopType *maxRadius __attribute__((swift_name("maxRadius")));
 @property (class, readonly) GNKItineraryLoopType *totalDistance __attribute__((swift_name("totalDistance")));
 + (GNKKotlinArray<GNKItineraryLoopType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryLoopType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1608,6 +1621,7 @@ __attribute__((swift_name("ItineraryRoadCyclingQualityType")))
 @property (class, readonly) GNKItineraryRoadCyclingQualityType *damagedTracks __attribute__((swift_name("damagedTracks")));
 @property (class, readonly) GNKItineraryRoadCyclingQualityType *unknown __attribute__((swift_name("unknown")));
 + (GNKKotlinArray<GNKItineraryRoadCyclingQualityType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryRoadCyclingQualityType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2166,6 +2180,7 @@ __attribute__((swift_name("ItineraryType")))
 @property (class, readonly) GNKItineraryType *ride __attribute__((swift_name("ride")));
 @property (class, readonly) GNKItineraryType *visit __attribute__((swift_name("visit")));
 + (GNKKotlinArray<GNKItineraryType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2339,6 +2354,7 @@ __attribute__((swift_name("TransportMode")))
 @property (class, readonly) GNKTransportMode *pedestrian __attribute__((swift_name("pedestrian")));
 @property (class, readonly) GNKTransportMode *publicTransport __attribute__((swift_name("publicTransport")));
 + (GNKKotlinArray<GNKTransportMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKTransportMode *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2354,8 +2370,8 @@ __attribute__((swift_name("TransportMode.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ClientOptions")))
 @interface GNKClientOptions : GNKBase
-- (instancetype)initWithSource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider __attribute__((swift_name("init(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:)"))) __attribute__((objc_designated_initializer));
-- (GNKClientOptions *)doCopySource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider __attribute__((swift_name("doCopy(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:)")));
+- (instancetype)initWithSource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider userAgent:(NSString * _Nullable)userAgent __attribute__((swift_name("init(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:userAgent:)"))) __attribute__((objc_designated_initializer));
+- (GNKClientOptions *)doCopySource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider userAgent:(NSString * _Nullable)userAgent __attribute__((swift_name("doCopy(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:userAgent:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -2365,6 +2381,7 @@ __attribute__((swift_name("ClientOptions")))
 @property (readonly) BOOL showRideItinerary __attribute__((swift_name("showRideItinerary")));
 @property (readonly) NSString * _Nullable source __attribute__((swift_name("source")));
 @property (readonly) BOOL testEnvironment __attribute__((swift_name("testEnvironment")));
+@property (readonly) NSString * _Nullable userAgent __attribute__((swift_name("userAgent")));
 @property id<GNKUserAuthorizationProvider> _Nullable userAuthorizationProvider __attribute__((swift_name("userAuthorizationProvider")));
 @end
 
@@ -2509,6 +2526,7 @@ __attribute__((swift_name("EncodedInstructionsSerializer.EncodedInstructionHeade
 @property (class, readonly) GNKEncodedInstructionsSerializerEncodedInstructionHeader *facility __attribute__((swift_name("facility")));
 @property (class, readonly) GNKEncodedInstructionsSerializerEncodedInstructionHeader *geometryindex __attribute__((swift_name("geometryindex")));
 + (GNKKotlinArray<GNKEncodedInstructionsSerializerEncodedInstructionHeader *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKEncodedInstructionsSerializerEncodedInstructionHeader *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2603,6 +2621,7 @@ __attribute__((swift_name("RequestBuilderException.Type_")))
 @property (class, readonly) GNKRequestBuilderExceptionType *notenoughwaypoints __attribute__((swift_name("notenoughwaypoints")));
 @property (class, readonly) GNKRequestBuilderExceptionType *invalidtransportmode __attribute__((swift_name("invalidtransportmode")));
 + (GNKKotlinArray<GNKRequestBuilderExceptionType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKRequestBuilderExceptionType *> *entries __attribute__((swift_name("entries")));
 @end
 
 
@@ -2696,12 +2715,13 @@ __attribute__((swift_name("Bounds.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoLocation")))
 @interface GNKGeoLocation : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing __attribute__((swift_name("init(geoPoint:speed:bearing:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy __attribute__((swift_name("init(geoPoint:speed:bearing:accuracy:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKGeoLocationCompanion *companion __attribute__((swift_name("companion")));
-- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing __attribute__((swift_name("doCopy(geoPoint:speed:bearing:)")));
+- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy __attribute__((swift_name("doCopy(geoPoint:speed:bearing:accuracy:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double accuracy __attribute__((swift_name("accuracy")));
 @property (readonly) float bearing __attribute__((swift_name("bearing")));
 @property (readonly) GNKGeoPoint *geoPoint __attribute__((swift_name("geoPoint")));
 @property (readonly) float speed __attribute__((swift_name("speed")));
@@ -5234,6 +5254,7 @@ __attribute__((swift_name("KotlinKVariance")))
 @property (class, readonly) GNKKotlinKVariance *in __attribute__((swift_name("in")));
 @property (class, readonly) GNKKotlinKVariance *out __attribute__((swift_name("out")));
 + (GNKKotlinArray<GNKKotlinKVariance *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKKotlinKVariance *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
