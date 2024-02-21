@@ -1,10 +1,10 @@
-// swift-tools-version:5.5.1
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "GeoveloNavigationKit",
     platforms: [
-        .iOS(.v12)
+        .iOS(.v13)
     ],
     products: [
         .library(

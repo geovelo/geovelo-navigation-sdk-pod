@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class GNKClientOptions, GNKGeoveloSdkCompanion, GNKNavigationManager, GNKGeoSegment, GNKGeoPoint, GNKItinerarySegmentCompanion, GNKItinerarySegment, GNKItinerarySection, GNKItinerary, GNKNavigationEngineCompanion, GNKRecalculationBehavior, GNKNavigationProgress, GNKItineraryInstruction, GNKGeoSegmentQuadTree, GNKKotlinx_datetimeInstant, GNKWaypoint, GNKNavigationManagerCompanion, GNKNavigationProgressCompanion, GNKKotlinEnumCompanion, GNKKotlinEnum<E>, GNKRecalculationBehaviorCompanion, GNKKotlinArray<T>, GNKKotlinThrowable, GNKKotlinException, GNKItineraryType, GNKRoadTypeDistances, GNKItineraryCompanion, GNKItineraryBikeProfile, GNKItineraryBikeType, GNKBounds, GNKItineraryElevation, GNKTransportMode, GNKItineraryBikeMotorTypeCompanion, GNKItineraryBikeMotorType, GNKItineraryBikeProfileCompanion, GNKItineraryBikeTypeCompanion, GNKItinerarySectionEnergy, GNKItineraryEBikeEnergiesCompanion, GNKItineraryEBikeEnergies, GNKItineraryElevationCompanion, GNKItineraryInstructionRoadType, GNKItineraryFacilityCompanion, GNKItineraryFacility, GNKItineraryInstructionType, GNKItineraryInstructionCardinalDirection, GNKItineraryInstructionCompanion, GNKItineraryInstructionCardinalDirectionCompanion, GNKItineraryInstructionRoadTypeCompanion, GNKItineraryInstructionTypeCompanion, GNKItineraryLoopTypeCompanion, GNKItineraryLoopType, GNKItineraryPublicTransportStopPointCompanion, GNKItineraryPublicTransportStopPoint, GNKItineraryRequestCompanion, GNKItineraryRequest, GNKItineraryRequestBikeDetails, GNKItineraryRequestNavigationDetails, GNKItineraryRequestLoopDetails, GNKItineraryRequestBuilderCompanion, GNKItineraryRequestBuilder, GNKItineraryRequestBikeDetailsCompanion, GNKItineraryRequestLoopDetailsCompanion, GNKItineraryRequestNavigationDetailsCompanion, GNKItinerarySectionDetails, GNKItinerarySectionCompanion, GNKItinerarySectionBikeDetails, GNKItinerarySectionPedestrianDetails, GNKItinerarySectionPublicTransportDetails, GNKItinerarySectionBikeStations, GNKItinerarySectionBikeDetailsCompanion, GNKItinerarySectionBikeStationFromToCompanion, GNKItinerarySectionBikeStationFromTo, GNKItinerarySectionBikeStationsCompanion, GNKItinerarySectionRideSet, GNKItinerarySectionDetailsCompanion, GNKItinerarySectionEnergyCompanion, GNKItinerarySectionPedestrianDetailsCompanion, GNKItinerarySectionPublicTransportDetailsCompanion, GNKItinerarySectionRideSetCompanion, GNKItineraryTypeCompanion, GNKRoadTypeDistancesCompanion, GNKTransportModeCompanion, GNKPreconfiguredHttpClient, GNKItineraryClientContractCompanion, GNKKtor_client_coreHttpClient, GNKItineraryClientContract, GNKEncodedElevationsSerializer, GNKEncodedFacilitiesSerializer, GNKEncodedInstructionsSerializer, GNKEncodedInstructionsSerializerEncodedInstructionHeader, GNKEncodedLineStringSerializer, GNKItineraryBikeTypeSerializer, GNKGeometryEncoderCompanion, GNKRequestBuilderExceptionCompanion, GNKRequestBuilderExceptionType, GNKRequestBuilderException, GNKBoundsCompanion, GNKGeoLocationCompanion, GNKGeoLocation, GNKGeoPointCompanion, GNKGeoSegmentCompanion, GNKGeoSegmentQuadTreeCompanion, GNKWaypointCompanion, GNKInstantSerializer, GNKIntSerializer, GNKJsonDefaultsCompanion, GNKKotlinx_serialization_jsonJson, GNKInstantParceler, CLLocation, GNKResource, GNKKotlinRuntimeException, GNKKotlinx_datetimeInstantCompanion, GNKKtor_client_coreHttpClientEngineConfig, GNKKtor_client_coreHttpClientConfig<T>, GNKKtor_eventsEvents, GNKKtor_client_coreHttpReceivePipeline, GNKKtor_client_coreHttpRequestPipeline, GNKKtor_client_coreHttpResponsePipeline, GNKKtor_client_coreHttpSendPipeline, GNKKotlinx_serialization_coreSerializersModule, GNKKotlinx_serialization_coreSerialKind, GNKKotlinNothing, GNKKotlinx_serialization_jsonJsonDefault, GNKKotlinx_serialization_jsonJsonElement, GNKKotlinx_serialization_jsonJsonConfiguration, GNKKtor_client_coreHttpRequestData, GNKKtor_client_coreHttpResponseData, GNKKotlinx_coroutines_coreCoroutineDispatcher, GNKKtor_client_coreProxyConfig, GNKKtor_utilsAttributeKey<T>, GNKKtor_eventsEventDefinition<T>, GNKKtor_utilsPipelinePhase, GNKKtor_utilsPipeline<TSubject, TContext>, GNKKtor_client_coreHttpReceivePipelinePhases, GNKKtor_client_coreHttpResponse, GNKKotlinUnit, GNKKtor_client_coreHttpRequestPipelinePhases, GNKKtor_client_coreHttpRequestBuilder, GNKKtor_client_coreHttpResponsePipelinePhases, GNKKtor_client_coreHttpResponseContainer, GNKKtor_client_coreHttpClientCall, GNKKtor_client_coreHttpSendPipelinePhases, GNKKotlinx_serialization_jsonJsonElementCompanion, GNKKotlinIllegalStateException, GNKKtor_httpUrl, GNKKtor_httpHttpMethod, GNKKtor_httpOutgoingContent, GNKKtor_httpHttpStatusCode, GNKKtor_utilsGMTDate, GNKKtor_httpHttpProtocolVersion, GNKKotlinAbstractCoroutineContextElement, GNKKotlinx_coroutines_coreCoroutineDispatcherKey, GNKKtor_httpHeadersBuilder, GNKKtor_client_coreHttpRequestBuilderCompanion, GNKKtor_httpURLBuilder, GNKKtor_utilsTypeInfo, GNKKtor_client_coreHttpClientCallCompanion, GNKKtor_httpUrlCompanion, GNKKtor_httpURLProtocol, GNKKtor_httpHttpMethodCompanion, GNKKtor_httpContentType, GNKKotlinCancellationException, GNKKtor_httpHttpStatusCodeCompanion, GNKKtor_utilsGMTDateCompanion, GNKKtor_utilsWeekDay, GNKKtor_utilsMonth, GNKKtor_httpHttpProtocolVersionCompanion, GNKKotlinAbstractCoroutineContextKey<B, E>, GNKKtor_ioMemory, GNKKtor_ioChunkBuffer, GNKKotlinByteArray, GNKKtor_ioBuffer, GNKKtor_ioByteReadPacket, GNKKtor_utilsStringValuesBuilderImpl, GNKKtor_httpURLBuilderCompanion, GNKKtor_httpURLProtocolCompanion, GNKKtor_httpHeaderValueParam, GNKKtor_httpHeaderValueWithParametersCompanion, GNKKtor_httpHeaderValueWithParameters, GNKKtor_httpContentTypeCompanion, GNKKtor_utilsWeekDayCompanion, GNKKtor_utilsMonthCompanion, GNKKtor_ioMemoryCompanion, GNKKtor_ioBufferCompanion, GNKKtor_ioChunkBufferCompanion, GNKKotlinByteIterator, GNKKtor_ioInputCompanion, GNKKtor_ioInput, GNKKtor_ioByteReadPacketCompanion, GNKKotlinKTypeProjection, GNKKotlinx_coroutines_coreAtomicDesc, GNKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, GNKKotlinKVariance, GNKKotlinKTypeProjectionCompanion, GNKKotlinx_coroutines_coreAtomicOp<__contravariant T>, GNKKotlinx_coroutines_coreOpDescriptor, GNKKotlinx_coroutines_coreLockFreeLinkedListNode, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
+@class GNKClientOptions, GNKGeoveloSdkCompanion, GNKNavigationManager, GNKGeoSegment, GNKGeoPoint, GNKItinerarySegmentCompanion, GNKItinerarySegment, GNKItinerarySection, GNKItinerary, GNKNavigationEngineCompanion, GNKRecalculationBehavior, GNKNavigationProgress, GNKItineraryInstruction, GNKGeoSegmentQuadTree, GNKKotlinx_datetimeInstant, GNKWaypoint, GNKNavigationManagerCompanion, GNKNavigationProgressCompanion, GNKKotlinEnumCompanion, GNKKotlinEnum<E>, GNKRecalculationBehaviorCompanion, GNKKotlinArray<T>, GNKKotlinThrowable, GNKKotlinException, GNKItineraryType, GNKRoadTypeDistances, GNKItineraryCompanion, GNKItineraryBikeProfile, GNKItineraryBikeType, GNKBounds, GNKItineraryElevation, GNKItineraryRoadCyclingQuality, GNKTransportMode, GNKItineraryBikeMotorTypeCompanion, GNKItineraryBikeMotorType, GNKItineraryBikeProfileCompanion, GNKItineraryBikeTypeCompanion, GNKItinerarySectionEnergy, GNKItineraryEBikeEnergiesCompanion, GNKItineraryEBikeEnergies, GNKItineraryElevationCompanion, GNKItineraryInstructionRoadType, GNKItineraryFacilityCompanion, GNKItineraryFacility, GNKItineraryInstructionType, GNKItineraryInstructionCardinalDirection, GNKItineraryInstructionCompanion, GNKItineraryInstructionCardinalDirectionCompanion, GNKItineraryInstructionRoadTypeCompanion, GNKItineraryInstructionTypeCompanion, GNKItineraryLoopTypeCompanion, GNKItineraryLoopType, GNKItineraryPublicTransportStopPointCompanion, GNKItineraryPublicTransportStopPoint, GNKItineraryRequestCompanion, GNKItineraryRequest, GNKItineraryRequestBikeDetails, GNKItineraryRequestNavigationDetails, GNKItineraryRequestLoopDetails, GNKItineraryRequestBuilderCompanion, GNKItineraryRequestBuilder, GNKItineraryRequestBikeDetailsCompanion, GNKItineraryRequestLoopDetailsCompanion, GNKItineraryRequestNavigationDetailsCompanion, GNKItineraryRoadCyclingQualityType, GNKItineraryRoadCyclingQualityCompanion, GNKItineraryRoadCyclingQualityTypeCompanion, GNKItinerarySectionDetails, GNKItinerarySectionCompanion, GNKItinerarySectionBikeDetails, GNKItinerarySectionPedestrianDetails, GNKItinerarySectionPublicTransportDetails, GNKItinerarySectionBikeStations, GNKItinerarySectionBikeDetailsCompanion, GNKItinerarySectionBikeStationFromToCompanion, GNKItinerarySectionBikeStationFromTo, GNKItinerarySectionBikeStationsCompanion, GNKItinerarySectionRideSet, GNKItinerarySectionDetailsCompanion, GNKItinerarySectionEnergyCompanion, GNKItinerarySectionPedestrianDetailsCompanion, GNKItinerarySectionPublicTransportDetailsCompanion, GNKItinerarySectionRideSetCompanion, GNKItineraryTypeCompanion, GNKRoadTypeDistancesCompanion, GNKTransportModeCompanion, GNKPreconfiguredHttpClient, GNKItineraryClientContractCompanion, GNKKtor_client_coreHttpClient, GNKItineraryClientContract, GNKEncodedElevationsSerializer, GNKEncodedFacilitiesSerializer, GNKEncodedInstructionsSerializer, GNKEncodedInstructionsSerializerEncodedInstructionHeader, GNKEncodedLineStringSerializer, GNKEncodedRoadCyclingQualitiesSerializer, GNKItineraryBikeTypeSerializer, GNKGeometryEncoderCompanion, GNKRequestBuilderExceptionCompanion, GNKRequestBuilderExceptionType, GNKRequestBuilderException, GNKBoundsCompanion, GNKGeoLocationCompanion, GNKGeoLocation, GNKGeoPointCompanion, GNKGeoSegmentCompanion, GNKGeoSegmentQuadTreeCompanion, GNKWaypointCompanion, GNKKotlinRuntimeException, GNKKtor_httpHttpStatusCode, GNKInstantSerializer, GNKIntSerializer, GNKJsonDefaultsCompanion, GNKKotlinx_serialization_jsonJson, GNKInstantParceler, CLLocation, GNKKtor_client_coreHttpClientCall, GNKKtor_utilsGMTDate, GNKKtor_httpHttpProtocolVersion, GNKKtor_client_coreHttpResponse, GNKResource, GNKKotlinx_datetimeInstantCompanion, GNKKtor_client_coreHttpClientEngineConfig, GNKKtor_client_coreHttpClientConfig<T>, GNKKtor_eventsEvents, GNKKtor_client_coreHttpReceivePipeline, GNKKtor_client_coreHttpRequestPipeline, GNKKtor_client_coreHttpResponsePipeline, GNKKtor_client_coreHttpSendPipeline, GNKKotlinx_serialization_coreSerializersModule, GNKKotlinx_serialization_coreSerialKind, GNKKotlinNothing, GNKKtor_httpHttpStatusCodeCompanion, GNKKotlinx_serialization_jsonJsonDefault, GNKKotlinx_serialization_jsonJsonElement, GNKKotlinx_serialization_jsonJsonConfiguration, GNKKtor_client_coreHttpRequestData, GNKKtor_client_coreHttpResponseData, GNKKtor_client_coreHttpClientCallCompanion, GNKKtor_utilsTypeInfo, GNKKtor_ioMemory, GNKKtor_ioChunkBuffer, GNKKotlinByteArray, GNKKtor_ioBuffer, GNKKtor_ioByteReadPacket, GNKKtor_utilsGMTDateCompanion, GNKKtor_utilsWeekDay, GNKKtor_utilsMonth, GNKKtor_httpHttpProtocolVersionCompanion, GNKKotlinx_coroutines_coreCoroutineDispatcher, GNKKtor_client_coreProxyConfig, GNKKtor_utilsAttributeKey<T>, GNKKtor_eventsEventDefinition<T>, GNKKtor_utilsPipelinePhase, GNKKtor_utilsPipeline<TSubject, TContext>, GNKKtor_client_coreHttpReceivePipelinePhases, GNKKotlinUnit, GNKKtor_client_coreHttpRequestPipelinePhases, GNKKtor_client_coreHttpRequestBuilder, GNKKtor_client_coreHttpResponsePipelinePhases, GNKKtor_client_coreHttpResponseContainer, GNKKtor_client_coreHttpSendPipelinePhases, GNKKotlinx_serialization_jsonJsonElementCompanion, GNKKtor_httpUrl, GNKKtor_httpHttpMethod, GNKKtor_httpOutgoingContent, GNKKotlinIllegalStateException, GNKKtor_ioMemoryCompanion, GNKKtor_ioBufferCompanion, GNKKtor_ioChunkBufferCompanion, GNKKotlinByteIterator, GNKKtor_ioInputCompanion, GNKKtor_ioInput, GNKKtor_ioByteReadPacketCompanion, GNKKtor_utilsWeekDayCompanion, GNKKtor_utilsMonthCompanion, GNKKotlinAbstractCoroutineContextElement, GNKKotlinx_coroutines_coreCoroutineDispatcherKey, GNKKtor_httpHeadersBuilder, GNKKtor_client_coreHttpRequestBuilderCompanion, GNKKtor_httpURLBuilder, GNKKtor_httpUrlCompanion, GNKKtor_httpURLProtocol, GNKKtor_httpHttpMethodCompanion, GNKKtor_httpContentType, GNKKotlinCancellationException, GNKKotlinKTypeProjection, GNKKotlinAbstractCoroutineContextKey<B, E>, GNKKtor_utilsStringValuesBuilderImpl, GNKKtor_httpURLBuilderCompanion, GNKKtor_httpURLProtocolCompanion, GNKKtor_httpHeaderValueParam, GNKKtor_httpHeaderValueWithParametersCompanion, GNKKtor_httpHeaderValueWithParameters, GNKKtor_httpContentTypeCompanion, GNKKotlinKVariance, GNKKotlinKTypeProjectionCompanion, GNKKotlinx_coroutines_coreAtomicDesc, GNKKotlinx_coroutines_coreLockFreeLinkedListNodePrepareOp, GNKKotlinx_coroutines_coreAtomicOp<__contravariant T>, GNKKotlinx_coroutines_coreOpDescriptor, GNKKotlinx_coroutines_coreLockFreeLinkedListNode, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeAddLastDesc<T>, GNKKotlinx_coroutines_coreLockFreeLinkedListNodeRemoveFirstDesc<T>;
 
-@protocol GNKExceptionHandler, GNKLogHandler, GNKItineraryClient, GNKCommonParcelable, GNKGeoSegmentable, GNKKotlinx_serialization_coreKSerializer, GNKNavigationLifecycleListener, GNKNavigationProgressListener, GNKNavigationRecalculateListener, GNKKotlinComparable, GNKUserAuthorizationProvider, GNKItineraryListCallback, GNKItineraryCallback, GNKKotlinCoroutineContext, GNKKotlinx_serialization_coreEncoder, GNKKotlinx_serialization_coreSerialDescriptor, GNKKotlinx_serialization_coreSerializationStrategy, GNKKotlinx_serialization_coreDecoder, GNKKotlinx_serialization_coreDeserializationStrategy, GNKCommonParceler, GNKKotlinIterator, GNKKotlinx_coroutines_coreCoroutineScope, GNKKtor_ioCloseable, GNKKtor_client_coreHttpClientEngine, GNKKtor_client_coreHttpClientEngineCapability, GNKKtor_utilsAttributes, GNKKotlinCoroutineContextElement, GNKKotlinCoroutineContextKey, GNKKotlinx_serialization_coreCompositeEncoder, GNKKotlinAnnotation, GNKKotlinx_serialization_coreCompositeDecoder, GNKKotlinx_serialization_coreSerialFormat, GNKKotlinx_serialization_coreStringFormat, GNKKtor_client_coreHttpClientPlugin, GNKKotlinx_coroutines_coreDisposableHandle, GNKKotlinSuspendFunction2, GNKKotlinx_serialization_coreSerializersModuleCollector, GNKKotlinKClass, GNKKtor_httpHeaders, GNKKotlinx_coroutines_coreJob, GNKKotlinContinuation, GNKKotlinContinuationInterceptor, GNKKotlinx_coroutines_coreRunnable, GNKKotlinFunction, GNKKtor_httpHttpMessage, GNKKtor_ioByteReadChannel, GNKKtor_httpHttpMessageBuilder, GNKKtor_client_coreHttpRequest, GNKKotlinKDeclarationContainer, GNKKotlinKAnnotatedElement, GNKKotlinKClassifier, GNKKtor_httpParameters, GNKKotlinMapEntry, GNKKtor_utilsStringValues, GNKKotlinx_coroutines_coreChildHandle, GNKKotlinx_coroutines_coreChildJob, GNKKotlinSequence, GNKKotlinx_coroutines_coreSelectClause0, GNKKtor_ioReadSession, GNKKotlinSuspendFunction1, GNKKotlinAppendable, GNKKtor_utilsStringValuesBuilder, GNKKtor_httpParametersBuilder, GNKKotlinKType, GNKKotlinx_coroutines_coreParentJob, GNKKotlinx_coroutines_coreSelectInstance, GNKKotlinSuspendFunction0, GNKKtor_ioObjectPool;
+@protocol GNKExceptionHandler, GNKLogHandler, GNKItineraryClient, GNKCommonParcelable, GNKGeoSegmentable, GNKKotlinx_serialization_coreKSerializer, GNKNavigationLifecycleListener, GNKNavigationProgressListener, GNKNavigationRecalculateListener, GNKKotlinComparable, GNKUserAuthorizationProvider, GNKItineraryListCallback, GNKItineraryCallback, GNKKotlinCoroutineContext, GNKKotlinx_serialization_coreEncoder, GNKKotlinx_serialization_coreSerialDescriptor, GNKKotlinx_serialization_coreSerializationStrategy, GNKKotlinx_serialization_coreDecoder, GNKKotlinx_serialization_coreDeserializationStrategy, GNKCommonParceler, GNKKtor_httpHeaders, GNKKtor_httpHttpMessage, GNKKotlinx_coroutines_coreCoroutineScope, GNKKtor_ioByteReadChannel, GNKKotlinIterator, GNKKtor_ioCloseable, GNKKtor_client_coreHttpClientEngine, GNKKtor_client_coreHttpClientEngineCapability, GNKKtor_utilsAttributes, GNKKotlinCoroutineContextElement, GNKKotlinCoroutineContextKey, GNKKotlinx_serialization_coreCompositeEncoder, GNKKotlinAnnotation, GNKKotlinx_serialization_coreCompositeDecoder, GNKKotlinx_serialization_coreSerialFormat, GNKKotlinx_serialization_coreStringFormat, GNKKotlinMapEntry, GNKKtor_utilsStringValues, GNKKtor_client_coreHttpRequest, GNKKtor_ioReadSession, GNKKotlinSuspendFunction1, GNKKotlinAppendable, GNKKtor_client_coreHttpClientPlugin, GNKKotlinx_coroutines_coreDisposableHandle, GNKKotlinSuspendFunction2, GNKKotlinx_serialization_coreSerializersModuleCollector, GNKKotlinKClass, GNKKotlinx_coroutines_coreJob, GNKKotlinKType, GNKKtor_ioObjectPool, GNKKotlinFunction, GNKKotlinContinuation, GNKKotlinContinuationInterceptor, GNKKotlinx_coroutines_coreRunnable, GNKKtor_httpHttpMessageBuilder, GNKKotlinKDeclarationContainer, GNKKotlinKAnnotatedElement, GNKKotlinKClassifier, GNKKtor_httpParameters, GNKKotlinx_coroutines_coreChildHandle, GNKKotlinx_coroutines_coreChildJob, GNKKotlinSequence, GNKKotlinx_coroutines_coreSelectClause0, GNKKtor_utilsStringValuesBuilder, GNKKtor_httpParametersBuilder, GNKKotlinx_coroutines_coreParentJob, GNKKotlinx_coroutines_coreSelectInstance, GNKKotlinSuspendFunction0;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -181,6 +181,8 @@ __attribute__((swift_name("GeoSegmentable")))
 
 
 /**
+ * Navigation related
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -189,20 +191,72 @@ __attribute__((swift_name("ItinerarySegment")))
 @interface GNKItinerarySegment : GNKBase <GNKCommonParcelable, GNKGeoSegmentable>
 - (instancetype)initWithSectionIndex:(int32_t)sectionIndex instructionIndex:(int32_t)instructionIndex start:(GNKGeoPoint *)start startIndex:(int32_t)startIndex end:(GNKGeoPoint *)end endIndex:(int32_t)endIndex distance:(double)distance distanceFromSectionStart:(double)distanceFromSectionStart distanceToNextInstruction:(double)distanceToNextInstruction __attribute__((swift_name("init(sectionIndex:instructionIndex:start:startIndex:end:endIndex:distance:distanceFromSectionStart:distanceToNextInstruction:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySegmentCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * Navigation related
+ */
 - (GNKItinerarySegment *)doCopySectionIndex:(int32_t)sectionIndex instructionIndex:(int32_t)instructionIndex start:(GNKGeoPoint *)start startIndex:(int32_t)startIndex end:(GNKGeoPoint *)end endIndex:(int32_t)endIndex distance:(double)distance distanceFromSectionStart:(double)distanceFromSectionStart distanceToNextInstruction:(double)distanceToNextInstruction __attribute__((swift_name("doCopy(sectionIndex:instructionIndex:start:startIndex:end:endIndex:distance:distanceFromSectionStart:distanceToNextInstruction:)")));
+
+/**
+ * Navigation related
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (GNKGeoSegment *)getSegment __attribute__((swift_name("getSegment()")));
+
+/**
+ * Navigation related
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (double)projectedSectionCompletionLocation:(GNKGeoPoint * _Nullable)location section:(GNKItinerarySection * _Nullable)section __attribute__((swift_name("projectedSectionCompletion(location:section:)")));
+
+/**
+ * Navigation related
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * distance entre start et end (en mètres)
+ */
 @property double distance __attribute__((swift_name("distance")));
+
+/**
+ * distance cumulée de la section jusqu’à ce segment
+ */
 @property double distanceFromSectionStart __attribute__((swift_name("distanceFromSectionStart")));
+
+/**
+ * distance jusqu’à la prochaine instruction
+ */
 @property double distanceToNextInstruction __attribute__((swift_name("distanceToNextInstruction")));
+
+/**
+ * point d'arrivée du segment
+ */
 @property GNKGeoPoint *end __attribute__((swift_name("end")));
+
+/**
+ * numéro du point associé dans la liste geometry de l’itinéraire
+ */
 @property int32_t endIndex __attribute__((swift_name("endIndex")));
+
+/**
+ * numéro de l’instruction associée dans la liste itinerary.instructions de la section de l’itinéraire
+ */
 @property int32_t instructionIndex __attribute__((swift_name("instructionIndex")));
+
+/**
+ * numéro de l’instruction associée dans la liste itinerary.instructions de la section de l’itinéraire
+ */
 @property int32_t sectionIndex __attribute__((swift_name("sectionIndex")));
+
+/**
+ * point de départ du segment
+ */
 @property GNKGeoPoint *start __attribute__((swift_name("start")));
+
+/**
+ * numéro du point associé dans la liste geometry de l’itinéraire
+ */
 @property int32_t startIndex __attribute__((swift_name("startIndex")));
 @end
 
@@ -220,7 +274,7 @@ __attribute__((swift_name("ItinerarySegment.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("NavigationEngine")))
 @interface GNKNavigationEngine : GNKBase
-- (instancetype)initWithItineraries:(NSMutableArray<GNKItinerary *> *)itineraries currentItinerary:(GNKItinerary *)currentItinerary exceptionListener:(id<GNKExceptionHandler>)exceptionListener logHandler:(id<GNKLogHandler>)logHandler __attribute__((swift_name("init(itineraries:currentItinerary:exceptionListener:logHandler:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithItineraries:(NSArray<GNKItinerary *> *)itineraries currentItinerary:(GNKItinerary *)currentItinerary exceptionListener:(id<GNKExceptionHandler>)exceptionListener logHandler:(id<GNKLogHandler>)logHandler __attribute__((swift_name("init(itineraries:currentItinerary:exceptionListener:logHandler:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKNavigationEngineCompanion *companion __attribute__((swift_name("companion")));
 - (double)averageSpeedSinceNavigationStarted __attribute__((swift_name("averageSpeedSinceNavigationStarted()")));
 - (void)continueNavigationUsingNextItinerary __attribute__((swift_name("continueNavigationUsingNextItinerary()")));
@@ -259,7 +313,14 @@ __attribute__((swift_name("NavigationEngine")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (GNKNavigationProgress * _Nullable)previewNavigationProgressAtStartAndReturnError:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("previewNavigationProgressAtStart()")));
-- (void)startNavigationItineraries:(NSMutableArray<GNKItinerary *> *)itineraries itinerary:(GNKItinerary *)itinerary __attribute__((swift_name("startNavigation(itineraries:itinerary:)")));
+
+/**
+ * Start/Prepare the navigation
+ *
+ * @param itineraries Itineraries that are not optional or variant itineraries
+ * @param itinerary   The itinerary_json to begin with
+ */
+- (void)startNavigationItineraries:(NSArray<GNKItinerary *> *)itineraries itinerary:(GNKItinerary *)itinerary __attribute__((swift_name("startNavigation(itineraries:itinerary:)")));
 - (int64_t)timeSinceNavigationStarted __attribute__((swift_name("timeSinceNavigationStarted()")));
 
 /**
@@ -275,13 +336,13 @@ __attribute__((swift_name("NavigationEngine")))
 @property double currentSectionCompletion __attribute__((swift_name("currentSectionCompletion")));
 @property (getter=distanceSinceNavigationStarted_) int64_t distanceSinceNavigationStarted __attribute__((swift_name("distanceSinceNavigationStarted")));
 @property id<GNKExceptionHandler> exceptionListener __attribute__((swift_name("exceptionListener")));
-@property NSMutableArray<GNKItinerary *> *itineraries __attribute__((swift_name("itineraries")));
+@property NSArray<GNKItinerary *> *itineraries __attribute__((swift_name("itineraries")));
 @property id<GNKLogHandler> logHandler __attribute__((swift_name("logHandler")));
 @property NSMutableArray<GNKNavigationProgress *> *navigationProgressHistory __attribute__((swift_name("navigationProgressHistory")));
 @property (readonly) GNKItinerary * _Nullable nextItinerary __attribute__((swift_name("nextItinerary")));
 @property (readonly) GNKItinerarySection * _Nullable nextSection __attribute__((swift_name("nextSection")));
 @property GNKGeoSegmentQuadTree *quadTree __attribute__((swift_name("quadTree")));
-@property NSArray<NSArray<GNKItinerarySegment *> *> *segmentsBySection __attribute__((swift_name("segmentsBySection")));
+@property NSMutableArray<NSMutableArray<GNKItinerarySegment *> *> *segmentsBySection __attribute__((swift_name("segmentsBySection")));
 @property GNKKotlinx_datetimeInstant *startDate __attribute__((swift_name("startDate")));
 @end
 
@@ -292,7 +353,7 @@ __attribute__((swift_name("NavigationEngine.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKNavigationEngineCompanion *shared __attribute__((swift_name("shared")));
-- (double)calculateSpeedLastProgresses:(NSMutableArray<GNKNavigationProgress *> *)lastProgresses __attribute__((swift_name("calculateSpeed(lastProgresses:)")));
+- (double)calculateSpeedLastProgresses:(NSArray<GNKNavigationProgress *> *)lastProgresses __attribute__((swift_name("calculateSpeed(lastProgresses:)")));
 
 /**
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
@@ -404,9 +465,25 @@ __attribute__((swift_name("NavigationProgress")))
 @property GNKItinerary *currentItinerary __attribute__((swift_name("currentItinerary")));
 @property GNKItinerarySection *currentSection __attribute__((swift_name("currentSection")));
 @property GNKItinerarySegment *currentSegment __attribute__((swift_name("currentSegment")));
+
+/**
+ * Total distance (until arrival point) in meters
+ */
 @property double distanceToArrival __attribute__((swift_name("distanceToArrival")));
+
+/**
+ * Total distance (until next instruction) in meters
+ */
 @property double distanceToNextInstruction __attribute__((swift_name("distanceToNextInstruction")));
+
+/**
+ * Total distance (until next itinerary) in meters
+ */
 @property double distanceToNextItinerary __attribute__((swift_name("distanceToNextItinerary")));
+
+/**
+ * Total distance (until next section) in meters
+ */
 @property double distanceToNextSection __attribute__((swift_name("distanceToNextSection")));
 @property GNKKotlinx_datetimeInstant *estimatedDateOfArrival __attribute__((swift_name("estimatedDateOfArrival")));
 @property BOOL isLastItineraryInstruction __attribute__((swift_name("isLastItineraryInstruction")));
@@ -418,6 +495,10 @@ __attribute__((swift_name("NavigationProgress")))
 @property GNKGeoPoint *realLocation __attribute__((swift_name("realLocation")));
 @property GNKGeoPoint *snappedLocation __attribute__((swift_name("snappedLocation")));
 @property double speed __attribute__((swift_name("speed")));
+
+/**
+ * Total time (until arrival point) in seconds
+ */
 @property int64_t timeToArrival __attribute__((swift_name("timeToArrival")));
 @end
 
@@ -484,6 +565,7 @@ __attribute__((swift_name("RecalculationBehavior")))
 @property (class, readonly) GNKRecalculationBehavior *replacecurrentitinerary __attribute__((swift_name("replacecurrentitinerary")));
 @property (class, readonly) GNKRecalculationBehavior *none __attribute__((swift_name("none")));
 + (GNKKotlinArray<GNKRecalculationBehavior *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKRecalculationBehavior *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -511,6 +593,11 @@ __attribute__((swift_name("KotlinThrowable")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * @note annotations
+ *   kotlin.experimental.ExperimentalNativeApi
+*/
 - (GNKKotlinArray<NSString *> *)getStackTrace __attribute__((swift_name("getStackTrace()")));
 - (void)printStackTrace __attribute__((swift_name("printStackTrace()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -566,26 +653,50 @@ __attribute__((swift_name("Itinerary")))
 @property (readonly) int32_t bikeAverageSpeed __attribute__((swift_name("bikeAverageSpeed")));
 @property (readonly) GNKItineraryBikeProfile *bikeProfile __attribute__((swift_name("bikeProfile")));
 @property (readonly) GNKItineraryBikeType *bikeType __attribute__((swift_name("bikeType")));
+
+/**
+ * max north / min south / max east / min west
+ */
 @property (readonly) GNKBounds *bounds __attribute__((swift_name("bounds")));
+
+/**
+ * in KCal
+ */
 @property (readonly) int32_t calories __attribute__((swift_name("calories")));
 @property (readonly) GNKWaypoint *departure __attribute__((swift_name("departure")));
+
+/**
+ * Distances by kind (recommended, discouraged, normal, total)
+ */
 @property GNKRoadTypeDistances *distances __attribute__((swift_name("distances")));
+
+/**
+ * Duration time (in seconds)
+ */
 @property int32_t duration __attribute__((swift_name("duration")));
 @property (readonly) NSMutableArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
 
 /**
+ * Estimated date of arrival
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/InstantSerializer))
 */
 @property GNKKotlinx_datetimeInstant * _Nullable estimatedDatetimeOfArrival __attribute__((swift_name("estimatedDatetimeOfArrival")));
 
 /**
+ * Estimated date of departure
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/InstantSerializer))
 */
 @property GNKKotlinx_datetimeInstant * _Nullable estimatedDatetimeOfDeparture __attribute__((swift_name("estimatedDatetimeOfDeparture")));
 @property (readonly) GNKItinerarySection *firstSection __attribute__((swift_name("firstSection")));
 @property (readonly) NSMutableArray<GNKGeoPoint *> *geometry __attribute__((swift_name("geometry")));
+
+/**
+ * ID of the calculated itinerary (can be used to retrieve more details)
+ */
 @property NSString *id __attribute__((swift_name("id")));
 @property (readonly) NSMutableArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
 @property (readonly) BOOL isElectricAdapted __attribute__((swift_name("isElectricAdapted")));
@@ -593,13 +704,30 @@ __attribute__((swift_name("Itinerary")))
 @property (readonly) int32_t kiloCalories __attribute__((swift_name("kiloCalories")));
 @property (readonly) GNKItinerarySection *lastSection __attribute__((swift_name("lastSection")));
 @property (readonly) NSString *mainDirections __attribute__((swift_name("mainDirections")));
+
+/**
+ * id of the next itinerary (in navigation)
+ */
 @property NSString * _Nullable nextItineraryId __attribute__((swift_name("nextItineraryId")));
+@property (readonly) NSMutableArray<GNKItineraryRoadCyclingQuality *> *roadCyclingQuality __attribute__((swift_name("roadCyclingQuality")));
+
+/**
+ * Parts of the itinerary, each part is based on TransportMode
+ */
 @property NSMutableArray<GNKItinerarySection *> *sections __attribute__((swift_name("sections")));
 @property (readonly) NSArray<GNKWaypoint *> *steps __attribute__((swift_name("steps")));
 @property (readonly) NSMutableArray<GNKTransportMode *> *transportModes __attribute__((swift_name("transportModes")));
+
+/**
+ * Title (Recommended, Faster, Safer, etc)
+ */
 @property GNKItineraryType *type __attribute__((swift_name("type")));
 @property (readonly) int32_t verticalGain __attribute__((swift_name("verticalGain")));
 @property (readonly) int32_t verticalLoss __attribute__((swift_name("verticalLoss")));
+
+/**
+ * Start, steps and end points
+ */
 @property NSMutableArray<GNKWaypoint *> *waypoints __attribute__((swift_name("waypoints")));
 @end
 
@@ -625,6 +753,7 @@ __attribute__((swift_name("ItineraryBikeMotorType")))
 @property (class, readonly) GNKItineraryBikeMotorType *beltDrive __attribute__((swift_name("beltDrive")));
 @property (class, readonly) GNKItineraryBikeMotorType *midDrive __attribute__((swift_name("midDrive")));
 + (GNKKotlinArray<GNKItineraryBikeMotorType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeMotorType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -652,6 +781,7 @@ __attribute__((swift_name("ItineraryBikeProfile")))
 @property (class, readonly) GNKItineraryBikeProfile *walking __attribute__((swift_name("walking")));
 @property (class, readonly) GNKItineraryBikeProfile *cargo __attribute__((swift_name("cargo")));
 + (GNKKotlinArray<GNKItineraryBikeProfile *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeProfile *> *entries __attribute__((swift_name("entries")));
 @property (readonly) int32_t averageSpeed __attribute__((swift_name("averageSpeed")));
 @end
 
@@ -675,6 +805,7 @@ __attribute__((swift_name("ItineraryBikeType")))
 @property (class, readonly) GNKItineraryBikeType *shared __attribute__((swift_name("shared")));
 @property (class, readonly) GNKItineraryBikeType *regular __attribute__((swift_name("regular")));
 + (GNKKotlinArray<GNKItineraryBikeType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryBikeType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -701,7 +832,15 @@ __attribute__((swift_name("ItineraryEBikeEnergies")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Energies remaining at the end of the itinerary using maximum assistance level
+ */
 @property GNKItinerarySectionEnergy * _Nullable usingMaximumAssistance __attribute__((swift_name("usingMaximumAssistance")));
+
+/**
+ * Energies remaining at the end of the itinerary using minimum assistance level
+ */
 @property GNKItinerarySectionEnergy * _Nullable usingMinimumAssistance __attribute__((swift_name("usingMinimumAssistance")));
 @end
 
@@ -729,10 +868,30 @@ __attribute__((swift_name("ItineraryElevation")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Total distance from itinnerary start
+ */
 @property int32_t distanceFromItineraryStart __attribute__((swift_name("distanceFromItineraryStart")));
+
+/**
+ * Total distance from section start
+ */
 @property int32_t distanceFromSectionStart __attribute__((swift_name("distanceFromSectionStart")));
+
+/**
+ * Altitude on earth
+ */
 @property double elevation __attribute__((swift_name("elevation")));
+
+/**
+ * Index of the elevation in the section geometry
+ */
 @property int32_t indexInGeometry __attribute__((swift_name("indexInGeometry")));
+
+/**
+ * Index of section in itinerary
+ */
 @property GNKItinerarySection *section __attribute__((swift_name("section")));
 @end
 
@@ -760,7 +919,15 @@ __attribute__((swift_name("ItineraryFacility")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Index of the facility in the section geometry
+ */
 @property int32_t indexInGeometry __attribute__((swift_name("indexInGeometry")));
+
+/**
+ * Altitude on earth
+ */
 @property GNKItineraryInstructionRoadType *roadType __attribute__((swift_name("roadType")));
 @end
 
@@ -791,18 +958,66 @@ __attribute__((swift_name("ItineraryInstruction")))
 - (GNKItineraryInstruction * _Nullable)next __attribute__((swift_name("next()")));
 - (GNKItineraryInstruction * _Nullable)previous __attribute__((swift_name("previous()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * North, West, etc.
+ */
 @property GNKItineraryInstructionCardinalDirection *cardinalDirection __attribute__((swift_name("cardinalDirection")));
+
+/**
+ * Name of the road to which the instruction leads
+ */
 @property NSMutableArray<NSString *> *cityNames __attribute__((swift_name("cityNames")));
+
+/**
+ * Distance in meters
+ */
 @property int32_t distanceFromPreviousInstruction __attribute__((swift_name("distanceFromPreviousInstruction")));
+
+/**
+ * Distance in meters
+ */
 @property int32_t distanceToNextInstruction __attribute__((swift_name("distanceToNextInstruction")));
+
+/**
+ * duration of the instruction from previous instruction
+ */
 @property int32_t durationFromPreviousInstruction __attribute__((swift_name("durationFromPreviousInstruction")));
+
+/**
+ * duration of the instruction from previous instruction
+ */
 @property int32_t durationToNextInstruction __attribute__((swift_name("durationToNextInstruction")));
 @property (readonly) GNKGeoPoint *geoPoint __attribute__((swift_name("geoPoint")));
+
+/**
+ * index of the instruction
+ */
 @property int32_t index __attribute__((swift_name("index")));
+
+/**
+ * Index of the related point in the geometry field
+ */
 @property int32_t indexInGeometry __attribute__((swift_name("indexInGeometry")));
+
+/**
+ * Name of the road to which the instruction leads
+ */
 @property NSString * _Nullable roadName __attribute__((swift_name("roadName")));
+
+/**
+ * Facility kind
+ */
 @property GNKItineraryInstructionRoadType *roadType __attribute__((swift_name("roadType")));
+
+/**
+ * Section of the instruction
+ */
 @property GNKItinerarySection *section __attribute__((swift_name("section")));
+
+/**
+ * instruction to follow (turn, continue, etc.)
+ */
 @property GNKItineraryInstructionType *type __attribute__((swift_name("type")));
 @end
 
@@ -835,6 +1050,7 @@ __attribute__((swift_name("ItineraryInstructionCardinalDirection")))
 @property (class, readonly) GNKItineraryInstructionCardinalDirection *west __attribute__((swift_name("west")));
 @property (class, readonly) GNKItineraryInstructionCardinalDirection *unkonwn __attribute__((swift_name("unkonwn")));
 + (GNKKotlinArray<GNKItineraryInstructionCardinalDirection *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionCardinalDirection *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -873,6 +1089,7 @@ __attribute__((swift_name("ItineraryInstructionRoadType")))
 @property (class, readonly) GNKItineraryInstructionRoadType *none __attribute__((swift_name("none")));
 @property (class, readonly) GNKItineraryInstructionRoadType *unknown __attribute__((swift_name("unknown")));
 + (GNKKotlinArray<GNKItineraryInstructionRoadType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionRoadType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -930,6 +1147,7 @@ __attribute__((swift_name("ItineraryInstructionType")))
 @property (class, readonly) GNKItineraryInstructionType *uTurn __attribute__((swift_name("uTurn")));
 @property (class, readonly) GNKItineraryInstructionType *unknown __attribute__((swift_name("unknown")));
 + (GNKKotlinArray<GNKItineraryInstructionType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryInstructionType *> *entries __attribute__((swift_name("entries")));
 @property (readonly) BOOL isRoundAbout __attribute__((swift_name("isRoundAbout")));
 @property (readonly) int32_t roundAboutExitNumber __attribute__((swift_name("roundAboutExitNumber")));
 @end
@@ -954,6 +1172,7 @@ __attribute__((swift_name("ItineraryLoopType")))
 @property (class, readonly) GNKItineraryLoopType *maxRadius __attribute__((swift_name("maxRadius")));
 @property (class, readonly) GNKItineraryLoopType *totalDistance __attribute__((swift_name("totalDistance")));
 + (GNKKotlinArray<GNKItineraryLoopType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryLoopType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1046,9 +1265,45 @@ __attribute__((swift_name("ItineraryRequest.Builder")))
 @interface GNKItineraryRequestBuilder : GNKBase
 - (instancetype)initWithInstructions:(BOOL)instructions elevations:(BOOL)elevations geometry:(BOOL)geometry alternatives:(BOOL)alternatives energy:(BOOL)energy facilities:(BOOL)facilities dateOfArrival:(GNKKotlinx_datetimeInstant * _Nullable)dateOfArrival dateOfDeparture:(GNKKotlinx_datetimeInstant * _Nullable)dateOfDeparture waypoints:(NSArray<GNKWaypoint *> *)waypoints arrivalGeometry:(NSArray<GNKGeoPoint *> * _Nullable)arrivalGeometry transportModes:(NSArray<GNKTransportMode *> *)transportModes bikeDetails:(GNKItineraryRequestBikeDetails * _Nullable)bikeDetails navigationDetails:(GNKItineraryRequestNavigationDetails * _Nullable)navigationDetails loopDetails:(GNKItineraryRequestLoopDetails * _Nullable)loopDetails __attribute__((swift_name("init(instructions:elevations:geometry:alternatives:energy:facilities:dateOfArrival:dateOfDeparture:waypoints:arrivalGeometry:transportModes:bikeDetails:navigationDetails:loopDetails:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItineraryRequestBuilderCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * Include alternative routes in the response
+ *
+ * @param alternatives
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)alternativesAlternatives:(BOOL)alternatives __attribute__((swift_name("alternatives(alternatives:)")));
+
+/**
+ * Average speed of the cyclist
+ * (will be used to calculate durations).
+ * The average speed value must be between 5 and 45 km/h.
+ *
+ *
+ * Default values are :
+ * 13 km/h for BEGINNER Default,
+ * 16 km/h for MEDIAN,
+ * 20 km/h for EXPERT
+ *
+ * @param averageSpeed
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)bikeAverageSpeedAverageSpeed:(int32_t)averageSpeed __attribute__((swift_name("bikeAverageSpeed(averageSpeed:)")));
+
+/**
+ * The cyclist profile to use to compute the itinerary. It sets default average speed accordingly.
+ *
+ * @param profile
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)bikeProfileProfile:(GNKItineraryBikeProfile *)profile __attribute__((swift_name("bikeProfile(profile:)")));
+
+/**
+ * Bike type of the cyclist
+ *
+ * @param bikeType
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)bikeTypeBikeType:(GNKItineraryBikeType *)bikeType __attribute__((swift_name("bikeType(bikeType:)")));
 
 /**
@@ -1060,28 +1315,133 @@ __attribute__((swift_name("ItineraryRequest.Builder")))
 - (GNKItineraryRequestBuilder *)currentOrientationDuringNavigationOrientation:(float)orientation __attribute__((swift_name("currentOrientationDuringNavigation(orientation:)")));
 - (GNKItineraryRequestBuilder *)currentSpeedDuringNavigationSpeed:(float)speed __attribute__((swift_name("currentSpeedDuringNavigation(speed:)")));
 - (GNKItineraryRequestBuilder *)currentTransportModeDuringNavigationTransportMode:(GNKTransportMode *)transportMode __attribute__((swift_name("currentTransportModeDuringNavigation(transportMode:)")));
+
+/**
+ * Preferred datetime of arrival (format:Y-M-DTHH:MM:SS.zzz)
+ *
+ * @param dateOfArrival
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)dateOfArrivalDateOfArrival:(GNKKotlinx_datetimeInstant *)dateOfArrival __attribute__((swift_name("dateOfArrival(dateOfArrival:)")));
+
+/**
+ * Prefered datetime of departure (format:Y-M-DTHH:MM:SS.zzz)
+ *
+ * @param dateOfDeparture
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)dateOfDepartureDateOfDeparture:(GNKKotlinx_datetimeInstant *)dateOfDeparture __attribute__((swift_name("dateOfDeparture(dateOfDeparture:)")));
+
+/**
+ * Battery capacity
+ *
+ * @param batteryCapacity
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)eBikeBatteryCapacityBatteryCapacity:(int32_t)batteryCapacity __attribute__((swift_name("eBikeBatteryCapacity(batteryCapacity:)")));
+
+/**
+ * Electric power
+ *
+ * @param electricPower
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)eBikeElectricPowerElectricPower:(int32_t)electricPower __attribute__((swift_name("eBikeElectricPower(electricPower:)")));
+
+/**
+ * Motor type
+ *
+ * @param motorType
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)eBikeMotorTypeMotorType:(GNKItineraryBikeMotorType *)motorType __attribute__((swift_name("eBikeMotorType(motorType:)")));
+
+/**
+ * Include the elevations in the response
+ *
+ * @param elevations
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)elevationsElevations:(BOOL)elevations __attribute__((swift_name("elevations(elevations:)")));
+
+/**
+ * Use energy
+ *
+ * @param energy
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)energyEnergy:(BOOL)energy __attribute__((swift_name("energy(energy:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+
+/**
+ * Use energy
+ *
+ * @param energy
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)facilitiesFacilities:(BOOL)facilities __attribute__((swift_name("facilities(facilities:)")));
 - (GNKItineraryRequestBuilder *)generateItineraryToGeometryDeparture:(GNKWaypoint *)departure arrivalGeometry:(NSArray<GNKGeoPoint *> *)arrivalGeometry __attribute__((swift_name("generateItineraryToGeometry(departure:arrivalGeometry:)")));
 - (GNKItineraryRequestBuilder *)generateLoopUsingDistanceWaypoint:(GNKWaypoint *)waypoint radius:(int32_t)radius __attribute__((swift_name("generateLoopUsingDistance(waypoint:radius:)")));
 - (GNKItineraryRequestBuilder *)generateLoopUsingDurationWaypoint:(GNKWaypoint *)waypoint duration:(int32_t)duration __attribute__((swift_name("generateLoopUsingDuration(waypoint:duration:)")));
 - (GNKItineraryRequestBuilder *)generateLoopUsingRadiusWaypoint:(GNKWaypoint *)waypoint radius:(int32_t)radius __attribute__((swift_name("generateLoopUsingRadius(waypoint:radius:)")));
+
+/**
+ * Include the geometry in the response
+ *
+ * @param geometry
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)geometryGeometry:(BOOL)geometry __attribute__((swift_name("geometry(geometry:)")));
 - (BOOL)hasEnergy __attribute__((swift_name("hasEnergy()")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
+
+/**
+ * Include the itinerary.instructions in the response
+ *
+ * @param instructions
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)instructionsInstructions:(BOOL)instructions __attribute__((swift_name("instructions(instructions:)")));
+
+/**
+ * Check if transportMode has been set
+ *
+ * @return true if no transportMode has been set
+ */
 - (BOOL)needTransportModes __attribute__((swift_name("needTransportModes()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Allowed transport modes
+ *
+ * @param transportModes
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)transportModesTransportModes:(NSArray<GNKTransportMode *> *)transportModes __attribute__((swift_name("transportModes(transportModes:)")));
+
+/**
+ * Use electric bike
+ *
+ * @param eBike
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)useElectricBikeEBike:(BOOL)eBike __attribute__((swift_name("useElectricBike(eBike:)")));
+
+/**
+ * Departure and arrival
+ *
+ * @param departure
+ * @param arrival
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)waypointsDeparture:(GNKWaypoint *)departure arrival:(GNKWaypoint *)arrival __attribute__((swift_name("waypoints(departure:arrival:)")));
+
+/**
+ * Ordered list of waypoints
+ *
+ * @param waypoints
+ * @return
+ */
 - (GNKItineraryRequestBuilder *)waypointsWaypoints:(NSArray<GNKWaypoint *> *)waypoints __attribute__((swift_name("waypoints(waypoints:)")));
 @property BOOL alternatives __attribute__((swift_name("alternatives")));
 @property NSArray<GNKGeoPoint *> * _Nullable arrivalGeometry __attribute__((swift_name("arrivalGeometry")));
@@ -1165,16 +1525,16 @@ __attribute__((swift_name("ItineraryRequestBikeDetails.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItineraryRequestLoopDetails")))
 @interface GNKItineraryRequestLoopDetails : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithLoopType:(GNKItineraryLoopType *)loopType maxRadius:(int32_t)maxRadius distance:(int32_t)distance duration:(int32_t)duration __attribute__((swift_name("init(loopType:maxRadius:distance:duration:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithLoopType:(GNKItineraryLoopType *)loopType maxRadius:(GNKInt * _Nullable)maxRadius distance:(GNKInt * _Nullable)distance duration:(GNKInt * _Nullable)duration __attribute__((swift_name("init(loopType:maxRadius:distance:duration:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItineraryRequestLoopDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItineraryRequestLoopDetails *)doCopyLoopType:(GNKItineraryLoopType *)loopType maxRadius:(int32_t)maxRadius distance:(int32_t)distance duration:(int32_t)duration __attribute__((swift_name("doCopy(loopType:maxRadius:distance:duration:)")));
+- (GNKItineraryRequestLoopDetails *)doCopyLoopType:(GNKItineraryLoopType *)loopType maxRadius:(GNKInt * _Nullable)maxRadius distance:(GNKInt * _Nullable)distance duration:(GNKInt * _Nullable)duration __attribute__((swift_name("doCopy(loopType:maxRadius:distance:duration:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property int32_t distance __attribute__((swift_name("distance")));
-@property int32_t duration __attribute__((swift_name("duration")));
+@property GNKInt * _Nullable distance __attribute__((swift_name("distance")));
+@property GNKInt * _Nullable duration __attribute__((swift_name("duration")));
 @property GNKItineraryLoopType *loopType __attribute__((swift_name("loopType")));
-@property int32_t maxRadius __attribute__((swift_name("maxRadius")));
+@property GNKInt * _Nullable maxRadius __attribute__((swift_name("maxRadius")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1219,24 +1579,105 @@ __attribute__((swift_name("ItineraryRequestNavigationDetails.Companion")))
  *   kotlinx.serialization.Serializable
 */
 __attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ItineraryRoadCyclingQuality")))
+@interface GNKItineraryRoadCyclingQuality : GNKBase <GNKCommonParcelable>
+- (instancetype)initWithIndexInGeometry:(int32_t)indexInGeometry qualityType:(GNKItineraryRoadCyclingQualityType *)qualityType __attribute__((swift_name("init(indexInGeometry:qualityType:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKItineraryRoadCyclingQualityCompanion *companion __attribute__((swift_name("companion")));
+- (GNKItineraryRoadCyclingQuality *)doCopyIndexInGeometry:(int32_t)indexInGeometry qualityType:(GNKItineraryRoadCyclingQualityType *)qualityType __attribute__((swift_name("doCopy(indexInGeometry:qualityType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Index of the facility in the section geometry
+ */
+@property int32_t indexInGeometry __attribute__((swift_name("indexInGeometry")));
+
+/**
+ * Road Cycling Quality
+ */
+@property GNKItineraryRoadCyclingQualityType *qualityType __attribute__((swift_name("qualityType")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ItineraryRoadCyclingQuality.Companion")))
+@interface GNKItineraryRoadCyclingQualityCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKItineraryRoadCyclingQualityCompanion *shared __attribute__((swift_name("shared")));
+- (id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ItineraryRoadCyclingQualityType")))
+@interface GNKItineraryRoadCyclingQualityType : GNKKotlinEnum<GNKItineraryRoadCyclingQualityType *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNKItineraryRoadCyclingQualityTypeCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) GNKItineraryRoadCyclingQualityType *asphalt __attribute__((swift_name("asphalt")));
+@property (class, readonly) GNKItineraryRoadCyclingQualityType *path __attribute__((swift_name("path")));
+@property (class, readonly) GNKItineraryRoadCyclingQualityType *damagedTracks __attribute__((swift_name("damagedTracks")));
+@property (class, readonly) GNKItineraryRoadCyclingQualityType *unknown __attribute__((swift_name("unknown")));
++ (GNKKotlinArray<GNKItineraryRoadCyclingQualityType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryRoadCyclingQualityType *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("ItineraryRoadCyclingQualityType.Companion")))
+@interface GNKItineraryRoadCyclingQualityTypeCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKItineraryRoadCyclingQualityTypeCompanion *shared __attribute__((swift_name("shared")));
+- (GNKItineraryRoadCyclingQualityType *)fromStringValue:(NSString *)value __attribute__((swift_name("fromString(value:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable
+*/
+__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySection")))
 @interface GNKItinerarySection : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithEstimatedDatetimeOfArrival:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfArrival estimatedDatetimeOfDeparture:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfDeparture duration:(int32_t)duration geometry:(NSMutableArray<GNKGeoPoint *> *)geometry transportMode:(GNKTransportMode *)transportMode waypoints:(NSMutableArray<GNKWaypoint *> *)waypoints eBikeEnergies:(GNKItineraryEBikeEnergies * _Nullable)eBikeEnergies indicesOfWaypointsInGeometry:(NSMutableArray<GNKInt *> *)indicesOfWaypointsInGeometry details:(GNKItinerarySectionDetails * _Nullable)details bikeSharingSystemName:(NSString * _Nullable)bikeSharingSystemName distanceFromItineraryStart:(int32_t)distanceFromItineraryStart index:(int32_t)index bounds:(GNKBounds * _Nullable)bounds __attribute__((swift_name("init(estimatedDatetimeOfArrival:estimatedDatetimeOfDeparture:duration:geometry:transportMode:waypoints:eBikeEnergies:indicesOfWaypointsInGeometry:details:bikeSharingSystemName:distanceFromItineraryStart:index:bounds:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithEstimatedDatetimeOfArrival:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfArrival estimatedDatetimeOfDeparture:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfDeparture duration:(int32_t)duration geometry:(NSArray<GNKGeoPoint *> *)geometry transportMode:(GNKTransportMode *)transportMode waypoints:(NSMutableArray<GNKWaypoint *> *)waypoints eBikeEnergies:(GNKItineraryEBikeEnergies * _Nullable)eBikeEnergies indicesOfWaypointsInGeometry:(NSMutableArray<GNKInt *> *)indicesOfWaypointsInGeometry details:(GNKItinerarySectionDetails * _Nullable)details bikeSharingSystemName:(NSString * _Nullable)bikeSharingSystemName distanceFromItineraryStart:(int32_t)distanceFromItineraryStart index:(int32_t)index bounds:(GNKBounds * _Nullable)bounds __attribute__((swift_name("init(estimatedDatetimeOfArrival:estimatedDatetimeOfDeparture:duration:geometry:transportMode:waypoints:eBikeEnergies:indicesOfWaypointsInGeometry:details:bikeSharingSystemName:distanceFromItineraryStart:index:bounds:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySection *)doCopyEstimatedDatetimeOfArrival:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfArrival estimatedDatetimeOfDeparture:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfDeparture duration:(int32_t)duration geometry:(NSMutableArray<GNKGeoPoint *> *)geometry transportMode:(GNKTransportMode *)transportMode waypoints:(NSMutableArray<GNKWaypoint *> *)waypoints eBikeEnergies:(GNKItineraryEBikeEnergies * _Nullable)eBikeEnergies indicesOfWaypointsInGeometry:(NSMutableArray<GNKInt *> *)indicesOfWaypointsInGeometry details:(GNKItinerarySectionDetails * _Nullable)details bikeSharingSystemName:(NSString * _Nullable)bikeSharingSystemName distanceFromItineraryStart:(int32_t)distanceFromItineraryStart index:(int32_t)index bounds:(GNKBounds * _Nullable)bounds __attribute__((swift_name("doCopy(estimatedDatetimeOfArrival:estimatedDatetimeOfDeparture:duration:geometry:transportMode:waypoints:eBikeEnergies:indicesOfWaypointsInGeometry:details:bikeSharingSystemName:distanceFromItineraryStart:index:bounds:)")));
+- (GNKItinerarySection *)doCopyEstimatedDatetimeOfArrival:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfArrival estimatedDatetimeOfDeparture:(GNKKotlinx_datetimeInstant * _Nullable)estimatedDatetimeOfDeparture duration:(int32_t)duration geometry:(NSArray<GNKGeoPoint *> *)geometry transportMode:(GNKTransportMode *)transportMode waypoints:(NSMutableArray<GNKWaypoint *> *)waypoints eBikeEnergies:(GNKItineraryEBikeEnergies * _Nullable)eBikeEnergies indicesOfWaypointsInGeometry:(NSMutableArray<GNKInt *> *)indicesOfWaypointsInGeometry details:(GNKItinerarySectionDetails * _Nullable)details bikeSharingSystemName:(NSString * _Nullable)bikeSharingSystemName distanceFromItineraryStart:(int32_t)distanceFromItineraryStart index:(int32_t)index bounds:(GNKBounds * _Nullable)bounds __attribute__((swift_name("doCopy(estimatedDatetimeOfArrival:estimatedDatetimeOfDeparture:duration:geometry:transportMode:waypoints:eBikeEnergies:indicesOfWaypointsInGeometry:details:bikeSharingSystemName:distanceFromItineraryStart:index:bounds:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)isBike __attribute__((swift_name("isBike()")));
 - (BOOL)isPedestrian __attribute__((swift_name("isPedestrian()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) GNKItinerarySectionBikeDetails * _Nullable bikeDetails __attribute__((swift_name("bikeDetails")));
+
+/**
+ * Name of the bike sharing system (velib or so)
+ */
 @property NSString * _Nullable bikeSharingSystemName __attribute__((swift_name("bikeSharingSystemName")));
+
+/**
+ * max north, min south, max east and min west of the itinerary
+ */
 @property GNKBounds * _Nullable bounds __attribute__((swift_name("bounds")));
 @property (readonly) int32_t calories __attribute__((swift_name("calories")));
 @property GNKItinerarySectionDetails * _Nullable details __attribute__((swift_name("details")));
+
+/**
+ * Total distance from itinnerary start
+ */
 @property int32_t distanceFromItineraryStart __attribute__((swift_name("distanceFromItineraryStart")));
 @property (readonly) GNKRoadTypeDistances *distances __attribute__((swift_name("distances")));
+
+/**
+ * Duration time (in seconds)
+ */
 @property int32_t duration __attribute__((swift_name("duration")));
+
+/**
+ * Energy used for the trip
+ */
 @property GNKItineraryEBikeEnergies * _Nullable eBikeEnergies __attribute__((swift_name("eBikeEnergies")));
 @property (readonly) NSArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
 
@@ -1254,19 +1695,42 @@ __attribute__((swift_name("ItinerarySection")))
 @property (readonly) NSArray<GNKItineraryFacility *> *facilities __attribute__((swift_name("facilities")));
 
 /**
+ * Ordered points (lat/lon) of the section
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedLineStringSerializer))
 */
-@property NSMutableArray<GNKGeoPoint *> *geometry __attribute__((swift_name("geometry")));
+@property NSArray<GNKGeoPoint *> *geometry __attribute__((swift_name("geometry")));
+
+/**
+ * Index of section in the itinerary
+ */
 @property int32_t index __attribute__((swift_name("index")));
+
+/**
+ * List of index of waypoints in the geometry.
+ */
 @property NSMutableArray<GNKInt *> *indicesOfWaypointsInGeometry __attribute__((swift_name("indicesOfWaypointsInGeometry")));
 @property (readonly) NSArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+
+/**
+ * Itinerary of the section
+ */
 @property GNKItinerary * _Nullable itinerary __attribute__((swift_name("itinerary")));
 @property (readonly) GNKItinerarySectionPedestrianDetails * _Nullable pedestrianDetails __attribute__((swift_name("pedestrianDetails")));
 @property (readonly) GNKItinerarySectionPublicTransportDetails * _Nullable publicTransportDetails __attribute__((swift_name("publicTransportDetails")));
+@property (readonly) NSArray<GNKItineraryRoadCyclingQuality *> *roadCyclingQualities __attribute__((swift_name("roadCyclingQualities")));
+
+/**
+ * Transport mode used in this section
+ */
 @property GNKTransportMode *transportMode __attribute__((swift_name("transportMode")));
 @property (readonly) int32_t verticalGain __attribute__((swift_name("verticalGain")));
 @property (readonly) int32_t verticalLoss __attribute__((swift_name("verticalLoss")));
+
+/**
+ * Ordered waypoints (contains start / end / any step given by user or step calculated)
+ */
 @property NSMutableArray<GNKWaypoint *> *waypoints __attribute__((swift_name("waypoints")));
 @end
 
@@ -1289,9 +1753,9 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionBikeDetails")))
 @interface GNKItinerarySectionBikeDetails : GNKBase <GNKCommonParcelable>
 - (instancetype)initWithDetails:(GNKItinerarySectionDetails *)details __attribute__((swift_name("init(details:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithSummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions facilities:(NSMutableArray<GNKItineraryFacility *> *)facilities __attribute__((swift_name("init(summary:distances:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:elevations:instructions:facilities:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions facilities:(NSArray<GNKItineraryFacility *> *)facilities roadCyclingQualities:(NSArray<GNKItineraryRoadCyclingQuality *> *)roadCyclingQualities __attribute__((swift_name("init(summary:distances:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:elevations:instructions:facilities:roadCyclingQualities:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionBikeDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySectionBikeDetails *)doCopySummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions facilities:(NSMutableArray<GNKItineraryFacility *> *)facilities __attribute__((swift_name("doCopy(summary:distances:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:elevations:instructions:facilities:)")));
+- (GNKItinerarySectionBikeDetails *)doCopySummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions facilities:(NSArray<GNKItineraryFacility *> *)facilities roadCyclingQualities:(NSArray<GNKItineraryRoadCyclingQuality *> *)roadCyclingQualities __attribute__((swift_name("doCopy(summary:distances:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:elevations:instructions:facilities:roadCyclingQualities:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1305,28 +1769,55 @@ __attribute__((swift_name("ItinerarySectionBikeDetails")))
 */
 @property GNKItineraryBikeType *bikeType __attribute__((swift_name("bikeType")));
 @property int32_t calories __attribute__((swift_name("calories")));
+
+/**
+ * Number of meters of main kinds of roads
+ */
 @property GNKRoadTypeDistances *distances __attribute__((swift_name("distances")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedElevationsSerializer))
 */
-@property NSMutableArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
+@property NSArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedFacilitiesSerializer))
 */
-@property NSMutableArray<GNKItineraryFacility *> *facilities __attribute__((swift_name("facilities")));
+@property NSArray<GNKItineraryFacility *> *facilities __attribute__((swift_name("facilities")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedInstructionsSerializer))
 */
-@property NSMutableArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+@property NSArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+
+/**
+ * Is the section adapted to electric bikes
+ */
 @property BOOL isElectricAdapted __attribute__((swift_name("isElectricAdapted")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedRoadCyclingQualitiesSerializer))
+*/
+@property NSArray<GNKItineraryRoadCyclingQuality *> *roadCyclingQualities __attribute__((swift_name("roadCyclingQualities")));
+
+/**
+ * Main road used by the section.
+ * (ex: via Rue des champs elysees)
+ */
 @property NSString * _Nullable summary __attribute__((swift_name("summary")));
+
+/**
+ * Positive elevation in the section
+ */
 @property int32_t verticalGain __attribute__((swift_name("verticalGain")));
+
+/**
+ * Negative elevation in the section
+ */
 @property int32_t verticalLoss __attribute__((swift_name("verticalLoss")));
 @end
 
@@ -1348,9 +1839,17 @@ __attribute__((swift_name("ItinerarySectionBikeDetails.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionBikeStationFromTo")))
 @interface GNKItinerarySectionBikeStationFromTo : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithNear:(NSMutableArray<GNKLong *> *)near selected:(int64_t)selected __attribute__((swift_name("init(near:selected:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithNear:(NSArray<GNKLong *> *)near selected:(int64_t)selected __attribute__((swift_name("init(near:selected:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionBikeStationFromToCompanion *companion __attribute__((swift_name("companion")));
-@property (readonly) NSMutableArray<GNKLong *> *near __attribute__((swift_name("near")));
+
+/**
+ * The ids of BikeStations near From / To
+ */
+@property (readonly) NSArray<GNKLong *> *near __attribute__((swift_name("near")));
+
+/**
+ * The id of the bike station used by this itinerary
+ */
 @property int64_t selected __attribute__((swift_name("selected")));
 @end
 
@@ -1378,7 +1877,15 @@ __attribute__((swift_name("ItinerarySectionBikeStations")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * The BikeStations near the itinerary departure
+ */
 @property (readonly) GNKItinerarySectionBikeStationFromTo * _Nullable from __attribute__((swift_name("from")));
+
+/**
+ * The BikeStations near the itinerary arrival
+ */
 @property (readonly) GNKItinerarySectionBikeStationFromTo * _Nullable to __attribute__((swift_name("to")));
 @end
 
@@ -1400,9 +1907,9 @@ __attribute__((swift_name("ItinerarySectionBikeStations.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionDetails")))
 @interface GNKItinerarySectionDetails : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithSummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions facilities:(NSMutableArray<GNKItineraryFacility *> *)facilities bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories ridesets:(NSMutableArray<GNKItinerarySectionRideSet *> *)ridesets lineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints __attribute__((swift_name("init(summary:distances:elevations:instructions:facilities:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:ridesets:lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:stopPoints:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions facilities:(NSArray<GNKItineraryFacility *> *)facilities roadCyclingQualities:(NSArray<GNKItineraryRoadCyclingQuality *> *)roadCyclingQualities bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories ridesets:(NSMutableArray<GNKItinerarySectionRideSet *> *)ridesets lineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints __attribute__((swift_name("init(summary:distances:elevations:instructions:facilities:roadCyclingQualities:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:ridesets:lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:stopPoints:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySectionDetails *)doCopySummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions facilities:(NSMutableArray<GNKItineraryFacility *> *)facilities bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories ridesets:(NSMutableArray<GNKItinerarySectionRideSet *> *)ridesets lineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints __attribute__((swift_name("doCopy(summary:distances:elevations:instructions:facilities:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:ridesets:lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:stopPoints:)")));
+- (GNKItinerarySectionDetails *)doCopySummary:(NSString * _Nullable)summary distances:(GNKRoadTypeDistances *)distances elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions facilities:(NSArray<GNKItineraryFacility *> *)facilities roadCyclingQualities:(NSArray<GNKItineraryRoadCyclingQuality *> *)roadCyclingQualities bikeType:(GNKItineraryBikeType *)bikeType bikeProfile:(GNKItineraryBikeProfile *)bikeProfile bikeStations:(GNKItinerarySectionBikeStations * _Nullable)bikeStations averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss isElectricAdapted:(BOOL)isElectricAdapted calories:(int32_t)calories ridesets:(NSMutableArray<GNKItinerarySectionRideSet *> *)ridesets lineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints __attribute__((swift_name("doCopy(summary:distances:elevations:instructions:facilities:roadCyclingQualities:bikeType:bikeProfile:bikeStations:averageSpeed:verticalGain:verticalLoss:isElectricAdapted:calories:ridesets:lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:stopPoints:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1416,25 +1923,33 @@ __attribute__((swift_name("ItinerarySectionDetails")))
 */
 @property GNKItineraryBikeType *bikeType __attribute__((swift_name("bikeType")));
 @property int32_t calories __attribute__((swift_name("calories")));
+
+/**
+ * Number of meters of main kinds of roads
+ */
 @property GNKRoadTypeDistances *distances __attribute__((swift_name("distances")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedElevationsSerializer))
 */
-@property NSMutableArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
+@property NSArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedFacilitiesSerializer))
 */
-@property NSMutableArray<GNKItineraryFacility *> *facilities __attribute__((swift_name("facilities")));
+@property NSArray<GNKItineraryFacility *> *facilities __attribute__((swift_name("facilities")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedInstructionsSerializer))
 */
-@property NSMutableArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+@property NSArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+
+/**
+ * Is the section adapted to electric bikes
+ */
 @property BOOL isElectricAdapted __attribute__((swift_name("isElectricAdapted")));
 @property NSString * _Nullable lineColor __attribute__((swift_name("lineColor")));
 @property NSString * _Nullable lineDirection __attribute__((swift_name("lineDirection")));
@@ -1443,9 +1958,28 @@ __attribute__((swift_name("ItinerarySectionDetails")))
 @property NSString * _Nullable lineNetwork __attribute__((swift_name("lineNetwork")));
 @property NSString * _Nullable lineNumber __attribute__((swift_name("lineNumber")));
 @property NSMutableArray<GNKItinerarySectionRideSet *> *ridesets __attribute__((swift_name("ridesets")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedRoadCyclingQualitiesSerializer))
+*/
+@property NSArray<GNKItineraryRoadCyclingQuality *> *roadCyclingQualities __attribute__((swift_name("roadCyclingQualities")));
 @property NSMutableArray<GNKItineraryPublicTransportStopPoint *> *stopPoints __attribute__((swift_name("stopPoints")));
+
+/**
+ * Main road used by the section.
+ * (ex: via Rue des champs elysees)
+ */
 @property NSString * _Nullable summary __attribute__((swift_name("summary")));
+
+/**
+ * Positive elevation in the section
+ */
 @property int32_t verticalGain __attribute__((swift_name("verticalGain")));
+
+/**
+ * Negative elevation in the section
+ */
 @property int32_t verticalLoss __attribute__((swift_name("verticalLoss")));
 @end
 
@@ -1473,9 +2007,25 @@ __attribute__((swift_name("ItinerarySectionEnergy")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Degree of assistance
+ */
 @property double assistance __attribute__((swift_name("assistance")));
+
+/**
+ * Battery at the end of the trip
+ */
 @property double battery __attribute__((swift_name("battery")));
+
+/**
+ * Burned calories at the end of the trip (not kcal)
+ */
 @property (readonly) int32_t calories __attribute__((swift_name("calories")));
+
+/**
+ * Duration recalculated using energy
+ */
 @property double duration __attribute__((swift_name("duration")));
 @end
 
@@ -1498,12 +2048,16 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionPedestrianDetails")))
 @interface GNKItinerarySectionPedestrianDetails : GNKBase <GNKCommonParcelable>
 - (instancetype)initWithDetails:(GNKItinerarySectionDetails *)details __attribute__((swift_name("init(details:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithSummary:(NSString * _Nullable)summary averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss distances:(GNKRoadTypeDistances *)distances calories:(int32_t)calories elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("init(summary:averageSpeed:verticalGain:verticalLoss:distances:calories:elevations:instructions:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithSummary:(NSString * _Nullable)summary averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss distances:(GNKRoadTypeDistances *)distances calories:(int32_t)calories elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("init(summary:averageSpeed:verticalGain:verticalLoss:distances:calories:elevations:instructions:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionPedestrianDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySectionPedestrianDetails *)doCopySummary:(NSString * _Nullable)summary averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss distances:(GNKRoadTypeDistances *)distances calories:(int32_t)calories elevations:(NSMutableArray<GNKItineraryElevation *> *)elevations instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("doCopy(summary:averageSpeed:verticalGain:verticalLoss:distances:calories:elevations:instructions:)")));
+- (GNKItinerarySectionPedestrianDetails *)doCopySummary:(NSString * _Nullable)summary averageSpeed:(int32_t)averageSpeed verticalGain:(int32_t)verticalGain verticalLoss:(int32_t)verticalLoss distances:(GNKRoadTypeDistances *)distances calories:(int32_t)calories elevations:(NSArray<GNKItineraryElevation *> *)elevations instructions:(NSArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("doCopy(summary:averageSpeed:verticalGain:verticalLoss:distances:calories:elevations:instructions:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * Main road used by the section
+ */
 @property int32_t averageSpeed __attribute__((swift_name("averageSpeed")));
 @property int32_t calories __attribute__((swift_name("calories")));
 @property GNKRoadTypeDistances *distances __attribute__((swift_name("distances")));
@@ -1512,13 +2066,13 @@ __attribute__((swift_name("ItinerarySectionPedestrianDetails")))
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedElevationsSerializer))
 */
-@property NSMutableArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
+@property NSArray<GNKItineraryElevation *> *elevations __attribute__((swift_name("elevations")));
 
 /**
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedInstructionsSerializer))
 */
-@property NSMutableArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+@property NSArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
 @property NSString * _Nullable summary __attribute__((swift_name("summary")));
 @property int32_t verticalGain __attribute__((swift_name("verticalGain")));
 @property int32_t verticalLoss __attribute__((swift_name("verticalLoss")));
@@ -1543,9 +2097,9 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionPublicTransportDetails")))
 @interface GNKItinerarySectionPublicTransportDetails : GNKBase <GNKCommonParcelable>
 - (instancetype)initWithDetails:(GNKItinerarySectionDetails *)details __attribute__((swift_name("init(details:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithLineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel distances:(GNKRoadTypeDistances *)distances stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("init(lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:distances:stopPoints:instructions:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithLineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel distances:(GNKRoadTypeDistances *)distances stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints instructions:(NSArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("init(lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:distances:stopPoints:instructions:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionPublicTransportDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySectionPublicTransportDetails *)doCopyLineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel distances:(GNKRoadTypeDistances *)distances stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints instructions:(NSMutableArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("doCopy(lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:distances:stopPoints:instructions:)")));
+- (GNKItinerarySectionPublicTransportDetails *)doCopyLineNetwork:(NSString * _Nullable)lineNetwork lineNumber:(NSString * _Nullable)lineNumber lineDirection:(NSString * _Nullable)lineDirection lineLabel:(NSString * _Nullable)lineLabel lineColor:(NSString * _Nullable)lineColor lineModeLabel:(NSString * _Nullable)lineModeLabel distances:(GNKRoadTypeDistances *)distances stopPoints:(NSMutableArray<GNKItineraryPublicTransportStopPoint *> *)stopPoints instructions:(NSArray<GNKItineraryInstruction *> *)instructions __attribute__((swift_name("doCopy(lineNetwork:lineNumber:lineDirection:lineLabel:lineColor:lineModeLabel:distances:stopPoints:instructions:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1555,7 +2109,7 @@ __attribute__((swift_name("ItinerarySectionPublicTransportDetails")))
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/itinerary/clients/serializers/EncodedInstructionsSerializer))
 */
-@property NSMutableArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
+@property NSArray<GNKItineraryInstruction *> *instructions __attribute__((swift_name("instructions")));
 @property NSString * _Nullable lineColor __attribute__((swift_name("lineColor")));
 @property NSString * _Nullable lineDirection __attribute__((swift_name("lineDirection")));
 @property NSString * _Nullable lineLabel __attribute__((swift_name("lineLabel")));
@@ -1583,13 +2137,21 @@ __attribute__((swift_name("ItinerarySectionPublicTransportDetails.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItinerarySectionRideSet")))
 @interface GNKItinerarySectionRideSet : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithName:(NSString *)name instructions_indices:(NSMutableArray<GNKInt *> *)instructions_indices __attribute__((swift_name("init(name:instructions_indices:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithName:(NSString *)name instructions_indices:(NSArray<GNKInt *> *)instructions_indices __attribute__((swift_name("init(name:instructions_indices:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItinerarySectionRideSetCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItinerarySectionRideSet *)doCopyName:(NSString *)name instructions_indices:(NSMutableArray<GNKInt *> *)instructions_indices __attribute__((swift_name("doCopy(name:instructions_indices:)")));
+- (GNKItinerarySectionRideSet *)doCopyName:(NSString *)name instructions_indices:(NSArray<GNKInt *> *)instructions_indices __attribute__((swift_name("doCopy(name:instructions_indices:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property NSMutableArray<GNKInt *> *instructions_indices __attribute__((swift_name("instructions_indices")));
+
+/**
+ * Index in instruction list of instructions related to the rideset
+ */
+@property NSArray<GNKInt *> *instructions_indices __attribute__((swift_name("instructions_indices")));
+
+/**
+ * Name of the rideset
+ */
 @property NSString *name __attribute__((swift_name("name")));
 @end
 
@@ -1618,6 +2180,7 @@ __attribute__((swift_name("ItineraryType")))
 @property (class, readonly) GNKItineraryType *ride __attribute__((swift_name("ride")));
 @property (class, readonly) GNKItineraryType *visit __attribute__((swift_name("visit")));
 + (GNKKotlinArray<GNKItineraryType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKItineraryType *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1638,9 +2201,9 @@ __attribute__((swift_name("ItineraryType.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("RoadTypeDistances")))
 @interface GNKRoadTypeDistances : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithDiscouragedRoads:(int32_t)discouragedRoads normalRoads:(int32_t)normalRoads recommendedRoads:(int32_t)recommendedRoads total:(int32_t)total cycleway:(int32_t)cycleway greenway:(int32_t)greenway lane:(int32_t)lane livingstreet:(int32_t)livingstreet sharebusway:(int32_t)sharebusway footway:(int32_t)footway pedestrian:(int32_t)pedestrian opposite:(int32_t)opposite steps:(int32_t)steps zone30:(int32_t)zone30 residential:(int32_t)residential __attribute__((swift_name("init(discouragedRoads:normalRoads:recommendedRoads:total:cycleway:greenway:lane:livingstreet:sharebusway:footway:pedestrian:opposite:steps:zone30:residential:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithDiscouragedRoads:(int32_t)discouragedRoads normalRoads:(int32_t)normalRoads recommendedRoads:(int32_t)recommendedRoads total:(int32_t)total cycleway:(int32_t)cycleway greenway:(int32_t)greenway lane:(int32_t)lane livingstreet:(int32_t)livingstreet sharebusway:(int32_t)sharebusway footway:(int32_t)footway pedestrian:(int32_t)pedestrian opposite:(int32_t)opposite steps:(int32_t)steps zone30:(int32_t)zone30 residential:(int32_t)residential cyclingQualityAsphalt:(int32_t)cyclingQualityAsphalt cyclingQualityPath:(int32_t)cyclingQualityPath cyclingQualityDamagedTracks:(int32_t)cyclingQualityDamagedTracks cyclingQualityOther:(int32_t)cyclingQualityOther __attribute__((swift_name("init(discouragedRoads:normalRoads:recommendedRoads:total:cycleway:greenway:lane:livingstreet:sharebusway:footway:pedestrian:opposite:steps:zone30:residential:cyclingQualityAsphalt:cyclingQualityPath:cyclingQualityDamagedTracks:cyclingQualityOther:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKRoadTypeDistancesCompanion *companion __attribute__((swift_name("companion")));
-- (GNKRoadTypeDistances *)doCopyDiscouragedRoads:(int32_t)discouragedRoads normalRoads:(int32_t)normalRoads recommendedRoads:(int32_t)recommendedRoads total:(int32_t)total cycleway:(int32_t)cycleway greenway:(int32_t)greenway lane:(int32_t)lane livingstreet:(int32_t)livingstreet sharebusway:(int32_t)sharebusway footway:(int32_t)footway pedestrian:(int32_t)pedestrian opposite:(int32_t)opposite steps:(int32_t)steps zone30:(int32_t)zone30 residential:(int32_t)residential __attribute__((swift_name("doCopy(discouragedRoads:normalRoads:recommendedRoads:total:cycleway:greenway:lane:livingstreet:sharebusway:footway:pedestrian:opposite:steps:zone30:residential:)")));
+- (GNKRoadTypeDistances *)doCopyDiscouragedRoads:(int32_t)discouragedRoads normalRoads:(int32_t)normalRoads recommendedRoads:(int32_t)recommendedRoads total:(int32_t)total cycleway:(int32_t)cycleway greenway:(int32_t)greenway lane:(int32_t)lane livingstreet:(int32_t)livingstreet sharebusway:(int32_t)sharebusway footway:(int32_t)footway pedestrian:(int32_t)pedestrian opposite:(int32_t)opposite steps:(int32_t)steps zone30:(int32_t)zone30 residential:(int32_t)residential cyclingQualityAsphalt:(int32_t)cyclingQualityAsphalt cyclingQualityPath:(int32_t)cyclingQualityPath cyclingQualityDamagedTracks:(int32_t)cyclingQualityDamagedTracks cyclingQualityOther:(int32_t)cyclingQualityOther __attribute__((swift_name("doCopy(discouragedRoads:normalRoads:recommendedRoads:total:cycleway:greenway:lane:livingstreet:sharebusway:footway:pedestrian:opposite:steps:zone30:residential:cyclingQualityAsphalt:cyclingQualityPath:cyclingQualityDamagedTracks:cyclingQualityOther:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
@@ -1652,6 +2215,32 @@ __attribute__((swift_name("RoadTypeDistances")))
 @property int32_t cycleway __attribute__((swift_name("cycleway")));
 
 /**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
+*/
+@property int32_t cyclingQualityAsphalt __attribute__((swift_name("cyclingQualityAsphalt")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
+*/
+@property int32_t cyclingQualityDamagedTracks __attribute__((swift_name("cyclingQualityDamagedTracks")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
+*/
+@property int32_t cyclingQualityOther __attribute__((swift_name("cyclingQualityOther")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
+*/
+@property int32_t cyclingQualityPath __attribute__((swift_name("cyclingQualityPath")));
+
+/**
+ * Distance of not friendly roads (in meters)
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
 */
@@ -1682,6 +2271,8 @@ __attribute__((swift_name("RoadTypeDistances")))
 @property int32_t livingstreet __attribute__((swift_name("livingstreet")));
 
 /**
+ * Distance of normal roads (in meters)
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
 */
@@ -1700,6 +2291,8 @@ __attribute__((swift_name("RoadTypeDistances")))
 @property int32_t pedestrian __attribute__((swift_name("pedestrian")));
 
 /**
+ * Distance of friendly roads (in meters)
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
 */
@@ -1724,6 +2317,8 @@ __attribute__((swift_name("RoadTypeDistances")))
 @property int32_t steps __attribute__((swift_name("steps")));
 
 /**
+ * Total distance (in meters)
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable(with=NormalClass(value=fr/geovelo/core/commons/clients/serializers/IntSerializer))
 */
@@ -1759,6 +2354,7 @@ __attribute__((swift_name("TransportMode")))
 @property (class, readonly) GNKTransportMode *pedestrian __attribute__((swift_name("pedestrian")));
 @property (class, readonly) GNKTransportMode *publicTransport __attribute__((swift_name("publicTransport")));
 + (GNKKotlinArray<GNKTransportMode *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKTransportMode *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1774,17 +2370,18 @@ __attribute__((swift_name("TransportMode.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ClientOptions")))
 @interface GNKClientOptions : GNKBase
-- (instancetype)initWithSource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions mergeInstructions:(BOOL)mergeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider __attribute__((swift_name("init(source:showPushingBikeInstructions:mergeInstructions:showRideItinerary:testEnvironment:preconfiguredHttpClient:userAuthorizationProvider:)"))) __attribute__((objc_designated_initializer));
-- (GNKClientOptions *)doCopySource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions mergeInstructions:(BOOL)mergeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider __attribute__((swift_name("doCopy(source:showPushingBikeInstructions:mergeInstructions:showRideItinerary:testEnvironment:preconfiguredHttpClient:userAuthorizationProvider:)")));
+- (instancetype)initWithSource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider userAgent:(NSString * _Nullable)userAgent __attribute__((swift_name("init(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:userAgent:)"))) __attribute__((objc_designated_initializer));
+- (GNKClientOptions *)doCopySource:(NSString * _Nullable)source showPushingBikeInstructions:(BOOL)showPushingBikeInstructions showRideItinerary:(BOOL)showRideItinerary testEnvironment:(BOOL)testEnvironment roadCyclingQuality:(BOOL)roadCyclingQuality preconfiguredHttpClient:(GNKPreconfiguredHttpClient * _Nullable)preconfiguredHttpClient userAuthorizationProvider:(id<GNKUserAuthorizationProvider> _Nullable)userAuthorizationProvider userAgent:(NSString * _Nullable)userAgent __attribute__((swift_name("doCopy(source:showPushingBikeInstructions:showRideItinerary:testEnvironment:roadCyclingQuality:preconfiguredHttpClient:userAuthorizationProvider:userAgent:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL mergeInstructions __attribute__((swift_name("mergeInstructions")));
 @property GNKPreconfiguredHttpClient * _Nullable preconfiguredHttpClient __attribute__((swift_name("preconfiguredHttpClient")));
+@property (readonly) BOOL roadCyclingQuality __attribute__((swift_name("roadCyclingQuality")));
 @property (readonly) BOOL showPushingBikeInstructions __attribute__((swift_name("showPushingBikeInstructions")));
 @property (readonly) BOOL showRideItinerary __attribute__((swift_name("showRideItinerary")));
 @property (readonly) NSString * _Nullable source __attribute__((swift_name("source")));
 @property (readonly) BOOL testEnvironment __attribute__((swift_name("testEnvironment")));
+@property (readonly) NSString * _Nullable userAgent __attribute__((swift_name("userAgent")));
 @property id<GNKUserAuthorizationProvider> _Nullable userAuthorizationProvider __attribute__((swift_name("userAuthorizationProvider")));
 @end
 
@@ -1798,7 +2395,7 @@ __attribute__((swift_name("ItineraryCallback")))
 __attribute__((swift_name("ItineraryClient")))
 @protocol GNKItineraryClient
 @required
-- (void)loadItinerariesItinerary:(GNKItineraryRequest *)itinerary callback:(id<GNKItineraryListCallback>)callback __attribute__((swift_name("loadItineraries(itinerary:callback:)")));
+- (void)loadItinerariesItineraryRequest:(GNKItineraryRequest *)itineraryRequest callback:(id<GNKItineraryListCallback>)callback __attribute__((swift_name("loadItineraries(itineraryRequest:callback:)")));
 - (void)loadItineraryDetailsItineraryId:(NSString *)itineraryId callback:(id<GNKItineraryCallback>)callback __attribute__((swift_name("loadItineraryDetails(itineraryId:callback:)")));
 @end
 
@@ -1834,7 +2431,7 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("MultiPlatformItineraryClient")))
 @interface GNKMultiPlatformItineraryClient : GNKBase <GNKItineraryClient>
 - (instancetype)initWithApiKey:(NSString *)apiKey clientOptions:(GNKClientOptions *)clientOptions client:(GNKKtor_client_coreHttpClient *)client exceptionListener:(id<GNKExceptionHandler>)exceptionListener logHandler:(id<GNKLogHandler>)logHandler __attribute__((swift_name("init(apiKey:clientOptions:client:exceptionListener:logHandler:)"))) __attribute__((objc_designated_initializer));
-- (void)loadItinerariesItinerary:(GNKItineraryRequest *)request callback:(id<GNKItineraryListCallback>)callback __attribute__((swift_name("loadItineraries(itinerary:callback:)")));
+- (void)loadItinerariesItineraryRequest:(GNKItineraryRequest *)itineraryRequest callback:(id<GNKItineraryListCallback>)callback __attribute__((swift_name("loadItineraries(itineraryRequest:callback:)")));
 - (void)loadItineraryDetailsItineraryId:(NSString *)itineraryId callback:(id<GNKItineraryCallback>)callback __attribute__((swift_name("loadItineraryDetails(itineraryId:callback:)")));
 @property (readonly) NSString *apiKey __attribute__((swift_name("apiKey")));
 @property (readonly) GNKKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
@@ -1884,8 +2481,8 @@ __attribute__((swift_name("EncodedElevationsSerializer")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)encodedElevationsSerializer __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKEncodedElevationsSerializer *shared __attribute__((swift_name("shared")));
-- (NSMutableArray<GNKItineraryElevation *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSMutableArray<GNKItineraryElevation *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
+- (NSArray<GNKItineraryElevation *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSArray<GNKItineraryElevation *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
 @property (readonly) id<GNKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
@@ -1896,8 +2493,8 @@ __attribute__((swift_name("EncodedFacilitiesSerializer")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)encodedFacilitiesSerializer __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKEncodedFacilitiesSerializer *shared __attribute__((swift_name("shared")));
-- (NSMutableArray<GNKItineraryFacility *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSMutableArray<GNKItineraryFacility *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
+- (NSArray<GNKItineraryFacility *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSArray<GNKItineraryFacility *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
 @property (readonly) id<GNKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
@@ -1908,8 +2505,8 @@ __attribute__((swift_name("EncodedInstructionsSerializer")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)encodedInstructionsSerializer __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKEncodedInstructionsSerializer *shared __attribute__((swift_name("shared")));
-- (NSMutableArray<GNKItineraryInstruction *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSMutableArray<GNKItineraryInstruction *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
+- (NSArray<GNKItineraryInstruction *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSArray<GNKItineraryInstruction *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
 @property (readonly) id<GNKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
@@ -1929,6 +2526,7 @@ __attribute__((swift_name("EncodedInstructionsSerializer.EncodedInstructionHeade
 @property (class, readonly) GNKEncodedInstructionsSerializerEncodedInstructionHeader *facility __attribute__((swift_name("facility")));
 @property (class, readonly) GNKEncodedInstructionsSerializerEncodedInstructionHeader *geometryindex __attribute__((swift_name("geometryindex")));
 + (GNKKotlinArray<GNKEncodedInstructionsSerializerEncodedInstructionHeader *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKEncodedInstructionsSerializerEncodedInstructionHeader *> *entries __attribute__((swift_name("entries")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -1938,8 +2536,20 @@ __attribute__((swift_name("EncodedLineStringSerializer")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)encodedLineStringSerializer __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKEncodedLineStringSerializer *shared __attribute__((swift_name("shared")));
-- (NSMutableArray<GNKGeoPoint *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
-- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSMutableArray<GNKGeoPoint *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
+- (NSArray<GNKGeoPoint *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSArray<GNKGeoPoint *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
+@property (readonly) id<GNKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("EncodedRoadCyclingQualitiesSerializer")))
+@interface GNKEncodedRoadCyclingQualitiesSerializer : GNKBase <GNKKotlinx_serialization_coreKSerializer>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)encodedRoadCyclingQualitiesSerializer __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKEncodedRoadCyclingQualitiesSerializer *shared __attribute__((swift_name("shared")));
+- (NSArray<GNKItineraryRoadCyclingQuality *> *)deserializeDecoder:(id<GNKKotlinx_serialization_coreDecoder>)decoder __attribute__((swift_name("deserialize(decoder:)")));
+- (void)serializeEncoder:(id<GNKKotlinx_serialization_coreEncoder>)encoder value:(NSArray<GNKItineraryRoadCyclingQuality *> *)value __attribute__((swift_name("serialize(encoder:value:)")));
 @property (readonly) id<GNKKotlinx_serialization_coreSerialDescriptor> descriptor __attribute__((swift_name("descriptor")));
 @end
 
@@ -1970,7 +2580,11 @@ __attribute__((swift_name("GeometryEncoder.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKGeometryEncoderCompanion *shared __attribute__((swift_name("shared")));
-- (NSMutableArray<GNKGeoPoint *> *)decodeGeometry:(NSString *)geometry __attribute__((swift_name("decode(geometry:)")));
+- (NSArray<GNKGeoPoint *> *)decodeGeometry:(NSString *)geometry __attribute__((swift_name("decode(geometry:)")));
+
+/**
+ * Encodes a sequence of LatLngs into an encoded path string.
+ */
 - (NSString *)encodePath:(NSArray<GNKGeoPoint *> *)path __attribute__((swift_name("encode(path:)")));
 @end
 
@@ -2007,10 +2621,13 @@ __attribute__((swift_name("RequestBuilderException.Type_")))
 @property (class, readonly) GNKRequestBuilderExceptionType *notenoughwaypoints __attribute__((swift_name("notenoughwaypoints")));
 @property (class, readonly) GNKRequestBuilderExceptionType *invalidtransportmode __attribute__((swift_name("invalidtransportmode")));
 + (GNKKotlinArray<GNKRequestBuilderExceptionType *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKRequestBuilderExceptionType *> *entries __attribute__((swift_name("entries")));
 @end
 
 
 /**
+ * Represents bounds on a cartesian plane.
+ *
  * @note annotations
  *   kotlinx.serialization.Serializable
 */
@@ -2027,13 +2644,36 @@ __attribute__((swift_name("Bounds")))
 - (BOOL)containsPoint:(GNKGeoPoint *)point __attribute__((swift_name("contains(point:)")));
 - (BOOL)containsSegment:(GNKGeoSegment *)segment __attribute__((swift_name("contains(segment:)")));
 - (BOOL)containsLongitude:(double)longitude latitude:(double)latitude __attribute__((swift_name("contains(longitude:latitude:)")));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 - (GNKBounds *)doCopyWest:(double)west east:(double)east north:(double)north south:(double)south __attribute__((swift_name("doCopy(west:east:north:south:)")));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (void)expandRatio:(double)ratio __attribute__((swift_name("expand(ratio:)")));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (BOOL)intersectsBounds:(GNKBounds *)bounds __attribute__((swift_name("intersects(bounds:)")));
+
+/**
+ * Check if the segments intersects with the bounds (without checking if points are inside)
+ *
+ * @param segment
+ * @return true if the segments intersects with the bounds
+ */
 - (BOOL)intersectsSegment:(GNKGeoSegment *)segment __attribute__((swift_name("intersects(segment:)")));
 - (BOOL)intersectsWest:(double)west east:(double)east north:(double)north south:(double)south __attribute__((swift_name("intersects(west:east:north:south:)")));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) double area __attribute__((swift_name("area")));
 @property (readonly) GNKGeoPoint *center __attribute__((swift_name("center")));
@@ -2045,13 +2685,25 @@ __attribute__((swift_name("Bounds")))
 @property double west __attribute__((swift_name("west")));
 @end
 
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Bounds.Companion")))
 @interface GNKBoundsCompanion : GNKBase
 + (instancetype)alloc __attribute__((unavailable));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKBoundsCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Represents bounds on a cartesian plane.
+ */
 - (id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
@@ -2063,14 +2715,17 @@ __attribute__((swift_name("Bounds.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoLocation")))
 @interface GNKGeoLocation : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing __attribute__((swift_name("init(geoPoint:speed:bearing:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy isFake:(BOOL)isFake createdEpochMilliSecond:(GNKLong * _Nullable)createdEpochMilliSecond __attribute__((swift_name("init(geoPoint:speed:bearing:accuracy:isFake:createdEpochMilliSecond:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKGeoLocationCompanion *companion __attribute__((swift_name("companion")));
-- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing __attribute__((swift_name("doCopy(geoPoint:speed:bearing:)")));
+- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy isFake:(BOOL)isFake createdEpochMilliSecond:(GNKLong * _Nullable)createdEpochMilliSecond __attribute__((swift_name("doCopy(geoPoint:speed:bearing:accuracy:isFake:createdEpochMilliSecond:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) double accuracy __attribute__((swift_name("accuracy")));
 @property (readonly) float bearing __attribute__((swift_name("bearing")));
+@property (readonly) GNKLong * _Nullable createdEpochMilliSecond __attribute__((swift_name("createdEpochMilliSecond")));
 @property (readonly) GNKGeoPoint *geoPoint __attribute__((swift_name("geoPoint")));
+@property (readonly) BOOL isFake __attribute__((swift_name("isFake")));
 @property (readonly) float speed __attribute__((swift_name("speed")));
 @end
 
@@ -2096,8 +2751,17 @@ __attribute__((swift_name("GeoPoint")))
 - (instancetype)initWithLatitude:(double)latitude longitude:(double)longitude altitude:(double)altitude __attribute__((swift_name("init(latitude:longitude:altitude:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKGeoPointCompanion *companion __attribute__((swift_name("companion")));
 - (double)angleToGeoPoint:(GNKGeoPoint *)geoPoint __attribute__((swift_name("angleTo(geoPoint:)")));
+
+/**
+ * http://www.movable-type.co.uk/scripts/latlong.html
+ */
 - (double)bearingToGeoPoint:(GNKGeoPoint *)geoPoint __attribute__((swift_name("bearingTo(geoPoint:)")));
 - (GNKGeoPoint *)doCopyLatitude:(double)latitude longitude:(double)longitude altitude:(double)altitude __attribute__((swift_name("doCopy(latitude:longitude:altitude:)")));
+
+/**
+ * @return distance in meters
+ * @see [GPSDistance.html](http://www.geocities.com/DrChengalva/GPSDistance.html)
+ */
 - (double)distanceToGeoPoint:(GNKGeoPoint * _Nullable)geoPoint __attribute__((swift_name("distanceTo(geoPoint:)")));
 - (double)distanceToGeoPoint:(GNKGeoPoint * _Nullable)geoPoint useEarthRadius:(BOOL)useEarthRadius __attribute__((swift_name("distanceTo(geoPoint:useEarthRadius:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
@@ -2157,19 +2821,57 @@ __attribute__((swift_name("GeoSegment.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKGeoSegmentCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Tells whether the two line segments cross.
+ *
+ * @param x1 the x coordinate of the starting point of the first segment.
+ * @param y1 the y coordinate of the starting point of the first segment.
+ * @param x2 the x coordinate of the end point of the first segment.
+ * @param y2 the y coordinate of the end point of the first segment.
+ * @param x3 the x coordinate of the starting point of the second segment.
+ * @param y3 the y coordinate of the starting point of the second segment.
+ * @param x4 the x coordinate of the end point of the second segment.
+ * @param y4 the y coordinate of the end point of the second segment.
+ * @return true, if the two line segments cross.
+ */
 - (BOOL)linesIntersectX1:(double)x1 y1:(double)y1 x2:(double)x2 y2:(double)y2 x3:(double)x3 y3:(double)y3 x4:(double)x4 y4:(double)y4 __attribute__((swift_name("linesIntersect(x1:y1:x2:y2:x3:y3:x4:y4:)")));
 - (id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
 @end
 
+
+/**
+ * A quad tree which tracks items with a Point geometry.
+ * See http://en.wikipedia.org/wiki/Quadtree for details on the data structure.
+ * This class is not thread safe.
+ */
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoSegmentQuadTree")))
 @interface GNKGeoSegmentQuadTree : GNKBase
 - (instancetype)initWithBounds:(GNKBounds *)bounds __attribute__((swift_name("init(bounds:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKGeoSegmentQuadTreeCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * Insert an item.
+ */
 - (BOOL)addSegment:(id<GNKGeoSegmentable>)segment __attribute__((swift_name("add(segment:)")));
+
+/**
+ * Removes all points from the quadTree
+ */
 - (void)clear __attribute__((swift_name("clear()")));
+
+/**
+ * Remove the given item from the set.
+ *
+ * @return whether the item was removed.
+ */
 - (BOOL)removeSegment:(id<GNKGeoSegmentable>)segment __attribute__((swift_name("remove(segment:)")));
 - (NSArray<id<GNKGeoSegmentable>> *)searchBounds:(GNKBounds *)bounds __attribute__((swift_name("search(bounds:)")));
+
+/**
+ * Search for all items near a geoPoint
+ */
 - (NSArray<id<GNKGeoSegmentable>> *)searchGeoPoint:(GNKGeoPoint *)geoPoint __attribute__((swift_name("search(geoPoint:)")));
 @end
 
@@ -2180,6 +2882,10 @@ __attribute__((swift_name("GeoSegmentQuadTree.Companion")))
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
 @property (class, readonly, getter=shared) GNKGeoSegmentQuadTreeCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * Maximum number of elements to store in a quad before splitting.
+ */
 @property int32_t MAX_ELEMENTS __attribute__((swift_name("MAX_ELEMENTS")));
 @end
 
@@ -2229,6 +2935,28 @@ __attribute__((swift_name("DefaultLogHandler")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)logMessage:(NSString *)message __attribute__((swift_name("log(message:)")));
+@end
+
+__attribute__((swift_name("KotlinRuntimeException")))
+@interface GNKKotlinRuntimeException : GNKKotlinException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NetworkException")))
+@interface GNKNetworkException : GNKKotlinRuntimeException
+- (instancetype)initWithStatus:(GNKKtor_httpHttpStatusCode *)status request:(NSString *)request __attribute__((swift_name("init(status:request:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)new __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (readonly) NSString *request __attribute__((swift_name("request")));
+@property (readonly) GNKKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2297,7 +3025,17 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Resource")))
 @interface GNKResource : GNKBase
 - (instancetype)initWithPath:(NSString *)path __attribute__((swift_name("init(path:)"))) __attribute__((objc_designated_initializer));
+
+/**
+ * Returns true when the resource exists, false when it doesn't.
+ */
 - (BOOL)exists __attribute__((swift_name("exists()")));
+
+/**
+ * Returns the resource's content as a string.
+ *
+ * @throws RuntimeException when the resource doesn't exist or can't be read.
+ */
 - (NSString *)readAsString __attribute__((swift_name("readAsString()")));
 @property NSString *platformDirectory __attribute__((swift_name("platformDirectory")));
 @end
@@ -2337,6 +3075,35 @@ __attribute__((swift_name("DefaultExceptionHandler")))
 
 @interface GNKItineraryInstruction (Extensions)
 - (NSString *)serialize __attribute__((swift_name("serialize()")));
+@end
+
+__attribute__((swift_name("Ktor_httpHttpMessage")))
+@protocol GNKKtor_httpHttpMessage
+@required
+@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
+@protocol GNKKotlinx_coroutines_coreCoroutineScope
+@required
+@property (readonly) id<GNKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpResponse")))
+@interface GNKKtor_client_coreHttpResponse : GNKBase <GNKKtor_httpHttpMessage, GNKKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNKKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) id<GNKKtor_ioByteReadChannel> content __attribute__((swift_name("content")));
+@property (readonly) GNKKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) GNKKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) GNKKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end
+
+@interface GNKKtor_client_coreHttpResponse (Extensions)
+- (void)throwIfError __attribute__((swift_name("throwIfError()")));
 @end
 
 @interface GNKResource (Extensions)
@@ -2390,15 +3157,15 @@ __attribute__((swift_name("ItineraryExtensionsKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoPointListsExtensionsKt")))
 @interface GNKGeoPointListsExtensionsKt : GNKBase
-+ (GNKBounds *)getBounds:(NSMutableArray<GNKGeoPoint *> *)receiver __attribute__((swift_name("getBounds(_:)")));
++ (GNKBounds *)getBounds:(NSArray<GNKGeoPoint *> *)receiver __attribute__((swift_name("getBounds(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoPointListOfListsExtensionsKt")))
 @interface GNKGeoPointListOfListsExtensionsKt : GNKBase
-+ (GNKBounds *)getBounds:(NSMutableArray<NSMutableArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getBounds(_:)")));
-+ (GNKGeoPoint *)getCenter:(NSMutableArray<NSMutableArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getCenter(_:)")));
-+ (GNKGeoPoint *)getHalfWayGeoPoint:(NSMutableArray<NSMutableArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getHalfWayGeoPoint(_:)")));
++ (GNKBounds *)getBounds:(NSArray<NSArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getBounds(_:)")));
++ (GNKGeoPoint *)getCenter:(NSArray<NSArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getCenter(_:)")));
++ (GNKGeoPoint *)getHalfWayGeoPoint:(NSArray<NSArray<GNKGeoPoint *> *> *)receiver __attribute__((swift_name("getHalfWayGeoPoint(_:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2407,15 +3174,6 @@ __attribute__((swift_name("DoubleExtensionsKt")))
 + (double)round:(double)receiver decimals:(int32_t)decimals __attribute__((swift_name("round(_:decimals:)")));
 + (double)toDegree:(double)receiver __attribute__((swift_name("toDegree(_:)")));
 + (double)toRadian:(double)receiver __attribute__((swift_name("toRadian(_:)")));
-@end
-
-__attribute__((swift_name("KotlinRuntimeException")))
-@interface GNKKotlinRuntimeException : GNKKotlinException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((swift_name("KotlinIllegalArgumentException")))
@@ -2467,12 +3225,6 @@ __attribute__((swift_name("KotlinArray")))
 - (id<GNKKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
 - (void)setIndex:(int32_t)index value:(T _Nullable)value __attribute__((swift_name("set(index:value:)")));
 @property (readonly) int32_t size __attribute__((swift_name("size")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineScope")))
-@protocol GNKKotlinx_coroutines_coreCoroutineScope
-@required
-@property (readonly) id<GNKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
 @end
 
 __attribute__((swift_name("Ktor_ioCloseable")))
@@ -2655,6 +3407,20 @@ __attribute__((swift_name("Kotlinx_serialization_coreDecoder")))
 @property (readonly) GNKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpStatusCode")))
+@interface GNKKtor_httpHttpStatusCode : GNKBase
+- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
+- (GNKKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
+@property (readonly) int32_t value __attribute__((swift_name("value")));
+@end
+
 __attribute__((swift_name("Kotlinx_serialization_coreSerialFormat")))
 @protocol GNKKotlinx_serialization_coreSerialFormat
 @required
@@ -2678,6 +3444,247 @@ __attribute__((swift_name("Kotlinx_serialization_jsonJson")))
 - (GNKKotlinx_serialization_jsonJsonElement *)parseToJsonElementString:(NSString *)string __attribute__((swift_name("parseToJsonElement(string:)")));
 @property (readonly) GNKKotlinx_serialization_jsonJsonConfiguration *configuration __attribute__((swift_name("configuration")));
 @property (readonly) GNKKotlinx_serialization_coreSerializersModule *serializersModule __attribute__((swift_name("serializersModule")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValues")))
+@protocol GNKKtor_utilsStringValues
+@required
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end
+
+__attribute__((swift_name("Ktor_httpHeaders")))
+@protocol GNKKtor_httpHeaders <GNKKtor_utilsStringValues>
+@required
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
+@interface GNKKtor_client_coreHttpClientCall : GNKBase <GNKKotlinx_coroutines_coreCoroutineScope>
+- (instancetype)initWithClient:(GNKKtor_client_coreHttpClient *)client requestData:(GNKKtor_client_coreHttpRequestData *)requestData responseData:(GNKKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithClient:(GNKKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyInfo:(GNKKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)bodyNullableInfo:(GNKKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)getResponseContentWithCompletionHandler:(void (^)(id<GNKKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
+@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) GNKKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
+@property (readonly) id<GNKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
+@property id<GNKKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
+@property GNKKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
+@end
+
+__attribute__((swift_name("Ktor_ioByteReadChannel")))
+@protocol GNKKtor_ioByteReadChannel
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)awaitContentWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(completionHandler:)")));
+- (BOOL)cancelCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)discardMax:(int64_t)max completionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("discard(max:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)peekToDestination:(GNKKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max completionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(GNKKtor_ioChunkBuffer *)dst completionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(GNKKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
+- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(GNKKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readAvailableDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler__:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readBooleanWithCompletionHandler:(void (^)(GNKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readBoolean(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readByteWithCompletionHandler:(void (^)(GNKByte * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readByte(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readDoubleWithCompletionHandler:(void (^)(GNKDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readDouble(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFloatWithCompletionHandler:(void (^)(GNKFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readFloat(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(GNKKtor_ioChunkBuffer *)dst n:(int32_t)n completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:n:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(GNKKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler_:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readFullyDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler__:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readIntWithCompletionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readInt(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readLongWithCompletionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readLong(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readPacketSize:(int32_t)size completionHandler:(void (^)(GNKKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readPacket(size:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readRemainingLimit:(int64_t)limit completionHandler:(void (^)(GNKKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readRemaining(limit:completionHandler:)")));
+- (void)readSessionConsumer:(void (^)(id<GNKKtor_ioReadSession>))consumer __attribute__((swift_name("readSession(consumer:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readShortWithCompletionHandler:(void (^)(GNKShort * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readShort(completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readSuspendableSessionConsumer:(id<GNKKotlinSuspendFunction1>)consumer completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readSuspendableSession(consumer:completionHandler:)"))) __attribute__((deprecated("Use read { } instead.")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineLimit:(int32_t)limit completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8Line(limit:completionHandler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)readUTF8LineToOut:(id<GNKKotlinAppendable>)out limit:(int32_t)limit completionHandler:(void (^)(GNKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8LineTo(out:limit:completionHandler:)")));
+@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
+@property (readonly) GNKKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
+@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
+@property (readonly) BOOL isClosedForWrite __attribute__((swift_name("isClosedForWrite")));
+@property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsGMTDate")))
+@interface GNKKtor_utilsGMTDate : GNKBase <GNKKotlinComparable>
+@property (class, readonly, getter=companion) GNKKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
+- (int32_t)compareToOther:(GNKKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
+- (GNKKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(GNKKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(GNKKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
+@property (readonly) GNKKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
+@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
+@property (readonly) int32_t hours __attribute__((swift_name("hours")));
+@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
+@property (readonly) GNKKtor_utilsMonth *month __attribute__((swift_name("month")));
+@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
+@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
+@property (readonly) int32_t year __attribute__((swift_name("year")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
+@interface GNKKtor_httpHttpProtocolVersion : GNKBase
+- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t major __attribute__((swift_name("major")));
+@property (readonly) int32_t minor __attribute__((swift_name("minor")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2795,7 +3802,7 @@ __attribute__((swift_name("Ktor_utilsPipeline")))
 - (void)resetFromFrom:(GNKKtor_utilsPipeline<TSubject, TContext> *)from __attribute__((swift_name("resetFrom(from:)")));
 @property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
 @property (readonly) BOOL developmentMode __attribute__((swift_name("developmentMode")));
-@property (readonly) BOOL isEmpty __attribute__((swift_name("isEmpty")));
+@property (readonly, getter=isEmpty_) BOOL isEmpty __attribute__((swift_name("isEmpty")));
 @property (readonly) NSArray<GNKKtor_utilsPipelinePhase *> *items __attribute__((swift_name("items")));
 @end
 
@@ -2962,1026 +3969,6 @@ __attribute__((swift_name("KotlinNothing")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJson.Default")))
-@interface GNKKotlinx_serialization_jsonJsonDefault : GNKKotlinx_serialization_jsonJson
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)default_ __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKotlinx_serialization_jsonJsonDefault *shared __attribute__((swift_name("shared")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
-*/
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
-@interface GNKKotlinx_serialization_jsonJsonElement : GNKBase
-@property (class, readonly, getter=companion) GNKKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
-@interface GNKKotlinx_serialization_jsonJsonConfiguration : GNKBase
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
-@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
-@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
-@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
-@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
-@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
-@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
-@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
-@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
-@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
-@end
-
-__attribute__((swift_name("KotlinIllegalStateException")))
-@interface GNKKotlinIllegalStateException : GNKKotlinRuntimeException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.4")
-*/
-__attribute__((swift_name("KotlinCancellationException")))
-@interface GNKKotlinCancellationException : GNKKotlinIllegalStateException
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestData")))
-@interface GNKKtor_client_coreHttpRequestData : GNKBase
-- (instancetype)initWithUrl:(GNKKtor_httpUrl *)url method:(GNKKtor_httpHttpMethod *)method headers:(id<GNKKtor_httpHeaders>)headers body:(GNKKtor_httpOutgoingContent *)body executionContext:(id<GNKKotlinx_coroutines_coreJob>)executionContext attributes:(id<GNKKtor_utilsAttributes>)attributes __attribute__((swift_name("init(url:method:headers:body:executionContext:attributes:)"))) __attribute__((objc_designated_initializer));
-- (id _Nullable)getCapabilityOrNullKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) GNKKtor_httpOutgoingContent *body __attribute__((swift_name("body")));
-@property (readonly) id<GNKKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
-@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
-@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpResponseData")))
-@interface GNKKtor_client_coreHttpResponseData : GNKBase
-- (instancetype)initWithStatusCode:(GNKKtor_httpHttpStatusCode *)statusCode requestTime:(GNKKtor_utilsGMTDate *)requestTime headers:(id<GNKKtor_httpHeaders>)headers version:(GNKKtor_httpHttpProtocolVersion *)version body:(id)body callContext:(id<GNKKotlinCoroutineContext>)callContext __attribute__((swift_name("init(statusCode:requestTime:headers:version:body:callContext:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id body __attribute__((swift_name("body")));
-@property (readonly) id<GNKKotlinCoroutineContext> callContext __attribute__((swift_name("callContext")));
-@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) GNKKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
-@property (readonly) GNKKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
-@property (readonly) GNKKtor_httpHttpStatusCode *statusCode __attribute__((swift_name("statusCode")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
-@interface GNKKotlinAbstractCoroutineContextElement : GNKBase <GNKKotlinCoroutineContextElement>
-- (instancetype)initWithKey:(id<GNKKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
-@property (readonly) id<GNKKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuationInterceptor")))
-@protocol GNKKotlinContinuationInterceptor <GNKKotlinCoroutineContextElement>
-@required
-- (id<GNKKotlinContinuation>)interceptContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (void)releaseInterceptedContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
-@interface GNKKotlinx_coroutines_coreCoroutineDispatcher : GNKKotlinAbstractCoroutineContextElement <GNKKotlinContinuationInterceptor>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (instancetype)initWithKey:(id<GNKKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) GNKKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
-- (void)dispatchContext:(id<GNKKotlinCoroutineContext>)context block:(id<GNKKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
-- (void)dispatchYieldContext:(id<GNKKotlinCoroutineContext>)context block:(id<GNKKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
-- (id<GNKKotlinContinuation>)interceptContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
-- (BOOL)isDispatchNeededContext:(id<GNKKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
-
-/**
- * @note annotations
- *   kotlinx.coroutines.ExperimentalCoroutinesApi
-*/
-- (GNKKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
-- (GNKKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(GNKKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
-- (void)releaseInterceptedContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreProxyConfig")))
-@interface GNKKtor_client_coreProxyConfig : GNKBase
-- (instancetype)initWithUrl:(GNKKtor_httpUrl *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpClientPlugin")))
-@protocol GNKKtor_client_coreHttpClientPlugin
-@required
-- (void)installPlugin:(id)plugin scope:(GNKKtor_client_coreHttpClient *)scope __attribute__((swift_name("install(plugin:scope:)")));
-- (id)prepareBlock:(void (^)(id))block __attribute__((swift_name("prepare(block:)")));
-@property (readonly) GNKKtor_utilsAttributeKey<id> *key __attribute__((swift_name("key")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsAttributeKey")))
-@interface GNKKtor_utilsAttributeKey<T> : GNKBase
-- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((swift_name("Ktor_eventsEventDefinition")))
-@interface GNKKtor_eventsEventDefinition<T> : GNKBase
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
-@protocol GNKKotlinx_coroutines_coreDisposableHandle
-@required
-- (void)dispose __attribute__((swift_name("dispose()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsPipelinePhase")))
-@interface GNKKtor_utilsPipelinePhase : GNKBase
-- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((swift_name("KotlinFunction")))
-@protocol GNKKotlinFunction
-@required
-@end
-
-__attribute__((swift_name("KotlinSuspendFunction2")))
-@protocol GNKKotlinSuspendFunction2 <GNKKotlinFunction>
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:completionHandler:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline.Phases")))
-@interface GNKKtor_client_coreHttpReceivePipelinePhases : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)phases __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpReceivePipelinePhases *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
-@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
-@end
-
-__attribute__((swift_name("Ktor_httpHttpMessage")))
-@protocol GNKKtor_httpHttpMessage
-@required
-@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpResponse")))
-@interface GNKKtor_client_coreHttpResponse : GNKBase <GNKKtor_httpHttpMessage, GNKKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) GNKKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
-@property (readonly) id<GNKKtor_ioByteReadChannel> content __attribute__((swift_name("content")));
-@property (readonly) GNKKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
-@property (readonly) GNKKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
-@property (readonly) GNKKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinUnit")))
-@interface GNKKotlinUnit : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)unit __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKotlinUnit *shared __attribute__((swift_name("shared")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline.Phases")))
-@interface GNKKtor_client_coreHttpRequestPipelinePhases : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)phases __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpRequestPipelinePhases *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Render __attribute__((swift_name("Render")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Send __attribute__((swift_name("Send")));
-@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
-@end
-
-__attribute__((swift_name("Ktor_httpHttpMessageBuilder")))
-@protocol GNKKtor_httpHttpMessageBuilder
-@required
-@property (readonly) GNKKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder")))
-@interface GNKKtor_client_coreHttpRequestBuilder : GNKBase <GNKKtor_httpHttpMessageBuilder>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-@property (class, readonly, getter=companion) GNKKtor_client_coreHttpRequestBuilderCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_client_coreHttpRequestData *)build __attribute__((swift_name("build()")));
-- (id _Nullable)getCapabilityOrNullKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
-- (void)setAttributesBlock:(void (^)(id<GNKKtor_utilsAttributes>))block __attribute__((swift_name("setAttributes(block:)")));
-- (void)setCapabilityKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key capability:(id)capability __attribute__((swift_name("setCapability(key:capability:)")));
-- (GNKKtor_client_coreHttpRequestBuilder *)takeFromBuilder:(GNKKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFrom(builder:)")));
-- (GNKKtor_client_coreHttpRequestBuilder *)takeFromWithExecutionContextBuilder:(GNKKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFromWithExecutionContext(builder:)")));
-- (void)urlBlock:(void (^)(GNKKtor_httpURLBuilder *, GNKKtor_httpURLBuilder *))block __attribute__((swift_name("url(block:)")));
-@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property id body __attribute__((swift_name("body")));
-@property GNKKtor_utilsTypeInfo * _Nullable bodyType __attribute__((swift_name("bodyType")));
-@property (readonly) id<GNKKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
-@property (readonly) GNKKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
-@property GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
-@property (readonly) GNKKtor_httpURLBuilder *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline.Phases")))
-@interface GNKKtor_client_coreHttpResponsePipelinePhases : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)phases __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpResponsePipelinePhases *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Parse __attribute__((swift_name("Parse")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
-@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
-@interface GNKKtor_client_coreHttpResponseContainer : GNKBase
-- (instancetype)initWithExpectedType:(GNKKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("init(expectedType:response:)"))) __attribute__((objc_designated_initializer));
-- (GNKKtor_client_coreHttpResponseContainer *)doCopyExpectedType:(GNKKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("doCopy(expectedType:response:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) GNKKtor_utilsTypeInfo *expectedType __attribute__((swift_name("expectedType")));
-@property (readonly) id response __attribute__((swift_name("response")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpClientCall")))
-@interface GNKKtor_client_coreHttpClientCall : GNKBase <GNKKotlinx_coroutines_coreCoroutineScope>
-- (instancetype)initWithClient:(GNKKtor_client_coreHttpClient *)client requestData:(GNKKtor_client_coreHttpRequestData *)requestData responseData:(GNKKtor_client_coreHttpResponseData *)responseData __attribute__((swift_name("init(client:requestData:responseData:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithClient:(GNKKtor_client_coreHttpClient *)client __attribute__((swift_name("init(client:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_client_coreHttpClientCallCompanion *companion __attribute__((swift_name("companion")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyInfo:(GNKKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("body(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)bodyNullableInfo:(GNKKtor_utilsTypeInfo *)info completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("bodyNullable(info:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)getResponseContentWithCompletionHandler:(void (^)(id<GNKKtor_ioByteReadChannel> _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getResponseContent(completionHandler:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) BOOL allowDoubleReceive __attribute__((swift_name("allowDoubleReceive")));
-@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) GNKKtor_client_coreHttpClient *client __attribute__((swift_name("client")));
-@property (readonly) id<GNKKotlinCoroutineContext> coroutineContext __attribute__((swift_name("coroutineContext")));
-@property id<GNKKtor_client_coreHttpRequest> request __attribute__((swift_name("request")));
-@property GNKKtor_client_coreHttpResponse *response __attribute__((swift_name("response")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
-@interface GNKKtor_client_coreHttpSendPipelinePhases : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)phases __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpSendPipelinePhases *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Engine __attribute__((swift_name("Engine")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Monitoring __attribute__((swift_name("Monitoring")));
-@property (readonly) GNKKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
-@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
-@end
-
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
-@protocol GNKKotlinx_serialization_coreSerializersModuleCollector
-@required
-- (void)contextualKClass:(id<GNKKotlinKClass>)kClass provider:(id<GNKKotlinx_serialization_coreKSerializer> (^)(NSArray<id<GNKKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
-- (void)contextualKClass:(id<GNKKotlinKClass>)kClass serializer:(id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
-- (void)polymorphicBaseClass:(id<GNKKotlinKClass>)baseClass actualClass:(id<GNKKotlinKClass>)actualClass actualSerializer:(id<GNKKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
-- (void)polymorphicDefaultBaseClass:(id<GNKKotlinKClass>)baseClass defaultDeserializerProvider:(id<GNKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)polymorphicDefaultDeserializerBaseClass:(id<GNKKotlinKClass>)baseClass defaultDeserializerProvider:(id<GNKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
-
-/**
- * @note annotations
- *   kotlinx.serialization.ExperimentalSerializationApi
-*/
-- (void)polymorphicDefaultSerializerBaseClass:(id<GNKKotlinKClass>)baseClass defaultSerializerProvider:(id<GNKKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
-@end
-
-__attribute__((swift_name("KotlinKDeclarationContainer")))
-@protocol GNKKotlinKDeclarationContainer
-@required
-@end
-
-__attribute__((swift_name("KotlinKAnnotatedElement")))
-@protocol GNKKotlinKAnnotatedElement
-@required
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-__attribute__((swift_name("KotlinKClassifier")))
-@protocol GNKKotlinKClassifier
-@required
-@end
-
-__attribute__((swift_name("KotlinKClass")))
-@protocol GNKKotlinKClass <GNKKotlinKDeclarationContainer, GNKKotlinKAnnotatedElement, GNKKotlinKClassifier>
-@required
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
-@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
-@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
-@interface GNKKotlinx_serialization_jsonJsonElementCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
-- (id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl")))
-@interface GNKKtor_httpUrl : GNKBase
-@property (class, readonly, getter=companion) GNKKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
-@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
-@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
-@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
-@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
-@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
-@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
-@property (readonly) NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<GNKKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
-@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
-@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
-@property (readonly) int32_t port __attribute__((swift_name("port")));
-@property (readonly) GNKKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
-@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod")))
-@interface GNKKtor_httpHttpMethod : GNKBase
-- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("Ktor_utilsStringValues")))
-@protocol GNKKtor_utilsStringValues
-@required
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (void)forEachBody:(void (^)(NSString *, NSArray<NSString *> *))body __attribute__((swift_name("forEach(body:)")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-@end
-
-__attribute__((swift_name("Ktor_httpHeaders")))
-@protocol GNKKtor_httpHeaders <GNKKtor_utilsStringValues>
-@required
-@end
-
-__attribute__((swift_name("Ktor_httpOutgoingContent")))
-@interface GNKKtor_httpOutgoingContent : GNKBase
-- (id _Nullable)getPropertyKey:(GNKKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
-- (void)setPropertyKey:(GNKKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
-- (id<GNKKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
-@property (readonly) GNKLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
-@property (readonly) GNKKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
-@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
-@property (readonly) GNKKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
-@protocol GNKKotlinx_coroutines_coreJob <GNKKotlinCoroutineContextElement>
-@required
-- (id<GNKKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<GNKKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
-- (void)cancelCause:(GNKKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause:)")));
-- (GNKKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
-- (id<GNKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(GNKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
-- (id<GNKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(GNKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
-- (id<GNKKotlinx_coroutines_coreJob>)plusOther_:(id<GNKKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
-- (BOOL)start __attribute__((swift_name("start()")));
-@property (readonly) id<GNKKotlinSequence> children __attribute__((swift_name("children")));
-@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
-@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
-@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
-@property (readonly) id<GNKKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpStatusCode")))
-@interface GNKKtor_httpHttpStatusCode : GNKBase
-- (instancetype)initWithValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("init(value:description:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpHttpStatusCodeCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_httpHttpStatusCode *)doCopyValue:(int32_t)value description:(NSString *)description __attribute__((swift_name("doCopy(value:description:)")));
-- (GNKKtor_httpHttpStatusCode *)descriptionValue:(NSString *)value __attribute__((swift_name("description(value:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) NSString *description_ __attribute__((swift_name("description_")));
-@property (readonly) int32_t value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate")))
-@interface GNKKtor_utilsGMTDate : GNKBase <GNKKotlinComparable>
-@property (class, readonly, getter=companion) GNKKtor_utilsGMTDateCompanion *companion __attribute__((swift_name("companion")));
-- (int32_t)compareToOther:(GNKKtor_utilsGMTDate *)other __attribute__((swift_name("compareTo(other:)")));
-- (GNKKtor_utilsGMTDate *)doCopySeconds:(int32_t)seconds minutes:(int32_t)minutes hours:(int32_t)hours dayOfWeek:(GNKKtor_utilsWeekDay *)dayOfWeek dayOfMonth:(int32_t)dayOfMonth dayOfYear:(int32_t)dayOfYear month:(GNKKtor_utilsMonth *)month year:(int32_t)year timestamp:(int64_t)timestamp __attribute__((swift_name("doCopy(seconds:minutes:hours:dayOfWeek:dayOfMonth:dayOfYear:month:year:timestamp:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t dayOfMonth __attribute__((swift_name("dayOfMonth")));
-@property (readonly) GNKKtor_utilsWeekDay *dayOfWeek __attribute__((swift_name("dayOfWeek")));
-@property (readonly) int32_t dayOfYear __attribute__((swift_name("dayOfYear")));
-@property (readonly) int32_t hours __attribute__((swift_name("hours")));
-@property (readonly) int32_t minutes __attribute__((swift_name("minutes")));
-@property (readonly) GNKKtor_utilsMonth *month __attribute__((swift_name("month")));
-@property (readonly) int32_t seconds __attribute__((swift_name("seconds")));
-@property (readonly) int64_t timestamp __attribute__((swift_name("timestamp")));
-@property (readonly) int32_t year __attribute__((swift_name("year")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion")))
-@interface GNKKtor_httpHttpProtocolVersion : GNKBase
-- (instancetype)initWithName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("init(name:major:minor:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpHttpProtocolVersionCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_httpHttpProtocolVersion *)doCopyName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("doCopy(name:major:minor:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t major __attribute__((swift_name("major")));
-@property (readonly) int32_t minor __attribute__((swift_name("minor")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
-*/
-__attribute__((swift_name("KotlinContinuation")))
-@protocol GNKKotlinContinuation
-@required
-- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
-@property (readonly) id<GNKKotlinCoroutineContext> context __attribute__((swift_name("context")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.3")
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
-@interface GNKKotlinAbstractCoroutineContextKey<B, E> : GNKBase <GNKKotlinCoroutineContextKey>
-- (instancetype)initWithBaseKey:(id<GNKKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<GNKKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.ExperimentalStdlibApi
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
-@interface GNKKotlinx_coroutines_coreCoroutineDispatcherKey : GNKKotlinAbstractCoroutineContextKey<id<GNKKotlinContinuationInterceptor>, GNKKotlinx_coroutines_coreCoroutineDispatcher *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithBaseKey:(id<GNKKotlinCoroutineContextKey>)baseKey safeCast:(id<GNKKotlinCoroutineContextElement> _Nullable (^)(id<GNKKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-+ (instancetype)key __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
-@protocol GNKKotlinx_coroutines_coreRunnable
-@required
-- (void)run __attribute__((swift_name("run()")));
-@end
-
-__attribute__((swift_name("Ktor_ioByteReadChannel")))
-@protocol GNKKtor_ioByteReadChannel
-@required
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)awaitContentWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("awaitContent(completionHandler:)")));
-- (BOOL)cancelCause_:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)discardMax:(int64_t)max completionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("discard(max:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)peekToDestination:(GNKKtor_ioMemory *)destination destinationOffset:(int64_t)destinationOffset offset:(int64_t)offset min:(int64_t)min max:(int64_t)max completionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("peekTo(destination:destinationOffset:offset:min:max:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(GNKKtor_ioChunkBuffer *)dst completionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(GNKKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler:)")));
-- (int32_t)readAvailableMin:(int32_t)min block:(void (^)(GNKKtor_ioBuffer *))block __attribute__((swift_name("readAvailable(min:block:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readAvailableDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readAvailable(dst:offset:length:completionHandler__:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readBooleanWithCompletionHandler:(void (^)(GNKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readBoolean(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readByteWithCompletionHandler:(void (^)(GNKByte * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readByte(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readDoubleWithCompletionHandler:(void (^)(GNKDouble * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readDouble(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFloatWithCompletionHandler:(void (^)(GNKFloat * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readFloat(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(GNKKtor_ioChunkBuffer *)dst n:(int32_t)n completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:n:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(GNKKotlinByteArray *)dst offset:(int32_t)offset length:(int32_t)length completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(void *)dst offset:(int32_t)offset length:(int32_t)length completionHandler_:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler_:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readFullyDst:(void *)dst offset:(int64_t)offset length:(int64_t)length completionHandler__:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readFully(dst:offset:length:completionHandler__:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readIntWithCompletionHandler:(void (^)(GNKInt * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readInt(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readLongWithCompletionHandler:(void (^)(GNKLong * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readLong(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readPacketSize:(int32_t)size completionHandler:(void (^)(GNKKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readPacket(size:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readRemainingLimit:(int64_t)limit completionHandler:(void (^)(GNKKtor_ioByteReadPacket * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readRemaining(limit:completionHandler:)")));
-- (void)readSessionConsumer:(void (^)(id<GNKKtor_ioReadSession>))consumer __attribute__((swift_name("readSession(consumer:)"))) __attribute__((deprecated("Use read { } instead.")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readShortWithCompletionHandler:(void (^)(GNKShort * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readShort(completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readSuspendableSessionConsumer:(id<GNKKotlinSuspendFunction1>)consumer completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("readSuspendableSession(consumer:completionHandler:)"))) __attribute__((deprecated("Use read { } instead.")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readUTF8LineLimit:(int32_t)limit completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8Line(limit:completionHandler:)")));
-
-/**
- * @note This method converts instances of CancellationException to errors.
- * Other uncaught Kotlin exceptions are fatal.
-*/
-- (void)readUTF8LineToOut:(id<GNKKotlinAppendable>)out limit:(int32_t)limit completionHandler:(void (^)(GNKBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readUTF8LineTo(out:limit:completionHandler:)")));
-@property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
-@property (readonly) GNKKotlinThrowable * _Nullable closedCause __attribute__((swift_name("closedCause")));
-@property (readonly) BOOL isClosedForRead __attribute__((swift_name("isClosedForRead")));
-@property (readonly) BOOL isClosedForWrite __attribute__((swift_name("isClosedForWrite")));
-@property (readonly) int64_t totalBytesRead __attribute__((swift_name("totalBytesRead")));
-@end
-
-__attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
-@protocol GNKKtor_utilsStringValuesBuilder
-@required
-- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
-- (void)appendAllStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
-- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
-- (void)appendMissingStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
-- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
-- (id<GNKKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
-- (void)clear __attribute__((swift_name("clear()")));
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
-- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
-- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
-- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-@end
-
-__attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
-@interface GNKKtor_utilsStringValuesBuilderImpl : GNKBase <GNKKtor_utilsStringValuesBuilder>
-- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer));
-- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
-- (void)appendAllStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
-- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
-- (void)appendMissingStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
-- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
-- (id<GNKKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
-- (void)clear __attribute__((swift_name("clear()")));
-- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
-- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
-- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
-- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
-- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
-- (BOOL)isEmpty_ __attribute__((swift_name("isEmpty()")));
-- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
-- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
-- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
-- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
-- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
-@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) GNKMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHeadersBuilder")))
-@interface GNKKtor_httpHeadersBuilder : GNKKtor_utilsStringValuesBuilderImpl
-- (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-- (id<GNKKtor_httpHeaders>)build __attribute__((swift_name("build()")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
-
-/**
- * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder.Companion")))
-@interface GNKKtor_client_coreHttpRequestBuilderCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpRequestBuilderCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLBuilder")))
-@interface GNKKtor_httpURLBuilder : GNKBase
-- (instancetype)initWithProtocol:(GNKKtor_httpURLProtocol *)protocol host:(NSString *)host port:(int32_t)port user:(NSString * _Nullable)user password:(NSString * _Nullable)password pathSegments:(NSArray<NSString *> *)pathSegments parameters:(id<GNKKtor_httpParameters>)parameters fragment:(NSString *)fragment trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:port:user:password:pathSegments:parameters:fragment:trailingQuery:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpURLBuilderCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_httpUrl *)build __attribute__((swift_name("build()")));
-- (NSString *)buildString __attribute__((swift_name("buildString()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
-@property id<GNKKtor_httpParametersBuilder> encodedParameters __attribute__((swift_name("encodedParameters")));
-@property NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
-@property NSArray<NSString *> *encodedPathSegments __attribute__((swift_name("encodedPathSegments")));
-@property NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
-@property NSString *fragment __attribute__((swift_name("fragment")));
-@property NSString *host __attribute__((swift_name("host")));
-@property (readonly) id<GNKKtor_httpParametersBuilder> parameters __attribute__((swift_name("parameters")));
-@property NSString * _Nullable password __attribute__((swift_name("password")));
-@property NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
-@property int32_t port __attribute__((swift_name("port")));
-@property GNKKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
-@property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
-@property NSString * _Nullable user __attribute__((swift_name("user")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsTypeInfo")))
-@interface GNKKtor_utilsTypeInfo : GNKBase
-- (instancetype)initWithType:(id<GNKKotlinKClass>)type reifiedType:(id<GNKKotlinKType>)reifiedType kotlinType:(id<GNKKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer));
-- (GNKKtor_utilsTypeInfo *)doCopyType:(id<GNKKotlinKClass>)type reifiedType:(id<GNKKotlinKType>)reifiedType kotlinType:(id<GNKKotlinKType> _Nullable)kotlinType __attribute__((swift_name("doCopy(type:reifiedType:kotlinType:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<GNKKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
-@property (readonly) id<GNKKotlinKType> reifiedType __attribute__((swift_name("reifiedType")));
-@property (readonly) id<GNKKotlinKClass> type __attribute__((swift_name("type")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
-@interface GNKKtor_client_coreHttpClientCallCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsAttributeKey<id> *CustomResponse __attribute__((swift_name("CustomResponse"))) __attribute__((unavailable("This is going to be removed. Please file a ticket with clarification why and what for do you need it.")));
-@end
-
-__attribute__((swift_name("Ktor_client_coreHttpRequest")))
-@protocol GNKKtor_client_coreHttpRequest <GNKKtor_httpHttpMessage, GNKKotlinx_coroutines_coreCoroutineScope>
-@required
-@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
-@property (readonly) GNKKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
-@property (readonly) GNKKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
-@property (readonly) GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
-@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpUrl.Companion")))
-@interface GNKKtor_httpUrlCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((swift_name("Ktor_httpParameters")))
-@protocol GNKKtor_httpParameters <GNKKtor_utilsStringValues>
-@required
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLProtocol")))
-@interface GNKKtor_httpURLProtocol : GNKBase
-- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
-@property (readonly) NSString *name __attribute__((swift_name("name")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
-@interface GNKKtor_httpHttpMethodCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
-- (GNKKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
-@property (readonly) NSArray<GNKKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
-@property (readonly) GNKKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
-@property (readonly) GNKKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
-@property (readonly) GNKKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
-@property (readonly) GNKKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
-@property (readonly) GNKKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
-@property (readonly) GNKKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
-@property (readonly) GNKKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
-@end
-
-__attribute__((swift_name("KotlinMapEntry")))
-@protocol GNKKotlinMapEntry
-@required
-@property (readonly) id _Nullable key __attribute__((swift_name("key")));
-@property (readonly) id _Nullable value __attribute__((swift_name("value")));
-@end
-
-__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
-@interface GNKKtor_httpHeaderValueWithParameters : GNKBase
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
-- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
-- (NSString *)description __attribute__((swift_name("description()")));
-
-/**
- * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
-*/
-@property (readonly) NSString *content __attribute__((swift_name("content")));
-@property (readonly) NSArray<GNKKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpContentType")))
-@interface GNKKtor_httpContentType : GNKKtor_httpHeaderValueWithParameters
-- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) GNKKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (BOOL)matchPattern:(GNKKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
-- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
-- (GNKKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
-- (GNKKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
-@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
-@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
-@protocol GNKKotlinx_coroutines_coreChildHandle <GNKKotlinx_coroutines_coreDisposableHandle>
-@required
-- (BOOL)childCancelledCause:(GNKKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
-@property (readonly) id<GNKKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
-@protocol GNKKotlinx_coroutines_coreChildJob <GNKKotlinx_coroutines_coreJob>
-@required
-- (void)parentCancelledParentJob:(id<GNKKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
-@end
-
-__attribute__((swift_name("KotlinSequence")))
-@protocol GNKKotlinSequence
-@required
-- (id<GNKKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
-@end
-
-__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
-@protocol GNKKotlinx_coroutines_coreSelectClause0
-@required
-- (void)registerSelectClause0Select:(id<GNKKotlinx_coroutines_coreSelectInstance>)select block:(id<GNKKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
 @interface GNKKtor_httpHttpStatusCodeCompanion : GNKBase
 + (instancetype)alloc __attribute__((unavailable));
@@ -4045,70 +4032,141 @@ __attribute__((swift_name("Ktor_httpHttpStatusCode.Companion")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
-@interface GNKKtor_utilsGMTDateCompanion : GNKBase
+__attribute__((swift_name("Kotlinx_serialization_jsonJson.Default")))
+@interface GNKKotlinx_serialization_jsonJsonDefault : GNKKotlinx_serialization_jsonJson
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)default_ __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKotlinx_serialization_jsonJsonDefault *shared __attribute__((swift_name("shared")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.Serializable(with=NormalClass(value=kotlinx/serialization/json/JsonElementSerializer))
+*/
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement")))
+@interface GNKKotlinx_serialization_jsonJsonElement : GNKBase
+@property (class, readonly, getter=companion) GNKKotlinx_serialization_jsonJsonElementCompanion *companion __attribute__((swift_name("companion")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonConfiguration")))
+@interface GNKKotlinx_serialization_jsonJsonConfiguration : GNKBase
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL allowSpecialFloatingPointValues __attribute__((swift_name("allowSpecialFloatingPointValues")));
+@property (readonly) BOOL allowStructuredMapKeys __attribute__((swift_name("allowStructuredMapKeys")));
+@property (readonly) NSString *classDiscriminator __attribute__((swift_name("classDiscriminator")));
+@property (readonly) BOOL coerceInputValues __attribute__((swift_name("coerceInputValues")));
+@property (readonly) BOOL encodeDefaults __attribute__((swift_name("encodeDefaults")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) BOOL explicitNulls __attribute__((swift_name("explicitNulls")));
+@property (readonly) BOOL ignoreUnknownKeys __attribute__((swift_name("ignoreUnknownKeys")));
+@property (readonly) BOOL isLenient __attribute__((swift_name("isLenient")));
+@property (readonly) BOOL prettyPrint __attribute__((swift_name("prettyPrint")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+@property (readonly) NSString *prettyPrintIndent __attribute__((swift_name("prettyPrintIndent")));
+@property (readonly) BOOL useAlternativeNames __attribute__((swift_name("useAlternativeNames")));
+@property (readonly) BOOL useArrayPolymorphism __attribute__((swift_name("useArrayPolymorphism")));
+@end
+
+__attribute__((swift_name("KotlinMapEntry")))
+@protocol GNKKotlinMapEntry
+@required
+@property (readonly) id _Nullable key __attribute__((swift_name("key")));
+@property (readonly) id _Nullable value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestData")))
+@interface GNKKtor_client_coreHttpRequestData : GNKBase
+- (instancetype)initWithUrl:(GNKKtor_httpUrl *)url method:(GNKKtor_httpHttpMethod *)method headers:(id<GNKKtor_httpHeaders>)headers body:(GNKKtor_httpOutgoingContent *)body executionContext:(id<GNKKotlinx_coroutines_coreJob>)executionContext attributes:(id<GNKKtor_utilsAttributes>)attributes __attribute__((swift_name("init(url:method:headers:body:executionContext:attributes:)"))) __attribute__((objc_designated_initializer));
+- (id _Nullable)getCapabilityOrNullKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) GNKKtor_httpOutgoingContent *body __attribute__((swift_name("body")));
+@property (readonly) id<GNKKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
+@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponseData")))
+@interface GNKKtor_client_coreHttpResponseData : GNKBase
+- (instancetype)initWithStatusCode:(GNKKtor_httpHttpStatusCode *)statusCode requestTime:(GNKKtor_utilsGMTDate *)requestTime headers:(id<GNKKtor_httpHeaders>)headers version:(GNKKtor_httpHttpProtocolVersion *)version body:(id)body callContext:(id<GNKKotlinCoroutineContext>)callContext __attribute__((swift_name("init(statusCode:requestTime:headers:version:body:callContext:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id body __attribute__((swift_name("body")));
+@property (readonly) id<GNKKotlinCoroutineContext> callContext __attribute__((swift_name("callContext")));
+@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) GNKKtor_utilsGMTDate *requestTime __attribute__((swift_name("requestTime")));
+@property (readonly) GNKKtor_utilsGMTDate *responseTime __attribute__((swift_name("responseTime")));
+@property (readonly) GNKKtor_httpHttpStatusCode *statusCode __attribute__((swift_name("statusCode")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *version __attribute__((swift_name("version")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpClientCall.Companion")))
+@interface GNKKtor_client_coreHttpClientCallCompanion : GNKBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_utilsGMTDate *START __attribute__((swift_name("START")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpClientCallCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsAttributeKey<id> *CustomResponse __attribute__((swift_name("CustomResponse"))) __attribute__((unavailable("This is going to be removed. Please file a ticket with clarification why and what for do you need it.")));
+@end
+
+__attribute__((swift_name("KotlinIllegalStateException")))
+@interface GNKKotlinIllegalStateException : GNKKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.4")
+*/
+__attribute__((swift_name("KotlinCancellationException")))
+@interface GNKKotlinCancellationException : GNKKotlinIllegalStateException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer));
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay")))
-@interface GNKKtor_utilsWeekDay : GNKKotlinEnum<GNKKtor_utilsWeekDay *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) GNKKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) GNKKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
-@property (class, readonly) GNKKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
-+ (GNKKotlinArray<GNKKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
+__attribute__((swift_name("Ktor_utilsTypeInfo")))
+@interface GNKKtor_utilsTypeInfo : GNKBase
+- (instancetype)initWithType:(id<GNKKotlinKClass>)type reifiedType:(id<GNKKotlinKType>)reifiedType kotlinType:(id<GNKKotlinKType> _Nullable)kotlinType __attribute__((swift_name("init(type:reifiedType:kotlinType:)"))) __attribute__((objc_designated_initializer));
+- (GNKKtor_utilsTypeInfo *)doCopyType:(id<GNKKotlinKClass>)type reifiedType:(id<GNKKotlinKType>)reifiedType kotlinType:(id<GNKKotlinKType> _Nullable)kotlinType __attribute__((swift_name("doCopy(type:reifiedType:kotlinType:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<GNKKotlinKType> _Nullable kotlinType __attribute__((swift_name("kotlinType")));
+@property (readonly) id<GNKKotlinKType> reifiedType __attribute__((swift_name("reifiedType")));
+@property (readonly) id<GNKKotlinKClass> type __attribute__((swift_name("type")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth")))
-@interface GNKKtor_utilsMonth : GNKKotlinEnum<GNKKtor_utilsMonth *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly, getter=companion) GNKKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
-@property (class, readonly) GNKKtor_utilsMonth *january __attribute__((swift_name("january")));
-@property (class, readonly) GNKKtor_utilsMonth *february __attribute__((swift_name("february")));
-@property (class, readonly) GNKKtor_utilsMonth *march __attribute__((swift_name("march")));
-@property (class, readonly) GNKKtor_utilsMonth *april __attribute__((swift_name("april")));
-@property (class, readonly) GNKKtor_utilsMonth *may __attribute__((swift_name("may")));
-@property (class, readonly) GNKKtor_utilsMonth *june __attribute__((swift_name("june")));
-@property (class, readonly) GNKKtor_utilsMonth *july __attribute__((swift_name("july")));
-@property (class, readonly) GNKKtor_utilsMonth *august __attribute__((swift_name("august")));
-@property (class, readonly) GNKKtor_utilsMonth *september __attribute__((swift_name("september")));
-@property (class, readonly) GNKKtor_utilsMonth *october __attribute__((swift_name("october")));
-@property (class, readonly) GNKKtor_utilsMonth *november __attribute__((swift_name("november")));
-@property (class, readonly) GNKKtor_utilsMonth *december __attribute__((swift_name("december")));
-+ (GNKKotlinArray<GNKKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
-@property (readonly) NSString *value __attribute__((swift_name("value")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
-@interface GNKKtor_httpHttpProtocolVersionCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
-- (GNKKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
-- (GNKKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
-@property (readonly) GNKKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
+__attribute__((swift_name("Ktor_client_coreHttpRequest")))
+@protocol GNKKtor_client_coreHttpRequest <GNKKtor_httpHttpMessage, GNKKotlinx_coroutines_coreCoroutineScope>
+@required
+@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property (readonly) GNKKtor_client_coreHttpClientCall *call __attribute__((swift_name("call")));
+@property (readonly) GNKKtor_httpOutgoingContent *content __attribute__((swift_name("content")));
+@property (readonly) GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4268,6 +4326,11 @@ __attribute__((swift_name("Ktor_ioReadSession")))
 @property (readonly) int32_t availableForRead __attribute__((swift_name("availableForRead")));
 @end
 
+__attribute__((swift_name("KotlinFunction")))
+@protocol GNKKotlinFunction
+@required
+@end
+
 __attribute__((swift_name("KotlinSuspendFunction1")))
 @protocol GNKKotlinSuspendFunction1 <GNKKotlinFunction>
 @required
@@ -4288,17 +4351,415 @@ __attribute__((swift_name("KotlinAppendable")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
-@interface GNKKtor_httpURLBuilderCompanion : GNKBase
+__attribute__((swift_name("Ktor_utilsGMTDate.Companion")))
+@interface GNKKtor_utilsGMTDateCompanion : GNKBase
 + (instancetype)alloc __attribute__((unavailable));
 + (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
 + (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
+@property (class, readonly, getter=shared) GNKKtor_utilsGMTDateCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsGMTDate *START __attribute__((swift_name("START")));
 @end
 
-__attribute__((swift_name("Ktor_httpParametersBuilder")))
-@protocol GNKKtor_httpParametersBuilder <GNKKtor_utilsStringValuesBuilder>
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay")))
+@interface GNKKtor_utilsWeekDay : GNKKotlinEnum<GNKKtor_utilsWeekDay *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNKKtor_utilsWeekDayCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) GNKKtor_utilsWeekDay *monday __attribute__((swift_name("monday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *tuesday __attribute__((swift_name("tuesday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *wednesday __attribute__((swift_name("wednesday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *thursday __attribute__((swift_name("thursday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *friday __attribute__((swift_name("friday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *saturday __attribute__((swift_name("saturday")));
+@property (class, readonly) GNKKtor_utilsWeekDay *sunday __attribute__((swift_name("sunday")));
++ (GNKKotlinArray<GNKKtor_utilsWeekDay *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth")))
+@interface GNKKtor_utilsMonth : GNKKotlinEnum<GNKKtor_utilsMonth *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNKKtor_utilsMonthCompanion *companion __attribute__((swift_name("companion")));
+@property (class, readonly) GNKKtor_utilsMonth *january __attribute__((swift_name("january")));
+@property (class, readonly) GNKKtor_utilsMonth *february __attribute__((swift_name("february")));
+@property (class, readonly) GNKKtor_utilsMonth *march __attribute__((swift_name("march")));
+@property (class, readonly) GNKKtor_utilsMonth *april __attribute__((swift_name("april")));
+@property (class, readonly) GNKKtor_utilsMonth *may __attribute__((swift_name("may")));
+@property (class, readonly) GNKKtor_utilsMonth *june __attribute__((swift_name("june")));
+@property (class, readonly) GNKKtor_utilsMonth *july __attribute__((swift_name("july")));
+@property (class, readonly) GNKKtor_utilsMonth *august __attribute__((swift_name("august")));
+@property (class, readonly) GNKKtor_utilsMonth *september __attribute__((swift_name("september")));
+@property (class, readonly) GNKKtor_utilsMonth *october __attribute__((swift_name("october")));
+@property (class, readonly) GNKKtor_utilsMonth *november __attribute__((swift_name("november")));
+@property (class, readonly) GNKKtor_utilsMonth *december __attribute__((swift_name("december")));
++ (GNKKotlinArray<GNKKtor_utilsMonth *> *)values __attribute__((swift_name("values()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpProtocolVersion.Companion")))
+@interface GNKKtor_httpHttpProtocolVersionCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_httpHttpProtocolVersionCompanion *shared __attribute__((swift_name("shared")));
+- (GNKKtor_httpHttpProtocolVersion *)fromValueName:(NSString *)name major:(int32_t)major minor:(int32_t)minor __attribute__((swift_name("fromValue(name:major:minor:)")));
+- (GNKKtor_httpHttpProtocolVersion *)parseValue:(id)value __attribute__((swift_name("parse(value:)")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_1_0 __attribute__((swift_name("HTTP_1_0")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_1_1 __attribute__((swift_name("HTTP_1_1")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *HTTP_2_0 __attribute__((swift_name("HTTP_2_0")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *QUIC __attribute__((swift_name("QUIC")));
+@property (readonly) GNKKtor_httpHttpProtocolVersion *SPDY_3 __attribute__((swift_name("SPDY_3")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextElement")))
+@interface GNKKotlinAbstractCoroutineContextElement : GNKBase <GNKKotlinCoroutineContextElement>
+- (instancetype)initWithKey:(id<GNKKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer));
+@property (readonly) id<GNKKotlinCoroutineContextKey> key __attribute__((swift_name("key")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuationInterceptor")))
+@protocol GNKKotlinContinuationInterceptor <GNKKotlinCoroutineContextElement>
 @required
+- (id<GNKKotlinContinuation>)interceptContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (void)releaseInterceptedContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher")))
+@interface GNKKotlinx_coroutines_coreCoroutineDispatcher : GNKKotlinAbstractCoroutineContextElement <GNKKotlinContinuationInterceptor>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithKey:(id<GNKKotlinCoroutineContextKey>)key __attribute__((swift_name("init(key:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNKKotlinx_coroutines_coreCoroutineDispatcherKey *companion __attribute__((swift_name("companion")));
+- (void)dispatchContext:(id<GNKKotlinCoroutineContext>)context block:(id<GNKKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatch(context:block:)")));
+- (void)dispatchYieldContext:(id<GNKKotlinCoroutineContext>)context block:(id<GNKKotlinx_coroutines_coreRunnable>)block __attribute__((swift_name("dispatchYield(context:block:)")));
+- (id<GNKKotlinContinuation>)interceptContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("interceptContinuation(continuation:)")));
+- (BOOL)isDispatchNeededContext:(id<GNKKotlinCoroutineContext>)context __attribute__((swift_name("isDispatchNeeded(context:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.coroutines.ExperimentalCoroutinesApi
+*/
+- (GNKKotlinx_coroutines_coreCoroutineDispatcher *)limitedParallelismParallelism:(int32_t)parallelism __attribute__((swift_name("limitedParallelism(parallelism:)")));
+- (GNKKotlinx_coroutines_coreCoroutineDispatcher *)plusOther:(GNKKotlinx_coroutines_coreCoroutineDispatcher *)other __attribute__((swift_name("plus(other:)"))) __attribute__((unavailable("Operator '+' on two CoroutineDispatcher objects is meaningless. CoroutineDispatcher is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The dispatcher to the right of `+` just replaces the dispatcher to the left.")));
+- (void)releaseInterceptedContinuationContinuation:(id<GNKKotlinContinuation>)continuation __attribute__((swift_name("releaseInterceptedContinuation(continuation:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreProxyConfig")))
+@interface GNKKtor_client_coreProxyConfig : GNKBase
+- (instancetype)initWithUrl:(GNKKtor_httpUrl *)url __attribute__((swift_name("init(url:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNKKtor_httpUrl *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((swift_name("Ktor_client_coreHttpClientPlugin")))
+@protocol GNKKtor_client_coreHttpClientPlugin
+@required
+- (void)installPlugin:(id)plugin scope:(GNKKtor_client_coreHttpClient *)scope __attribute__((swift_name("install(plugin:scope:)")));
+- (id)prepareBlock:(void (^)(id))block __attribute__((swift_name("prepare(block:)")));
+@property (readonly) GNKKtor_utilsAttributeKey<id> *key __attribute__((swift_name("key")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsAttributeKey")))
+@interface GNKKtor_utilsAttributeKey<T> : GNKBase
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((swift_name("Ktor_eventsEventDefinition")))
+@interface GNKKtor_eventsEventDefinition<T> : GNKBase
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreDisposableHandle")))
+@protocol GNKKotlinx_coroutines_coreDisposableHandle
+@required
+- (void)dispose __attribute__((swift_name("dispose()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsPipelinePhase")))
+@interface GNKKtor_utilsPipelinePhase : GNKBase
+- (instancetype)initWithName:(NSString *)name __attribute__((swift_name("init(name:)"))) __attribute__((objc_designated_initializer));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((swift_name("KotlinSuspendFunction2")))
+@protocol GNKKotlinSuspendFunction2 <GNKKotlinFunction>
+@required
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)invokeP1:(id _Nullable)p1 p2:(id _Nullable)p2 completionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(p1:p2:completionHandler:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpReceivePipeline.Phases")))
+@interface GNKKtor_client_coreHttpReceivePipelinePhases : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpReceivePipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinUnit")))
+@interface GNKKotlinUnit : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)unit __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKotlinUnit *shared __attribute__((swift_name("shared")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestPipeline.Phases")))
+@interface GNKKtor_client_coreHttpRequestPipelinePhases : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpRequestPipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Render __attribute__((swift_name("Render")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Send __attribute__((swift_name("Send")));
+@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
+@end
+
+__attribute__((swift_name("Ktor_httpHttpMessageBuilder")))
+@protocol GNKKtor_httpHttpMessageBuilder
+@required
+@property (readonly) GNKKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder")))
+@interface GNKKtor_client_coreHttpRequestBuilder : GNKBase <GNKKtor_httpHttpMessageBuilder>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+@property (class, readonly, getter=companion) GNKKtor_client_coreHttpRequestBuilderCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_client_coreHttpRequestData *)build __attribute__((swift_name("build()")));
+- (id _Nullable)getCapabilityOrNullKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key __attribute__((swift_name("getCapabilityOrNull(key:)")));
+- (void)setAttributesBlock:(void (^)(id<GNKKtor_utilsAttributes>))block __attribute__((swift_name("setAttributes(block:)")));
+- (void)setCapabilityKey:(id<GNKKtor_client_coreHttpClientEngineCapability>)key capability:(id)capability __attribute__((swift_name("setCapability(key:capability:)")));
+- (GNKKtor_client_coreHttpRequestBuilder *)takeFromBuilder:(GNKKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFrom(builder:)")));
+- (GNKKtor_client_coreHttpRequestBuilder *)takeFromWithExecutionContextBuilder:(GNKKtor_client_coreHttpRequestBuilder *)builder __attribute__((swift_name("takeFromWithExecutionContext(builder:)")));
+- (void)urlBlock:(void (^)(GNKKtor_httpURLBuilder *, GNKKtor_httpURLBuilder *))block __attribute__((swift_name("url(block:)")));
+@property (readonly) id<GNKKtor_utilsAttributes> attributes __attribute__((swift_name("attributes")));
+@property id body __attribute__((swift_name("body")));
+@property GNKKtor_utilsTypeInfo * _Nullable bodyType __attribute__((swift_name("bodyType")));
+@property (readonly) id<GNKKotlinx_coroutines_coreJob> executionContext __attribute__((swift_name("executionContext")));
+@property (readonly) GNKKtor_httpHeadersBuilder *headers __attribute__((swift_name("headers")));
+@property GNKKtor_httpHttpMethod *method __attribute__((swift_name("method")));
+@property (readonly) GNKKtor_httpURLBuilder *url __attribute__((swift_name("url")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponsePipeline.Phases")))
+@interface GNKKtor_client_coreHttpResponsePipelinePhases : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpResponsePipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsPipelinePhase *After __attribute__((swift_name("After")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Parse __attribute__((swift_name("Parse")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
+@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Transform __attribute__((swift_name("Transform")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpResponseContainer")))
+@interface GNKKtor_client_coreHttpResponseContainer : GNKBase
+- (instancetype)initWithExpectedType:(GNKKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("init(expectedType:response:)"))) __attribute__((objc_designated_initializer));
+- (GNKKtor_client_coreHttpResponseContainer *)doCopyExpectedType:(GNKKtor_utilsTypeInfo *)expectedType response:(id)response __attribute__((swift_name("doCopy(expectedType:response:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) GNKKtor_utilsTypeInfo *expectedType __attribute__((swift_name("expectedType")));
+@property (readonly) id response __attribute__((swift_name("response")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpSendPipeline.Phases")))
+@interface GNKKtor_client_coreHttpSendPipelinePhases : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)phases __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpSendPipelinePhases *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Before __attribute__((swift_name("Before")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Engine __attribute__((swift_name("Engine")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Monitoring __attribute__((swift_name("Monitoring")));
+@property (readonly) GNKKtor_utilsPipelinePhase *Receive __attribute__((swift_name("Receive")));
+@property (readonly) GNKKtor_utilsPipelinePhase *State __attribute__((swift_name("State")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+__attribute__((swift_name("Kotlinx_serialization_coreSerializersModuleCollector")))
+@protocol GNKKotlinx_serialization_coreSerializersModuleCollector
+@required
+- (void)contextualKClass:(id<GNKKotlinKClass>)kClass provider:(id<GNKKotlinx_serialization_coreKSerializer> (^)(NSArray<id<GNKKotlinx_serialization_coreKSerializer>> *))provider __attribute__((swift_name("contextual(kClass:provider:)")));
+- (void)contextualKClass:(id<GNKKotlinKClass>)kClass serializer:(id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("contextual(kClass:serializer:)")));
+- (void)polymorphicBaseClass:(id<GNKKotlinKClass>)baseClass actualClass:(id<GNKKotlinKClass>)actualClass actualSerializer:(id<GNKKotlinx_serialization_coreKSerializer>)actualSerializer __attribute__((swift_name("polymorphic(baseClass:actualClass:actualSerializer:)")));
+- (void)polymorphicDefaultBaseClass:(id<GNKKotlinKClass>)baseClass defaultDeserializerProvider:(id<GNKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefault(baseClass:defaultDeserializerProvider:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)polymorphicDefaultDeserializerBaseClass:(id<GNKKotlinKClass>)baseClass defaultDeserializerProvider:(id<GNKKotlinx_serialization_coreDeserializationStrategy> _Nullable (^)(NSString * _Nullable))defaultDeserializerProvider __attribute__((swift_name("polymorphicDefaultDeserializer(baseClass:defaultDeserializerProvider:)")));
+
+/**
+ * @note annotations
+ *   kotlinx.serialization.ExperimentalSerializationApi
+*/
+- (void)polymorphicDefaultSerializerBaseClass:(id<GNKKotlinKClass>)baseClass defaultSerializerProvider:(id<GNKKotlinx_serialization_coreSerializationStrategy> _Nullable (^)(id))defaultSerializerProvider __attribute__((swift_name("polymorphicDefaultSerializer(baseClass:defaultSerializerProvider:)")));
+@end
+
+__attribute__((swift_name("KotlinKDeclarationContainer")))
+@protocol GNKKotlinKDeclarationContainer
+@required
+@end
+
+__attribute__((swift_name("KotlinKAnnotatedElement")))
+@protocol GNKKotlinKAnnotatedElement
+@required
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+__attribute__((swift_name("KotlinKClassifier")))
+@protocol GNKKotlinKClassifier
+@required
+@end
+
+__attribute__((swift_name("KotlinKClass")))
+@protocol GNKKotlinKClass <GNKKotlinKDeclarationContainer, GNKKotlinKAnnotatedElement, GNKKotlinKClassifier>
+@required
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+- (BOOL)isInstanceValue:(id _Nullable)value __attribute__((swift_name("isInstance(value:)")));
+@property (readonly) NSString * _Nullable qualifiedName __attribute__((swift_name("qualifiedName")));
+@property (readonly) NSString * _Nullable simpleName __attribute__((swift_name("simpleName")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_serialization_jsonJsonElement.Companion")))
+@interface GNKKotlinx_serialization_jsonJsonElementCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKotlinx_serialization_jsonJsonElementCompanion *shared __attribute__((swift_name("shared")));
+- (id<GNKKotlinx_serialization_coreKSerializer>)serializer __attribute__((swift_name("serializer()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl")))
+@interface GNKKtor_httpUrl : GNKBase
+@property (class, readonly, getter=companion) GNKKtor_httpUrlCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property (readonly) NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property (readonly) NSString *encodedPath __attribute__((swift_name("encodedPath")));
+@property (readonly) NSString *encodedPathAndQuery __attribute__((swift_name("encodedPathAndQuery")));
+@property (readonly) NSString *encodedQuery __attribute__((swift_name("encodedQuery")));
+@property (readonly) NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property (readonly) NSString *fragment __attribute__((swift_name("fragment")));
+@property (readonly) NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<GNKKtor_httpParameters> parameters __attribute__((swift_name("parameters")));
+@property (readonly) NSString * _Nullable password __attribute__((swift_name("password")));
+@property (readonly) NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property (readonly) int32_t port __attribute__((swift_name("port")));
+@property (readonly) GNKKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property (readonly) int32_t specifiedPort __attribute__((swift_name("specifiedPort")));
+@property (readonly) BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property (readonly) NSString * _Nullable user __attribute__((swift_name("user")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod")))
+@interface GNKKtor_httpHttpMethod : GNKBase
+- (instancetype)initWithValue:(NSString *)value __attribute__((swift_name("init(value:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpHttpMethodCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_httpHttpMethod *)doCopyValue:(NSString *)value __attribute__((swift_name("doCopy(value:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) NSString *value __attribute__((swift_name("value")));
+@end
+
+__attribute__((swift_name("Ktor_httpOutgoingContent")))
+@interface GNKKtor_httpOutgoingContent : GNKBase
+- (id _Nullable)getPropertyKey:(GNKKtor_utilsAttributeKey<id> *)key __attribute__((swift_name("getProperty(key:)")));
+- (void)setPropertyKey:(GNKKtor_utilsAttributeKey<id> *)key value:(id _Nullable)value __attribute__((swift_name("setProperty(key:value:)")));
+- (id<GNKKtor_httpHeaders> _Nullable)trailers __attribute__((swift_name("trailers()")));
+@property (readonly) GNKLong * _Nullable contentLength __attribute__((swift_name("contentLength")));
+@property (readonly) GNKKtor_httpContentType * _Nullable contentType __attribute__((swift_name("contentType")));
+@property (readonly) id<GNKKtor_httpHeaders> headers __attribute__((swift_name("headers")));
+@property (readonly) GNKKtor_httpHttpStatusCode * _Nullable status __attribute__((swift_name("status")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreJob")))
+@protocol GNKKotlinx_coroutines_coreJob <GNKKotlinCoroutineContextElement>
+@required
+- (id<GNKKotlinx_coroutines_coreChildHandle>)attachChildChild:(id<GNKKotlinx_coroutines_coreChildJob>)child __attribute__((swift_name("attachChild(child:)")));
+- (void)cancelCause_:(GNKKotlinCancellationException * _Nullable)cause __attribute__((swift_name("cancel(cause_:)")));
+- (GNKKotlinCancellationException *)getCancellationException __attribute__((swift_name("getCancellationException()")));
+- (id<GNKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionOnCancelling:(BOOL)onCancelling invokeImmediately:(BOOL)invokeImmediately handler:(void (^)(GNKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(onCancelling:invokeImmediately:handler:)")));
+- (id<GNKKotlinx_coroutines_coreDisposableHandle>)invokeOnCompletionHandler:(void (^)(GNKKotlinThrowable * _Nullable))handler __attribute__((swift_name("invokeOnCompletion(handler:)")));
+
+/**
+ * @note This method converts instances of CancellationException to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)joinWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("join(completionHandler:)")));
+- (id<GNKKotlinx_coroutines_coreJob>)plusOther_:(id<GNKKotlinx_coroutines_coreJob>)other __attribute__((swift_name("plus(other_:)"))) __attribute__((unavailable("Operator '+' on two Job objects is meaningless. Job is a coroutine context element and `+` is a set-sum operator for coroutine contexts. The job to the right of `+` just replaces the job the left of `+`.")));
+- (BOOL)start __attribute__((swift_name("start()")));
+@property (readonly) id<GNKKotlinSequence> children __attribute__((swift_name("children")));
+@property (readonly) BOOL isActive __attribute__((swift_name("isActive")));
+@property (readonly) BOOL isCancelled __attribute__((swift_name("isCancelled")));
+@property (readonly) BOOL isCompleted __attribute__((swift_name("isCompleted")));
+@property (readonly) id<GNKKotlinx_coroutines_coreSelectClause0> onJoin __attribute__((swift_name("onJoin")));
 @end
 
 __attribute__((swift_name("KotlinKType")))
@@ -4317,6 +4778,387 @@ __attribute__((swift_name("KotlinKType")))
 */
 @property (readonly) id<GNKKotlinKClassifier> _Nullable classifier __attribute__((swift_name("classifier")));
 @property (readonly) BOOL isMarkedNullable __attribute__((swift_name("isMarkedNullable")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioMemory.Companion")))
+@interface GNKKtor_ioMemoryCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_ioMemoryCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_ioMemory *Empty __attribute__((swift_name("Empty")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioBuffer.Companion")))
+@interface GNKKtor_ioBufferCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_ioBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_ioBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) int32_t ReservedSize __attribute__((swift_name("ReservedSize")));
+@end
+
+__attribute__((swift_name("Ktor_ioObjectPool")))
+@protocol GNKKtor_ioObjectPool <GNKKtor_ioCloseable>
+@required
+- (id)borrow __attribute__((swift_name("borrow()")));
+- (void)dispose __attribute__((swift_name("dispose()")));
+- (void)recycleInstance:(id)instance __attribute__((swift_name("recycle(instance:)")));
+@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioChunkBuffer.Companion")))
+@interface GNKKtor_ioChunkBufferCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_ioChunkBufferCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_ioChunkBuffer *Empty __attribute__((swift_name("Empty")));
+@property (readonly) id<GNKKtor_ioObjectPool> EmptyPool __attribute__((swift_name("EmptyPool")));
+@property (readonly) id<GNKKtor_ioObjectPool> Pool __attribute__((swift_name("Pool")));
+@end
+
+__attribute__((swift_name("KotlinByteIterator")))
+@interface GNKKotlinByteIterator : GNKBase <GNKKotlinIterator>
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (GNKByte *)next __attribute__((swift_name("next()")));
+- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioInput.Companion")))
+@interface GNKKtor_ioInputCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_ioInputCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
+@interface GNKKtor_ioByteReadPacketCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
+@property (readonly) GNKKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
+@interface GNKKtor_utilsWeekDayCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
+- (GNKKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (GNKKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_utilsMonth.Companion")))
+@interface GNKKtor_utilsMonthCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
+- (GNKKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
+- (GNKKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+*/
+__attribute__((swift_name("KotlinContinuation")))
+@protocol GNKKotlinContinuation
+@required
+- (void)resumeWithResult:(id _Nullable)result __attribute__((swift_name("resumeWith(result:)")));
+@property (readonly) id<GNKKotlinCoroutineContext> context __attribute__((swift_name("context")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.3")
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((swift_name("KotlinAbstractCoroutineContextKey")))
+@interface GNKKotlinAbstractCoroutineContextKey<B, E> : GNKBase <GNKKotlinCoroutineContextKey>
+- (instancetype)initWithBaseKey:(id<GNKKotlinCoroutineContextKey>)baseKey safeCast:(E _Nullable (^)(id<GNKKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.ExperimentalStdlibApi
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Kotlinx_coroutines_coreCoroutineDispatcher.Key")))
+@interface GNKKotlinx_coroutines_coreCoroutineDispatcherKey : GNKKotlinAbstractCoroutineContextKey<id<GNKKotlinContinuationInterceptor>, GNKKotlinx_coroutines_coreCoroutineDispatcher *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithBaseKey:(id<GNKKotlinCoroutineContextKey>)baseKey safeCast:(id<GNKKotlinCoroutineContextElement> _Nullable (^)(id<GNKKotlinCoroutineContextElement>))safeCast __attribute__((swift_name("init(baseKey:safeCast:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
++ (instancetype)key __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKotlinx_coroutines_coreCoroutineDispatcherKey *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreRunnable")))
+@protocol GNKKotlinx_coroutines_coreRunnable
+@required
+- (void)run __attribute__((swift_name("run()")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilder")))
+@protocol GNKKtor_utilsStringValuesBuilder
+@required
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<GNKKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+@end
+
+__attribute__((swift_name("Ktor_utilsStringValuesBuilderImpl")))
+@interface GNKKtor_utilsStringValuesBuilderImpl : GNKBase <GNKKtor_utilsStringValuesBuilder>
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer));
+- (void)appendName:(NSString *)name value:(NSString *)value __attribute__((swift_name("append(name:value:)")));
+- (void)appendAllStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendAll(stringValues:)")));
+- (void)appendAllName:(NSString *)name values:(id)values __attribute__((swift_name("appendAll(name:values:)")));
+- (void)appendMissingStringValues:(id<GNKKtor_utilsStringValues>)stringValues __attribute__((swift_name("appendMissing(stringValues:)")));
+- (void)appendMissingName:(NSString *)name values:(id)values __attribute__((swift_name("appendMissing(name:values:)")));
+- (id<GNKKtor_utilsStringValues>)build __attribute__((swift_name("build()")));
+- (void)clear __attribute__((swift_name("clear()")));
+- (BOOL)containsName:(NSString *)name __attribute__((swift_name("contains(name:)")));
+- (BOOL)containsName:(NSString *)name value:(NSString *)value __attribute__((swift_name("contains(name:value:)")));
+- (NSSet<id<GNKKotlinMapEntry>> *)entries __attribute__((swift_name("entries()")));
+- (NSString * _Nullable)getName:(NSString *)name __attribute__((swift_name("get(name:)")));
+- (NSArray<NSString *> * _Nullable)getAllName:(NSString *)name __attribute__((swift_name("getAll(name:)")));
+- (BOOL)isEmpty __attribute__((swift_name("isEmpty()")));
+- (NSSet<NSString *> *)names __attribute__((swift_name("names()")));
+- (void)removeName:(NSString *)name __attribute__((swift_name("remove(name:)")));
+- (BOOL)removeName:(NSString *)name value:(NSString *)value __attribute__((swift_name("remove(name:value:)")));
+- (void)removeKeysWithNoEntries __attribute__((swift_name("removeKeysWithNoEntries()")));
+- (void)setName:(NSString *)name value:(NSString *)value __attribute__((swift_name("set(name:value:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@property (readonly) BOOL caseInsensitiveName __attribute__((swift_name("caseInsensitiveName")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) GNKMutableDictionary<NSString *, NSMutableArray<NSString *> *> *values __attribute__((swift_name("values")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHeadersBuilder")))
+@interface GNKKtor_httpHeadersBuilder : GNKKtor_utilsStringValuesBuilderImpl
+- (instancetype)initWithSize:(int32_t)size __attribute__((swift_name("init(size:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithCaseInsensitiveName:(BOOL)caseInsensitiveName size:(int32_t)size __attribute__((swift_name("init(caseInsensitiveName:size:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (id<GNKKtor_httpHeaders>)build __attribute__((swift_name("build()")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateNameName:(NSString *)name __attribute__((swift_name("validateName(name:)")));
+
+/**
+ * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+- (void)validateValueValue:(NSString *)value __attribute__((swift_name("validateValue(value:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_client_coreHttpRequestBuilder.Companion")))
+@interface GNKKtor_client_coreHttpRequestBuilderCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_client_coreHttpRequestBuilderCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLBuilder")))
+@interface GNKKtor_httpURLBuilder : GNKBase
+- (instancetype)initWithProtocol:(GNKKtor_httpURLProtocol *)protocol host:(NSString *)host port:(int32_t)port user:(NSString * _Nullable)user password:(NSString * _Nullable)password pathSegments:(NSArray<NSString *> *)pathSegments parameters:(id<GNKKtor_httpParameters>)parameters fragment:(NSString *)fragment trailingQuery:(BOOL)trailingQuery __attribute__((swift_name("init(protocol:host:port:user:password:pathSegments:parameters:fragment:trailingQuery:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpURLBuilderCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_httpUrl *)build __attribute__((swift_name("build()")));
+- (NSString *)buildString __attribute__((swift_name("buildString()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property NSString *encodedFragment __attribute__((swift_name("encodedFragment")));
+@property id<GNKKtor_httpParametersBuilder> encodedParameters __attribute__((swift_name("encodedParameters")));
+@property NSString * _Nullable encodedPassword __attribute__((swift_name("encodedPassword")));
+@property NSArray<NSString *> *encodedPathSegments __attribute__((swift_name("encodedPathSegments")));
+@property NSString * _Nullable encodedUser __attribute__((swift_name("encodedUser")));
+@property NSString *fragment __attribute__((swift_name("fragment")));
+@property NSString *host __attribute__((swift_name("host")));
+@property (readonly) id<GNKKtor_httpParametersBuilder> parameters __attribute__((swift_name("parameters")));
+@property NSString * _Nullable password __attribute__((swift_name("password")));
+@property NSArray<NSString *> *pathSegments __attribute__((swift_name("pathSegments")));
+@property int32_t port __attribute__((swift_name("port")));
+@property GNKKtor_httpURLProtocol *protocol __attribute__((swift_name("protocol")));
+@property BOOL trailingQuery __attribute__((swift_name("trailingQuery")));
+@property NSString * _Nullable user __attribute__((swift_name("user")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpUrl.Companion")))
+@interface GNKKtor_httpUrlCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_httpUrlCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Ktor_httpParameters")))
+@protocol GNKKtor_httpParameters <GNKKtor_utilsStringValues>
+@required
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLProtocol")))
+@interface GNKKtor_httpURLProtocol : GNKBase
+- (instancetype)initWithName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("init(name:defaultPort:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpURLProtocolCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKtor_httpURLProtocol *)doCopyName:(NSString *)name defaultPort:(int32_t)defaultPort __attribute__((swift_name("doCopy(name:defaultPort:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) int32_t defaultPort __attribute__((swift_name("defaultPort")));
+@property (readonly) NSString *name __attribute__((swift_name("name")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpHttpMethod.Companion")))
+@interface GNKKtor_httpHttpMethodCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_httpHttpMethodCompanion *shared __attribute__((swift_name("shared")));
+- (GNKKtor_httpHttpMethod *)parseMethod:(NSString *)method __attribute__((swift_name("parse(method:)")));
+@property (readonly) NSArray<GNKKtor_httpHttpMethod *> *DefaultMethods __attribute__((swift_name("DefaultMethods")));
+@property (readonly) GNKKtor_httpHttpMethod *Delete __attribute__((swift_name("Delete")));
+@property (readonly) GNKKtor_httpHttpMethod *Get __attribute__((swift_name("Get")));
+@property (readonly) GNKKtor_httpHttpMethod *Head __attribute__((swift_name("Head")));
+@property (readonly) GNKKtor_httpHttpMethod *Options __attribute__((swift_name("Options")));
+@property (readonly) GNKKtor_httpHttpMethod *Patch __attribute__((swift_name("Patch")));
+@property (readonly) GNKKtor_httpHttpMethod *Post __attribute__((swift_name("Post")));
+@property (readonly) GNKKtor_httpHttpMethod *Put __attribute__((swift_name("Put")));
+@end
+
+__attribute__((swift_name("Ktor_httpHeaderValueWithParameters")))
+@interface GNKKtor_httpHeaderValueWithParameters : GNKBase
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKtor_httpHeaderValueWithParametersCompanion *companion __attribute__((swift_name("companion")));
+- (NSString * _Nullable)parameterName:(NSString *)name __attribute__((swift_name("parameter(name:)")));
+- (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ * @note This property has protected visibility in Kotlin source and is intended only for use by subclasses.
+*/
+@property (readonly) NSString *content __attribute__((swift_name("content")));
+@property (readonly) NSArray<GNKKtor_httpHeaderValueParam *> *parameters __attribute__((swift_name("parameters")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpContentType")))
+@interface GNKKtor_httpContentType : GNKKtor_httpHeaderValueWithParameters
+- (instancetype)initWithContentType:(NSString *)contentType contentSubtype:(NSString *)contentSubtype parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(contentType:contentSubtype:parameters:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithContent:(NSString *)content parameters:(NSArray<GNKKtor_httpHeaderValueParam *> *)parameters __attribute__((swift_name("init(content:parameters:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly, getter=companion) GNKKtor_httpContentTypeCompanion *companion __attribute__((swift_name("companion")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (BOOL)matchPattern:(GNKKtor_httpContentType *)pattern __attribute__((swift_name("match(pattern:)")));
+- (BOOL)matchPattern_:(NSString *)pattern __attribute__((swift_name("match(pattern_:)")));
+- (GNKKtor_httpContentType *)withParameterName:(NSString *)name value:(NSString *)value __attribute__((swift_name("withParameter(name:value:)")));
+- (GNKKtor_httpContentType *)withoutParameters __attribute__((swift_name("withoutParameters()")));
+@property (readonly) NSString *contentSubtype __attribute__((swift_name("contentSubtype")));
+@property (readonly) NSString *contentType __attribute__((swift_name("contentType")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildHandle")))
+@protocol GNKKotlinx_coroutines_coreChildHandle <GNKKotlinx_coroutines_coreDisposableHandle>
+@required
+- (BOOL)childCancelledCause:(GNKKotlinThrowable *)cause __attribute__((swift_name("childCancelled(cause:)")));
+@property (readonly) id<GNKKotlinx_coroutines_coreJob> _Nullable parent __attribute__((swift_name("parent")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreChildJob")))
+@protocol GNKKotlinx_coroutines_coreChildJob <GNKKotlinx_coroutines_coreJob>
+@required
+- (void)parentCancelledParentJob:(id<GNKKotlinx_coroutines_coreParentJob>)parentJob __attribute__((swift_name("parentCancelled(parentJob:)")));
+@end
+
+__attribute__((swift_name("KotlinSequence")))
+@protocol GNKKotlinSequence
+@required
+- (id<GNKKotlinIterator>)iterator __attribute__((swift_name("iterator()")));
+@end
+
+__attribute__((swift_name("Kotlinx_coroutines_coreSelectClause0")))
+@protocol GNKKotlinx_coroutines_coreSelectClause0
+@required
+- (void)registerSelectClause0Select:(id<GNKKotlinx_coroutines_coreSelectInstance>)select block:(id<GNKKotlinSuspendFunction0>)block __attribute__((swift_name("registerSelectClause0(select:block:)")));
+@end
+
+
+/**
+ * @note annotations
+ *   kotlin.SinceKotlin(version="1.1")
+*/
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection")))
+@interface GNKKotlinKTypeProjection : GNKBase
+- (instancetype)initWithVariance:(GNKKotlinKVariance * _Nullable)variance type:(id<GNKKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
+@property (class, readonly, getter=companion) GNKKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
+- (GNKKotlinKTypeProjection *)doCopyVariance:(GNKKotlinKVariance * _Nullable)variance type:(id<GNKKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) id<GNKKotlinKType> _Nullable type __attribute__((swift_name("type")));
+@property (readonly) GNKKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("Ktor_httpURLBuilder.Companion")))
+@interface GNKKtor_httpURLBuilderCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKtor_httpURLBuilderCompanion *shared __attribute__((swift_name("shared")));
+@end
+
+__attribute__((swift_name("Ktor_httpParametersBuilder")))
+@protocol GNKKtor_httpParametersBuilder <GNKKtor_utilsStringValuesBuilder>
+@required
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -4399,113 +5241,50 @@ __attribute__((swift_name("KotlinSuspendFunction0")))
 - (void)invokeWithCompletionHandler:(void (^)(id _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("invoke(completionHandler:)")));
 @end
 
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsWeekDay.Companion")))
-@interface GNKKtor_utilsWeekDayCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_utilsWeekDayCompanion *shared __attribute__((swift_name("shared")));
-- (GNKKtor_utilsWeekDay *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (GNKKtor_utilsWeekDay *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_utilsMonth.Companion")))
-@interface GNKKtor_utilsMonthCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_utilsMonthCompanion *shared __attribute__((swift_name("shared")));
-- (GNKKtor_utilsMonth *)fromOrdinal:(int32_t)ordinal __attribute__((swift_name("from(ordinal:)")));
-- (GNKKtor_utilsMonth *)fromValue:(NSString *)value __attribute__((swift_name("from(value:)")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioMemory.Companion")))
-@interface GNKKtor_ioMemoryCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_ioMemoryCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_ioMemory *Empty __attribute__((swift_name("Empty")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioBuffer.Companion")))
-@interface GNKKtor_ioBufferCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_ioBufferCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_ioBuffer *Empty __attribute__((swift_name("Empty")));
-@property (readonly) int32_t ReservedSize __attribute__((swift_name("ReservedSize")));
-@end
-
-__attribute__((swift_name("Ktor_ioObjectPool")))
-@protocol GNKKtor_ioObjectPool <GNKKtor_ioCloseable>
-@required
-- (id)borrow __attribute__((swift_name("borrow()")));
-- (void)dispose __attribute__((swift_name("dispose()")));
-- (void)recycleInstance:(id)instance __attribute__((swift_name("recycle(instance:)")));
-@property (readonly) int32_t capacity __attribute__((swift_name("capacity")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioChunkBuffer.Companion")))
-@interface GNKKtor_ioChunkBufferCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_ioChunkBufferCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_ioChunkBuffer *Empty __attribute__((swift_name("Empty")));
-@property (readonly) id<GNKKtor_ioObjectPool> EmptyPool __attribute__((swift_name("EmptyPool")));
-@property (readonly) id<GNKKtor_ioObjectPool> Pool __attribute__((swift_name("Pool")));
-@end
-
-__attribute__((swift_name("KotlinByteIterator")))
-@interface GNKKotlinByteIterator : GNKBase <GNKKotlinIterator>
-- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
-+ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
-- (GNKByte *)next __attribute__((swift_name("next()")));
-- (int8_t)nextByte __attribute__((swift_name("nextByte()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioInput.Companion")))
-@interface GNKKtor_ioInputCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_ioInputCompanion *shared __attribute__((swift_name("shared")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("Ktor_ioByteReadPacket.Companion")))
-@interface GNKKtor_ioByteReadPacketCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKtor_ioByteReadPacketCompanion *shared __attribute__((swift_name("shared")));
-@property (readonly) GNKKtor_ioByteReadPacket *Empty __attribute__((swift_name("Empty")));
-@end
-
 
 /**
  * @note annotations
  *   kotlin.SinceKotlin(version="1.1")
 */
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKTypeProjection")))
-@interface GNKKotlinKTypeProjection : GNKBase
-- (instancetype)initWithVariance:(GNKKotlinKVariance * _Nullable)variance type:(id<GNKKotlinKType> _Nullable)type __attribute__((swift_name("init(variance:type:)"))) __attribute__((objc_designated_initializer));
-@property (class, readonly, getter=companion) GNKKotlinKTypeProjectionCompanion *companion __attribute__((swift_name("companion")));
-- (GNKKotlinKTypeProjection *)doCopyVariance:(GNKKotlinKVariance * _Nullable)variance type:(id<GNKKotlinKType> _Nullable)type __attribute__((swift_name("doCopy(variance:type:)")));
-- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
-- (NSUInteger)hash __attribute__((swift_name("hash()")));
-- (NSString *)description __attribute__((swift_name("description()")));
-@property (readonly) id<GNKKotlinKType> _Nullable type __attribute__((swift_name("type")));
-@property (readonly) GNKKotlinKVariance * _Nullable variance __attribute__((swift_name("variance")));
+__attribute__((swift_name("KotlinKVariance")))
+@interface GNKKotlinKVariance : GNKKotlinEnum<GNKKotlinKVariance *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) GNKKotlinKVariance *invariant __attribute__((swift_name("invariant")));
+@property (class, readonly) GNKKotlinKVariance *in __attribute__((swift_name("in")));
+@property (class, readonly) GNKKotlinKVariance *out __attribute__((swift_name("out")));
++ (GNKKotlinArray<GNKKotlinKVariance *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<GNKKotlinKVariance *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("KotlinKTypeProjection.Companion")))
+@interface GNKKotlinKTypeProjectionCompanion : GNKBase
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
++ (instancetype)companion __attribute__((swift_name("init()")));
+@property (class, readonly, getter=shared) GNKKotlinKTypeProjectionCompanion *shared __attribute__((swift_name("shared")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (GNKKotlinKTypeProjection *)contravariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("contravariant(type:)")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (GNKKotlinKTypeProjection *)covariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
+
+/**
+ * @note annotations
+ *   kotlin.jvm.JvmStatic
+*/
+- (GNKKotlinKTypeProjection *)invariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
+@property (readonly) GNKKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicDesc")))
@@ -4540,51 +5319,6 @@ __attribute__((swift_name("Kotlinx_coroutines_coreLockFreeLinkedListNode.Prepare
 @property (readonly) GNKKotlinx_coroutines_coreAtomicOp<id> *atomicOp __attribute__((swift_name("atomicOp")));
 @property (readonly) GNKKotlinx_coroutines_coreLockFreeLinkedListNodeAbstractAtomicDesc *desc __attribute__((swift_name("desc")));
 @property (readonly) GNKKotlinx_coroutines_coreLockFreeLinkedListNode *next __attribute__((swift_name("next")));
-@end
-
-
-/**
- * @note annotations
- *   kotlin.SinceKotlin(version="1.1")
-*/
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKVariance")))
-@interface GNKKotlinKVariance : GNKKotlinEnum<GNKKotlinKVariance *>
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
-@property (class, readonly) GNKKotlinKVariance *invariant __attribute__((swift_name("invariant")));
-@property (class, readonly) GNKKotlinKVariance *in __attribute__((swift_name("in")));
-@property (class, readonly) GNKKotlinKVariance *out __attribute__((swift_name("out")));
-+ (GNKKotlinArray<GNKKotlinKVariance *> *)values __attribute__((swift_name("values()")));
-@end
-
-__attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("KotlinKTypeProjection.Companion")))
-@interface GNKKotlinKTypeProjectionCompanion : GNKBase
-+ (instancetype)alloc __attribute__((unavailable));
-+ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
-+ (instancetype)companion __attribute__((swift_name("init()")));
-@property (class, readonly, getter=shared) GNKKotlinKTypeProjectionCompanion *shared __attribute__((swift_name("shared")));
-
-/**
- * @note annotations
- *   kotlin.jvm.JvmStatic
-*/
-- (GNKKotlinKTypeProjection *)contravariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("contravariant(type:)")));
-
-/**
- * @note annotations
- *   kotlin.jvm.JvmStatic
-*/
-- (GNKKotlinKTypeProjection *)covariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("covariant(type:)")));
-
-/**
- * @note annotations
- *   kotlin.jvm.JvmStatic
-*/
-- (GNKKotlinKTypeProjection *)invariantType:(id<GNKKotlinKType>)type __attribute__((swift_name("invariant(type:)")));
-@property (readonly) GNKKotlinKTypeProjection *STAR __attribute__((swift_name("STAR")));
 @end
 
 __attribute__((swift_name("Kotlinx_coroutines_coreAtomicOp")))
