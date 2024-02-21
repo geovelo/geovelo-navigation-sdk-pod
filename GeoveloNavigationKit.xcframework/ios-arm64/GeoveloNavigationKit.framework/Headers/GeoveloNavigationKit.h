@@ -1525,16 +1525,16 @@ __attribute__((swift_name("ItineraryRequestBikeDetails.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("ItineraryRequestLoopDetails")))
 @interface GNKItineraryRequestLoopDetails : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithLoopType:(GNKItineraryLoopType *)loopType maxRadius:(int32_t)maxRadius distance:(int32_t)distance duration:(int32_t)duration __attribute__((swift_name("init(loopType:maxRadius:distance:duration:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithLoopType:(GNKItineraryLoopType *)loopType maxRadius:(GNKInt * _Nullable)maxRadius distance:(GNKInt * _Nullable)distance duration:(GNKInt * _Nullable)duration __attribute__((swift_name("init(loopType:maxRadius:distance:duration:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKItineraryRequestLoopDetailsCompanion *companion __attribute__((swift_name("companion")));
-- (GNKItineraryRequestLoopDetails *)doCopyLoopType:(GNKItineraryLoopType *)loopType maxRadius:(int32_t)maxRadius distance:(int32_t)distance duration:(int32_t)duration __attribute__((swift_name("doCopy(loopType:maxRadius:distance:duration:)")));
+- (GNKItineraryRequestLoopDetails *)doCopyLoopType:(GNKItineraryLoopType *)loopType maxRadius:(GNKInt * _Nullable)maxRadius distance:(GNKInt * _Nullable)distance duration:(GNKInt * _Nullable)duration __attribute__((swift_name("doCopy(loopType:maxRadius:distance:duration:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
-@property int32_t distance __attribute__((swift_name("distance")));
-@property int32_t duration __attribute__((swift_name("duration")));
+@property GNKInt * _Nullable distance __attribute__((swift_name("distance")));
+@property GNKInt * _Nullable duration __attribute__((swift_name("duration")));
 @property GNKItineraryLoopType *loopType __attribute__((swift_name("loopType")));
-@property int32_t maxRadius __attribute__((swift_name("maxRadius")));
+@property GNKInt * _Nullable maxRadius __attribute__((swift_name("maxRadius")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2715,15 +2715,17 @@ __attribute__((swift_name("Bounds.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GeoLocation")))
 @interface GNKGeoLocation : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy __attribute__((swift_name("init(geoPoint:speed:bearing:accuracy:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy isFake:(BOOL)isFake createdEpochMilliSecond:(GNKLong * _Nullable)createdEpochMilliSecond __attribute__((swift_name("init(geoPoint:speed:bearing:accuracy:isFake:createdEpochMilliSecond:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKGeoLocationCompanion *companion __attribute__((swift_name("companion")));
-- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy __attribute__((swift_name("doCopy(geoPoint:speed:bearing:accuracy:)")));
+- (GNKGeoLocation *)doCopyGeoPoint:(GNKGeoPoint *)geoPoint speed:(float)speed bearing:(float)bearing accuracy:(double)accuracy isFake:(BOOL)isFake createdEpochMilliSecond:(GNKLong * _Nullable)createdEpochMilliSecond __attribute__((swift_name("doCopy(geoPoint:speed:bearing:accuracy:isFake:createdEpochMilliSecond:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
 @property (readonly) double accuracy __attribute__((swift_name("accuracy")));
 @property (readonly) float bearing __attribute__((swift_name("bearing")));
+@property (readonly) GNKLong * _Nullable createdEpochMilliSecond __attribute__((swift_name("createdEpochMilliSecond")));
 @property (readonly) GNKGeoPoint *geoPoint __attribute__((swift_name("geoPoint")));
+@property (readonly) BOOL isFake __attribute__((swift_name("isFake")));
 @property (readonly) float speed __attribute__((swift_name("speed")));
 @end
 
