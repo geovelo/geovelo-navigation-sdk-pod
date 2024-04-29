@@ -359,7 +359,7 @@ __attribute__((swift_name("NavigationEngine.Companion")))
  * @note This method has protected visibility in Kotlin source and is intended only for use by subclasses.
 */
 - (NSArray<id<GNKGeoSegmentable>> *)nearbySegmentsLocation:(GNKGeoPoint *)location quadTree:(GNKGeoSegmentQuadTree *)quadTree __attribute__((swift_name("nearbySegments(location:quadTree:)")));
-- (id<GNKGeoSegmentable> _Nullable)selectNearestSegmentLocation:(GNKGeoPoint *)location segments:(NSArray<id<GNKGeoSegmentable>> *)segments currentSection:(GNKItinerarySection *)currentSection currentSectionCompletion:(double)currentSectionCompletion __attribute__((swift_name("selectNearestSegment(location:segments:currentSection:currentSectionCompletion:)")));
+- (id<GNKGeoSegmentable> _Nullable)selectNearestSegmentLocation:(GNKGeoPoint *)location segments:(NSArray<id<GNKGeoSegmentable>> *)segments currentSection:(GNKItinerarySection *)currentSection currentSectionCompletion:(double)currentSectionCompletion ignoreCompletionAtStart:(BOOL)ignoreCompletionAtStart __attribute__((swift_name("selectNearestSegment(location:segments:currentSection:currentSectionCompletion:ignoreCompletionAtStart:)")));
 @property (readonly) double COMPLETION_DIFF_MAX_DISTANCE __attribute__((swift_name("COMPLETION_DIFF_MAX_DISTANCE")));
 @property (readonly) int32_t DISTANCE_NAVIGATION_POSSIBLE __attribute__((swift_name("DISTANCE_NAVIGATION_POSSIBLE")));
 @property (readonly) int32_t NB_METERS_AWAY_TO_BE_CONSIDERATED_AS_TOO_FAR __attribute__((swift_name("NB_METERS_AWAY_TO_BE_CONSIDERATED_AS_TOO_FAR")));
