@@ -1179,6 +1179,7 @@ __attribute__((swift_name("ItineraryLoopType")))
 - (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @property (class, readonly, getter=companion) GNKItineraryLoopTypeCompanion *companion __attribute__((swift_name("companion")));
 @property (class, readonly) GNKItineraryLoopType *maxRadius __attribute__((swift_name("maxRadius")));
+@property (class, readonly) GNKItineraryLoopType *poiTotalDistance __attribute__((swift_name("poiTotalDistance")));
 @property (class, readonly) GNKItineraryLoopType *totalDistance __attribute__((swift_name("totalDistance")));
 + (GNKKotlinArray<GNKItineraryLoopType *> *)values __attribute__((swift_name("values()")));
 @property (class, readonly) NSArray<GNKItineraryLoopType *> *entries __attribute__((swift_name("entries")));
@@ -2906,10 +2907,10 @@ __attribute__((swift_name("GeoSegmentQuadTree.Companion")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Waypoint")))
 @interface GNKWaypoint : GNKBase <GNKCommonParcelable>
-- (instancetype)initWithTitle:(NSString * _Nullable)title geoPoint:(GNKGeoPoint *)geoPoint __attribute__((swift_name("init(title:geoPoint:)"))) __attribute__((objc_designated_initializer));
-- (instancetype)initWithTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("init(title:latitude:longitude:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTitle:(NSString * _Nullable)title geoPoint:(GNKGeoPoint *)geoPoint poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("init(title:geoPoint:poiId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("init(title:latitude:longitude:poiId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKWaypointCompanion *companion __attribute__((swift_name("companion")));
-- (GNKWaypoint *)doCopyTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude __attribute__((swift_name("doCopy(title:latitude:longitude:)")));
+- (GNKWaypoint *)doCopyTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("doCopy(title:latitude:longitude:poiId:)")));
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (BOOL)hasSameLocationWaypoint:(GNKWaypoint *)waypoint __attribute__((swift_name("hasSameLocation(waypoint:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
@@ -2917,6 +2918,7 @@ __attribute__((swift_name("Waypoint")))
 - (NSString *)description __attribute__((swift_name("description()")));
 @property double latitude __attribute__((swift_name("latitude")));
 @property double longitude __attribute__((swift_name("longitude")));
+@property (readonly) GNKLong * _Nullable poiId __attribute__((swift_name("poiId")));
 @property NSString * _Nullable title __attribute__((swift_name("title")));
 @end
 
