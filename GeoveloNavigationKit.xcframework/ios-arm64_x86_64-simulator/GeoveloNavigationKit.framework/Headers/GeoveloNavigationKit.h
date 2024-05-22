@@ -2908,6 +2908,7 @@ __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("Waypoint")))
 @interface GNKWaypoint : GNKBase <GNKCommonParcelable>
 - (instancetype)initWithTitle:(NSString * _Nullable)title geoPoint:(GNKGeoPoint *)geoPoint poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("init(title:geoPoint:poiId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithTitle:(NSString * _Nullable)title geoPoint:(GNKGeoPoint *)geoPoint __attribute__((swift_name("init(title:geoPoint:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)initWithTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("init(title:latitude:longitude:poiId:)"))) __attribute__((objc_designated_initializer));
 @property (class, readonly, getter=companion) GNKWaypointCompanion *companion __attribute__((swift_name("companion")));
 - (GNKWaypoint *)doCopyTitle:(NSString * _Nullable)title latitude:(double)latitude longitude:(double)longitude poiId:(GNKLong * _Nullable)poiId __attribute__((swift_name("doCopy(title:latitude:longitude:poiId:)")));
