@@ -2731,11 +2731,25 @@ __attribute__((swift_name("GeoLocation")))
 - (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
 - (NSUInteger)hash __attribute__((swift_name("hash()")));
 - (NSString *)description __attribute__((swift_name("description()")));
+
+/**
+ *  Returns the estimated horizontal accuracy radius in meters of this location
+ */
 @property (readonly) double accuracy __attribute__((swift_name("accuracy")));
+
+/**
+ *  The bearing at the time of this location in degrees.
+ *  Bearing is the horizontal direction of travel of this device and is unrelated to the device orientation.
+ *  The bearing is guaranteed to be in the range [0, 360).
+ */
 @property (readonly) float bearing __attribute__((swift_name("bearing")));
 @property (readonly) GNKLong * _Nullable createdEpochMilliSecond __attribute__((swift_name("createdEpochMilliSecond")));
 @property (readonly) GNKGeoPoint *geoPoint __attribute__((swift_name("geoPoint")));
 @property (readonly) BOOL isFake __attribute__((swift_name("isFake")));
+
+/**
+ * The speed at the time of this location in KM/H.
+ */
 @property (readonly) float speed __attribute__((swift_name("speed")));
 @end
 
