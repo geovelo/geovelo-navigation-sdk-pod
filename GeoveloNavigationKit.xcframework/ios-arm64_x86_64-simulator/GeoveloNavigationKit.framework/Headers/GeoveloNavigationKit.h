@@ -3197,6 +3197,12 @@ __attribute__((swift_name("GeoPointListOfListsExtensionsKt")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("DoubleExtensionsKt")))
 @interface GNKDoubleExtensionsKt : GNKBase
+
+/**
+ * Rounds a Double to the nearest.
+ * @param decimals the number of figures for the decimal part
+ * @return a rounded number, as close as possible from the given instance with the given number of decimals
+ */
 + (double)round:(double)receiver decimals:(int32_t)decimals __attribute__((swift_name("round(_:decimals:)")));
 + (double)toDegree:(double)receiver __attribute__((swift_name("toDegree(_:)")));
 + (double)toRadian:(double)receiver __attribute__((swift_name("toRadian(_:)")));
