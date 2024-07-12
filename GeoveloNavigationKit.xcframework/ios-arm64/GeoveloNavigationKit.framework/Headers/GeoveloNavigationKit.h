@@ -2981,6 +2981,7 @@ __attribute__((swift_name("NetworkException")))
 - (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 - (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (int32_t)getErrorCode __attribute__((swift_name("getErrorCode()")));
 @property (readonly) NSString *request __attribute__((swift_name("request")));
 @property (readonly) GNKKtor_httpHttpStatusCode *status __attribute__((swift_name("status")));
 @end
@@ -3078,6 +3079,16 @@ __attribute__((swift_name("DefaultExceptionHandler")))
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 - (void)handleE:(GNKKotlinThrowable *)e __attribute__((swift_name("handle(e:)")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("NoUserException")))
+@interface GNKNoUserException : GNKKotlinRuntimeException
+- (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
++ (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
+- (instancetype)initWithMessage:(NSString * _Nullable)message __attribute__((swift_name("init(message:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithMessage:(NSString * _Nullable)message cause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(message:cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+- (instancetype)initWithCause:(GNKKotlinThrowable * _Nullable)cause __attribute__((swift_name("init(cause:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 @end
 
 @interface GNKNavigationManager (Extensions)
