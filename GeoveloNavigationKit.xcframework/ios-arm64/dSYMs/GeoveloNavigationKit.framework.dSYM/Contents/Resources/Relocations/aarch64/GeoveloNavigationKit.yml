@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/geovelo-ci-armstrong/builds/da_igpWJ/0/geovelo/geovelo-app-common/geovelo-app-common/geovelo-navigation/build/bin/iosArm64/podReleaseFramework/GeoveloNavigationKit.framework/GeoveloNavigationKit'
+binary-path:     '/Volumes/workspace/repository/geovelo-navigation/build/bin/iosArm64/podReleaseFramework/GeoveloNavigationKit.framework/GeoveloNavigationKit'
 relocations:
   - { offsetInCU: 0x258, offset: 0x258, size: 0x8, addend: 0x0, symName: '_kfun:kotlinx.cinterop.CPointer#equals(kotlin.Any?){}kotlin.Boolean', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0xCC }
   - { offsetInCU: 0x260, offset: 0x260, size: 0x8, addend: 0x0, symName: '_kfun:kotlinx.cinterop.CPointer#hashCode(){}kotlin.Int', symObjAddr: 0xCC, symBinAddr: 0x40CC, symSize: 0x88 }
