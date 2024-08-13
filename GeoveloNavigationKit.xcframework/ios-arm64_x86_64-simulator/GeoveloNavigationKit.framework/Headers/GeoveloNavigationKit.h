@@ -2433,7 +2433,7 @@ __attribute__((swift_name("ItineraryClientContract.Companion")))
 __attribute__((swift_name("ItineraryListCallback")))
 @protocol GNKItineraryListCallback
 @required
-- (void)failure __attribute__((swift_name("failure()")));
+- (void)failureE:(GNKKotlinThrowable *)e __attribute__((swift_name("failure(e:)")));
 - (void)successItineraries:(NSArray<GNKItinerary *> *)itineraries __attribute__((swift_name("success(itineraries:)")));
 @end
 
